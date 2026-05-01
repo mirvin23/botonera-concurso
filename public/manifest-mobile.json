@@ -1,0 +1,18 @@
+{
+  "name": "OLIMPIADAS DE HISTORIA - Botonera",
+  "short_name": "Botonera",
+  "description": "App de botonera para equipos participantes en Olimpiadas de Historia",
+  "start_url": "/mobile",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

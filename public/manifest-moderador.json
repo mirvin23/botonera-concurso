@@ -1,0 +1,18 @@
+{
+  "name": "OLIMPIADAS DE HISTORIA - Moderador",
+  "short_name": "Moderador",
+  "description": "Panel del moderador para Olimpiadas de Historia",
+  "start_url": "/moderador",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#ffd700",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
