@@ -347,7 +347,7 @@
                     : (esMiEquipo ? '¡INCORRECTO!' : `${r.equipo} falló`);
                 document.getElementById('resultadoTitulo').textContent = titulo;
                 const respEl = document.getElementById('resultadoRespuesta');
-                if (!r.correcta && r.respuestaCorrecta) {
+                if (r.respuestaCorrecta) {
                     respEl.style.display = 'block';
                     respEl.textContent = 'Respuesta: ' + r.respuestaCorrecta;
                 } else {

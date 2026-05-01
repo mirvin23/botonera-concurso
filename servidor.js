@@ -176,7 +176,7 @@ app.post('/reiniciar', (req, res) => {
     pregunta: '',
     respuestaCorrecta: '',
     botonHabilitado: false,
-    puntajes: puntajesActuales,
+    puntajes: {},
     resultadoActual: null
   };
   console.log('🔄 Sistema reiniciado');

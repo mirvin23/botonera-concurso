@@ -314,7 +314,7 @@
                 document.getElementById('overlayTitulo').textContent = r.correcta ? '¡CORRECTO!' : 'INCORRECTO';
                 document.getElementById('overlayEquipo').textContent = r.equipo;
                 const respEl = document.getElementById('overlayRespuesta');
-                if (!r.correcta && r.respuestaCorrecta) {
+                if (r.respuestaCorrecta) {
                     respEl.style.display = 'block';
                     respEl.innerHTML = '<strong>Respuesta correcta:</strong> ' + r.respuestaCorrecta;
                 } else {
