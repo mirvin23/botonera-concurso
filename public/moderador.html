@@ -258,6 +258,32 @@
         .msg-guardado { font-size: 0.85em; text-align: center; padding: 4px 0; }
         .msg-ok { color: #22c55e; }
         .msg-error { color: #ef4444; }
+
+        /* Evaluación de respuesta */
+        .seccion-evaluacion {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #444;
+        }
+        .btn-correcto { background: #22c55e; color: white; }
+        .btn-correcto:hover { background: #16a34a; }
+        .btn-incorrecto { background: #ef4444; color: white; }
+        .btn-incorrecto:hover { background: #dc2626; }
+
+        /* Puntajes */
+        .fila-puntaje {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1a1a2e;
+            padding: 10px 14px;
+            margin: 6px 0;
+            border-radius: 8px;
+        }
+        .fila-puntaje .nombre-equipo { font-weight: bold; font-size: 0.95em; }
+        .fila-puntaje .scores { display: flex; gap: 14px; font-size: 1em; font-weight: bold; }
+        .score-ok { color: #22c55e; }
+        .score-err { color: #ef4444; }
     </style>
 </head>
 <body>
@@ -294,6 +320,24 @@
                     <div class="stat-label">Turnos totales</div>
                 </div>
             </div>
+
+            <!-- Sección evaluación (aparece cuando hay turno activo sin evaluar) -->
+            <div class="seccion-evaluacion" id="seccionEvaluacion" style="display:none;">
+                <div style="font-size:0.82em; color:#aaa; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.05em;">
+                    Evaluar respuesta de <strong id="evalNombre" style="color:#ffd700;"></strong>
+                </div>
+                <div id="respuestaRef" style="font-size:0.85em; color:#888; font-style:italic; margin-bottom:12px;"></div>
+                <div class="fila-botones">
+                    <button class="btn btn-correcto" onclick="evaluarRespuesta(true)">✅ Correcta</button>
+                    <button class="btn btn-incorrecto" onclick="evaluarRespuesta(false)">❌ Incorrecta</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Puntajes por equipo -->
+        <div class="panel" id="panelPuntajes" style="display:none;">
+            <h2>🏆 Puntajes por equipo</h2>
+            <div id="tablaPuntajes"></div>
         </div>
 
         <!-- Preguntas predeterminadas -->
@@ -402,6 +446,42 @@
                 ).join('');
                 colaEl.innerHTML = html;
             }
+
+            // Sección evaluación
+            const secEval = document.getElementById('seccionEvaluacion');
+            if (estado.turnoActual && !estado.resultadoActual) {
+                secEval.style.display = 'block';
+                document.getElementById('evalNombre').textContent = estado.turnoActual.nombre;
+                document.getElementById('respuestaRef').textContent = estado.respuestaCorrecta
+                    ? 'Respuesta correcta: ' + estado.respuestaCorrecta
+                    : '';
+            } else {
+                secEval.style.display = 'none';
+            }
+
+            // Puntajes
+            const puntajes = estado.puntajes || {};
+            const equipos = Object.keys(puntajes);
+            const panelPuntajes = document.getElementById('panelPuntajes');
+            if (equipos.length > 0) {
+                panelPuntajes.style.display = 'block';
+                document.getElementById('tablaPuntajes').innerHTML = equipos
+                    .sort((a, b) => puntajes[b].correctas - puntajes[a].correctas)
+                    .map(eq => `
+                        <div class="fila-puntaje">
+                            <span class="nombre-equipo">${eq}</span>
+                            <span class="scores">
+                                <span class="score-ok">✅ ${puntajes[eq].correctas}</span>
+                                <span class="score-err">❌ ${puntajes[eq].incorrectas}</span>
+                            </span>
+                        </div>`).join('');
+            } else {
+                panelPuntajes.style.display = 'none';
+            }
+        }
+
+        function evaluarRespuesta(correcta) {
+            socket.emit('evaluar-respuesta', { correcta });
         }
 
         function toggleBoton() {
@@ -472,7 +552,7 @@
         function publicarPreset(id) {
             const p = preguntasData.find(x => x.id === id);
             if (!p) return;
-            socket.emit('set-pregunta', { pregunta: p.pregunta });
+            socket.emit('set-pregunta', { pregunta: p.pregunta, respuestaCorrecta: p.respuestaCorrecta || '' });
         }
 
         function toggleFormNueva() {

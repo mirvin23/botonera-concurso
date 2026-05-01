@@ -90,8 +90,12 @@ Cada equipo abre esta URL en su celular.
 ### 3. Panel del moderador (`/moderador`)
 1. **Seleccionar una pregunta** del banco de preguntas predeterminadas (o agregar una nueva)
 2. Hacer clic en **✅ Habilitar botones** para que los equipos puedan presionar
-3. Observar en tiempo real quién presionó primero y la cola de espera
-4. Al terminar la pregunta, hacer clic en **🔄 Reiniciar turno y cola** para la siguiente ronda
+3. Cuando un equipo presione, aparecen dos botones de evaluación:
+   - **✅ Correcta** — registra acierto; muestra ¡CORRECTO! en proyector y celulares
+   - **❌ Incorrecta** — registra fallo; muestra INCORRECTO + respuesta correcta en todas las pantallas
+4. El panel muestra la **respuesta correcta de referencia** para que el moderador pueda verificar
+5. La tabla **🏆 Puntajes** se actualiza automáticamente con correctas e incorrectas por equipo
+6. Al terminar la pregunta, hacer clic en **🔄 Reiniciar turno y cola** para la siguiente ronda (los puntajes se conservan durante toda la sesión)
 
 ---
 
@@ -112,6 +116,28 @@ Las 3 páginas son instalables como aplicación en el dispositivo, sin necesidad
 
 ---
 
+## Sistema de puntajes y evaluación
+
+Cada pregunta tiene una **respuesta correcta** almacenada en `preguntas.json`. El flujo completo es:
+
+1. Moderador publica pregunta → habilita botones
+2. Equipos presionan → el primero obtiene el turno
+3. El equipo responde oralmente
+4. Moderador evalúa:
+   - **Correcta** → suma 1 acierto al equipo; todas las pantallas muestran "¡CORRECTO!" en verde
+   - **Incorrecta** → suma 1 fallo; pantallas muestran "INCORRECTO" en rojo + la respuesta correcta
+5. Moderador reinicia para la siguiente pregunta
+
+Los puntajes acumulan durante toda la sesión. Se resetean sólo al reiniciar el servidor.
+
+| Vista | Qué muestra |
+|-------|-------------|
+| Proyector (`/`) | Overlay fullscreen verde/rojo + respuesta correcta si falló |
+| Celular equipo (`/mobile`) | Banner con resultado + respuesta correcta si falló + su puntaje |
+| Moderador (`/moderador`) | Tabla de puntajes ordenada de mayor a menor |
+
+---
+
 ## Banco de preguntas
 
 Las preguntas están en `public/preguntas.json`. Cada pregunta tiene:
@@ -128,7 +154,16 @@ Las preguntas están en `public/preguntas.json`. Cada pregunta tiene:
 En la sección "📚 Preguntas predeterminadas", hacer clic en **"+ Agregar nueva pregunta"**, completar categoría y texto, y guardar. La pregunta queda disponible de inmediato y se guarda en `preguntas.json`.
 
 **Agregar preguntas manualmente:**
-Editar el archivo `public/preguntas.json` directamente (el servidor debe reiniciarse para leer los cambios al inicio, pero las preguntas se leen en tiempo real desde el panel del moderador).
+Editar el archivo `public/preguntas.json` directamente. Incluir el campo `respuestaCorrecta`:
+
+```json
+{
+  "id": 16,
+  "categoria": "Historia de Chile",
+  "pregunta": "¿Qué tratado puso fin a la Guerra del Pacífico?",
+  "respuestaCorrecta": "El Tratado de Ancón (1883) con Perú y el Pacto de Tregua (1884) con Bolivia"
+}
+```
 
 ---
 
@@ -153,6 +188,19 @@ botonera-concurso/
 ---
 
 ## API del servidor
+
+### Nuevos eventos Socket.IO
+
+| Evento (cliente → servidor) | Descripción |
+|-----------------------------|-------------|
+| `evaluar-respuesta` | Moderador evalúa: `{ correcta: true/false }` |
+
+| Evento (servidor → cliente, en `estado-actualizado`) | Descripción |
+|------------------------------------------------------|-------------|
+| `estado.resultadoActual` | `{ correcta, equipo, respuestaCorrecta }` o `null` |
+| `estado.puntajes` | `{ [nombreEquipo]: { correctas, incorrectas } }` |
+
+---
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|

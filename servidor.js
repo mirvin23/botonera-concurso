@@ -38,7 +38,10 @@ let estado = {
   totalTurnos: 0,
   historial: [],
   pregunta: '',
-  botonHabilitado: false
+  respuestaCorrecta: '',
+  botonHabilitado: false,
+  puntajes: {},       // { [nombreEquipo]: { correctas, incorrectas } }
+  resultadoActual: null  // { correcta, equipo, respuestaCorrecta } | null
 };
 
 // Cuando se conecta un cliente
@@ -70,7 +73,9 @@ io.on('connection', (socket) => {
   // Evento: moderador publica pregunta
   socket.on('set-pregunta', (data) => {
     estado.pregunta = data.pregunta || '';
+    estado.respuestaCorrecta = data.respuestaCorrecta || '';
     estado.botonHabilitado = false;
+    estado.resultadoActual = null;
     console.log(`📝 Nueva pregunta: ${estado.pregunta}`);
     io.emit('estado-actualizado', estado);
   });
@@ -79,6 +84,30 @@ io.on('connection', (socket) => {
   socket.on('set-boton', (data) => {
     estado.botonHabilitado = !!data.habilitado;
     console.log(`🔘 Botón ${estado.botonHabilitado ? 'habilitado' : 'deshabilitado'}`);
+    io.emit('estado-actualizado', estado);
+  });
+
+  // Evento: moderador evalúa la respuesta del equipo en turno
+  socket.on('evaluar-respuesta', (data) => {
+    const equipo = estado.turnoActual ? estado.turnoActual.nombre : null;
+    if (!equipo) return;
+
+    if (!estado.puntajes[equipo]) {
+      estado.puntajes[equipo] = { correctas: 0, incorrectas: 0 };
+    }
+    if (data.correcta) {
+      estado.puntajes[equipo].correctas++;
+    } else {
+      estado.puntajes[equipo].incorrectas++;
+    }
+
+    estado.resultadoActual = {
+      correcta: data.correcta,
+      equipo,
+      respuestaCorrecta: estado.respuestaCorrecta
+    };
+    estado.botonHabilitado = false;
+    console.log(`📊 ${equipo}: ${data.correcta ? '✅ CORRECTA' : '❌ INCORRECTA'}`);
     io.emit('estado-actualizado', estado);
   });
 
@@ -137,6 +166,7 @@ app.post('/preguntas', (req, res) => {
 
 // Endpoint para reiniciar
 app.post('/reiniciar', (req, res) => {
+  const puntajesActuales = estado.puntajes;
   estado = {
     turnoActual: null,
     cola: [],
@@ -144,7 +174,10 @@ app.post('/reiniciar', (req, res) => {
     totalTurnos: 0,
     historial: [],
     pregunta: '',
-    botonHabilitado: false
+    respuestaCorrecta: '',
+    botonHabilitado: false,
+    puntajes: puntajesActuales,
+    resultadoActual: null
   };
   console.log('🔄 Sistema reiniciado');
   io.emit('estado-actualizado', estado);

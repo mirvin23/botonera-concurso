@@ -2,76 +2,91 @@
   {
     "id": 1,
     "categoria": "Historia de Chile",
-    "pregunta": "¿En qué año se firmó el Acta de Independencia de Chile?"
+    "pregunta": "¿En qué año se firmó el Acta de Independencia de Chile?",
+    "respuestaCorrecta": "1818 (firmada el 12 de febrero de 1818)"
   },
   {
     "id": 2,
     "categoria": "Historia de Chile",
-    "pregunta": "¿Quién fue el primer presidente de Chile tras la organización de la República?"
+    "pregunta": "¿Quién fue el primer presidente de Chile tras la organización de la República?",
+    "respuestaCorrecta": "Manuel Blanco Encalada (1826)"
   },
   {
     "id": 3,
     "categoria": "Historia de Chile",
-    "pregunta": "¿Cómo se denomina el período comprendido entre 1810 y 1817 en la historia de Chile?"
+    "pregunta": "¿Cómo se denomina el período comprendido entre 1810 y 1817 en la historia de Chile?",
+    "respuestaCorrecta": "La Patria Vieja"
   },
   {
     "id": 4,
     "categoria": "Historia de Chile",
-    "pregunta": "¿Qué batalla consolidó la Independencia de Chile en 1818?"
+    "pregunta": "¿Qué batalla consolidó la Independencia de Chile en 1818?",
+    "respuestaCorrecta": "La Batalla de Maipú (5 de abril de 1818)"
   },
   {
     "id": 5,
     "categoria": "Historia Universal",
-    "pregunta": "¿En qué año cayó el Imperio Romano de Occidente?"
+    "pregunta": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "respuestaCorrecta": "476 d.C."
   },
   {
     "id": 6,
     "categoria": "Historia Universal",
-    "pregunta": "¿Qué evento histórico desencadenó el inicio de la Primera Guerra Mundial en 1914?"
+    "pregunta": "¿Qué evento histórico desencadenó el inicio de la Primera Guerra Mundial en 1914?",
+    "respuestaCorrecta": "El asesinato del archiduque Francisco Fernando de Austria en Sarajevo (28 de junio de 1914)"
   },
   {
     "id": 7,
     "categoria": "Historia Universal",
-    "pregunta": "¿Cuál fue el primer país del mundo en otorgar el derecho a voto a la mujer a nivel nacional?"
+    "pregunta": "¿Cuál fue el primer país del mundo en otorgar el derecho a voto a la mujer a nivel nacional?",
+    "respuestaCorrecta": "Nueva Zelanda (1893)"
   },
   {
     "id": 8,
     "categoria": "Historia de América",
-    "pregunta": "¿En qué año llegó Cristóbal Colón a América y qué isla tocó primero?"
+    "pregunta": "¿En qué año llegó Cristóbal Colón a América y qué isla tocó primero?",
+    "respuestaCorrecta": "1492; tocó la isla Guanahaní (actual San Salvador, Bahamas)"
   },
   {
     "id": 9,
     "categoria": "Historia de América",
-    "pregunta": "¿Qué civilización construyó Machu Picchu y en qué período aproximado?"
+    "pregunta": "¿Qué civilización construyó Machu Picchu y en qué período aproximado?",
+    "respuestaCorrecta": "Los Incas, en el siglo XV (circa 1450 d.C.)"
   },
   {
     "id": 10,
     "categoria": "Historia de América",
-    "pregunta": "¿Cuál fue la causa principal de la Guerra del Pacífico (1879–1884) y qué países participaron?"
+    "pregunta": "¿Cuál fue la causa principal de la Guerra del Pacífico (1879–1884) y qué países participaron?",
+    "respuestaCorrecta": "Disputas por territorios ricos en salitre y guano; participaron Chile, Bolivia y Perú"
   },
   {
     "id": 11,
     "categoria": "Historia Universal",
-    "pregunta": "¿Qué documento firmado en 1215 limitó el poder del rey inglés y sentó bases del constitucionalismo?"
+    "pregunta": "¿Qué documento firmado en 1215 limitó el poder del rey inglés y sentó bases del constitucionalismo?",
+    "respuestaCorrecta": "La Carta Magna, firmada por el rey Juan I de Inglaterra"
   },
   {
     "id": 12,
     "categoria": "Historia de Chile",
-    "pregunta": "¿Qué fue la Guerra Civil chilena de 1891 y cuál fue su resultado?"
+    "pregunta": "¿Qué fue la Guerra Civil chilena de 1891 y cuál fue su resultado?",
+    "respuestaCorrecta": "Conflicto entre el Congreso y el Presidente Balmaceda; triunfó el Congreso y Balmaceda se suicidó"
   },
   {
     "id": 13,
     "categoria": "Historia Universal",
-    "pregunta": "¿Qué revolución ocurrió en Francia en 1789 y cuál fue su lema principal?"
+    "pregunta": "¿Qué revolución ocurrió en Francia en 1789 y cuál fue su lema principal?",
+    "respuestaCorrecta": "La Revolución Francesa; lema: Libertad, Igualdad, Fraternidad"
   },
   {
     "id": 14,
     "categoria": "Historia de América",
-    "pregunta": "¿Quién fue Simón Bolívar y qué países liberó de la dominación española?"
+    "pregunta": "¿Quién fue Simón Bolívar y qué países liberó de la dominación española?",
+    "respuestaCorrecta": "El Libertador; liberó Venezuela, Colombia, Ecuador, Perú y Bolivia"
   },
   {
     "id": 15,
     "categoria": "Historia Universal",
-    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial y cuáles fueron los tratados de paz más importantes?"
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial y cuáles fueron los tratados de paz más importantes?",
+    "respuestaCorrecta": "1945; rendición de Alemania (8 de mayo) y de Japón (2 de septiembre); Conferencia de Potsdam y Tratado de San Francisco"
   }
 ]

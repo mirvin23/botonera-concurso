@@ -173,6 +173,16 @@
         .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
         .dot.on { background: #22c55e; }
         .dot.off { background: #ef4444; }
+
+        /* Resultado */
+        .resultado-banner {
+            padding: 14px 16px;
+            border-radius: 12px;
+            text-align: center;
+            animation: slideIn 0.3s ease-out;
+        }
+        .resultado-correcto { background: #15803d; border: 2px solid #22c55e; }
+        .resultado-incorrecto { background: #991b1b; border: 2px solid #ef4444; }
     </style>
 </head>
 <body>
@@ -195,6 +205,7 @@
             <h1>OLIMPIADAS DE HISTORIA</h1>
             <p>Botonera</p>
             <span class="equipo-badge" id="equipo"></span>
+            <div id="miPuntaje" style="display:none; font-size:0.8em; margin-top:5px; color:#aaa;"></div>
         </div>
 
         <div class="pregunta-box">
@@ -208,6 +219,15 @@
         </div>
 
         <div id="mensaje"></div>
+
+        <!-- Banner resultado correcto/incorrecto -->
+        <div id="panelResultado" style="display:none;">
+            <div id="resultadoBanner" class="resultado-banner">
+                <div id="resultadoIcono" style="font-size:2em; margin-bottom:4px;"></div>
+                <div id="resultadoTitulo" style="font-size:1.15em; font-weight:bold;"></div>
+                <div id="resultadoRespuesta" style="display:none; font-size:0.82em; margin-top:6px; opacity:0.9; line-height:1.4;"></div>
+            </div>
+        </div>
 
         <div class="boton-principal">
             <button class="boton" id="boton" disabled>ESPERANDO...</button>
@@ -312,6 +332,40 @@
             const conectado = document.getElementById('estado').textContent === 'Conectado';
             boton.disabled = !conectado || !data.botonHabilitado;
             boton.textContent = data.botonHabilitado ? 'PRESIONA' : 'ESPERANDO...';
+
+            // Banner resultado
+            const panelRes = document.getElementById('panelResultado');
+            if (data.resultadoActual) {
+                const r = data.resultadoActual;
+                const esMiEquipo = r.equipo === nombreEquipo;
+                panelRes.style.display = 'block';
+                const banner = document.getElementById('resultadoBanner');
+                banner.className = 'resultado-banner ' + (r.correcta ? 'resultado-correcto' : 'resultado-incorrecto');
+                document.getElementById('resultadoIcono').textContent = r.correcta ? '🎉' : '❌';
+                const titulo = r.correcta
+                    ? (esMiEquipo ? '¡CORRECTO!' : `¡${r.equipo} acertó!`)
+                    : (esMiEquipo ? '¡INCORRECTO!' : `${r.equipo} falló`);
+                document.getElementById('resultadoTitulo').textContent = titulo;
+                const respEl = document.getElementById('resultadoRespuesta');
+                if (!r.correcta && r.respuestaCorrecta) {
+                    respEl.style.display = 'block';
+                    respEl.textContent = 'Respuesta: ' + r.respuestaCorrecta;
+                } else {
+                    respEl.style.display = 'none';
+                }
+            } else {
+                panelRes.style.display = 'none';
+            }
+
+            // Puntaje del equipo
+            const miPuntajeEl = document.getElementById('miPuntaje');
+            const miScore = (data.puntajes || {})[nombreEquipo];
+            if (miScore) {
+                miPuntajeEl.style.display = 'block';
+                miPuntajeEl.textContent = `✅ ${miScore.correctas}  ❌ ${miScore.incorrectas}`;
+            } else {
+                miPuntajeEl.style.display = 'none';
+            }
         }
 
         // ── Botón ─────────────────────────────────────────────
