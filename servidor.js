@@ -156,7 +156,7 @@ server.listen(WEB_PORT, '0.0.0.0', () => {
   console.log('\n=====================================');
   console.log('🎮 SERVIDOR DE BOTONERA INICIADO');
   console.log('=====================================');
-  console.log('📡 API en puerto 3001');
+  console.log(`📡 Servidor corriendo en puerto ${WEB_PORT}`);
   console.log(`🖥️  Pantalla central: http://localhost:${WEB_PORT}`);
   console.log(`📱 App móvil: http://localhost:${WEB_PORT}/mobile`);
   console.log('=====================================\n');
