@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLIMPIADAS DE HISTORIA - Moderador</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 30px 20px;
+            color: white;
+        }
+        .container { max-width: 700px; width: 100%; }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 { font-size: 2.2em; color: #ffd700; }
+        .header p { color: #aaa; margin-top: 6px; }
+
+        .panel {
+            background: #2a2a3e;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .panel h2 { color: #ffd700; margin-bottom: 18px; font-size: 1.1em; }
+
+        textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 10px;
+            border: 2px solid #444;
+            background: #1a1a2e;
+            color: white;
+            font-size: 1.1em;
+            resize: vertical;
+            min-height: 100px;
+            line-height: 1.4;
+        }
+        textarea:focus { outline: none; border-color: #667eea; }
+
+        .fila-botones { display: flex; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+
+        .btn {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            min-width: 140px;
+        }
+        .btn-publicar { background: #667eea; color: white; }
+        .btn-publicar:hover { background: #4f5fd5; }
+
+        .btn-habilitar { background: #22c55e; color: white; }
+        .btn-habilitar:hover { filter: brightness(0.9); }
+        .btn-habilitar.activo { background: #ef4444; }
+
+        .btn-reiniciar { background: #f59e0b; color: white; }
+        .btn-reiniciar:hover { background: #d97706; }
+
+        /* Estado actual */
+        .estado-actual {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 20px;
+        }
+        .estado-actual h3 { color: #aaa; font-size: 0.85em; margin-bottom: 8px; text-transform: uppercase; }
+        .pregunta-activa {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
+            min-height: 30px;
+        }
+        .pregunta-activa.vacia { color: #555; font-style: italic; }
+
+        .badge {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .badge-abierto { background: #22c55e; }
+        .badge-cerrado { background: #ef4444; }
+
+        /* Stats rápidas */
+        .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+        .stat-box { background: #1a1a2e; padding: 14px; border-radius: 10px; text-align: center; }
+        .stat-numero { color: #ffd700; font-size: 1.8em; font-weight: bold; }
+        .stat-label { color: #aaa; font-size: 0.8em; margin-top: 4px; }
+
+        /* Cola compacta */
+        .cola-item {
+            background: #1a1a2e;
+            padding: 10px 14px;
+            margin: 6px 0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .posicion {
+            background: #667eea;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.85em;
+            flex-shrink: 0;
+        }
+        .turno-destaque {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #ffd700;
+            text-align: center;
+            padding: 10px;
+        }
+        .vacio { color: #555; text-align: center; padding: 15px; }
+
+        .conexion-badge { position: fixed; top: 20px; right: 20px; padding: 8px 14px; border-radius: 5px; font-size: 0.85em; font-weight: bold; }
+        .conectado { background: rgba(34, 197, 94, 0.8); }
+        .desconectado { background: rgba(239, 68, 68, 0.8); }
+
+        /* Preguntas predeterminadas */
+        .filtro-categorias { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+        .btn-filtro {
+            padding: 6px 14px;
+            border: 2px solid #444;
+            border-radius: 20px;
+            background: transparent;
+            color: #aaa;
+            font-size: 0.8em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-filtro:hover, .btn-filtro.activo {
+            border-color: #ffd700;
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+        }
+        .lista-preguntas { display: flex; flex-direction: column; gap: 8px; max-height: 380px; overflow-y: auto; padding-right: 4px; }
+        .lista-preguntas::-webkit-scrollbar { width: 6px; }
+        .lista-preguntas::-webkit-scrollbar-track { background: #1a1a2e; border-radius: 3px; }
+        .lista-preguntas::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        .pregunta-preset {
+            background: #1a1a2e;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 12px 16px;
+            cursor: pointer;
+            text-align: left;
+            color: white;
+            font-size: 0.95em;
+            line-height: 1.4;
+            transition: all 0.2s;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .pregunta-preset:hover {
+            border-color: #667eea;
+            background: #1e1e3a;
+            transform: translateX(3px);
+        }
+        .pregunta-preset:active { transform: translateX(1px); }
+        .pregunta-preset .icono-enviar {
+            color: #667eea;
+            font-size: 1.1em;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+        .pregunta-preset .cat-tag {
+            display: inline-block;
+            font-size: 0.72em;
+            color: #ffd700;
+            background: rgba(255,215,0,0.12);
+            border-radius: 4px;
+            padding: 1px 7px;
+            margin-bottom: 4px;
+        }
+        .pregunta-texto-wrap { display: flex; flex-direction: column; }
+        .cargando-preguntas { color: #555; font-style: italic; padding: 12px 0; }
+
+        /* Formulario agregar pregunta */
+        .btn-toggle-form {
+            background: transparent;
+            border: 2px dashed #444;
+            border-radius: 10px;
+            color: #aaa;
+            width: 100%;
+            padding: 10px;
+            font-size: 0.9em;
+            cursor: pointer;
+            margin-top: 14px;
+            transition: all 0.2s;
+        }
+        .btn-toggle-form:hover { border-color: #667eea; color: #667eea; }
+        .form-nueva-pregunta {
+            margin-top: 14px;
+            background: #1a1a2e;
+            border-radius: 10px;
+            padding: 16px;
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .form-nueva-pregunta.visible { display: flex; }
+        .form-nueva-pregunta input, .form-nueva-pregunta textarea {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 2px solid #333;
+            background: #2a2a3e;
+            color: white;
+            font-size: 0.95em;
+            min-height: unset;
+        }
+        .form-nueva-pregunta input:focus, .form-nueva-pregunta textarea:focus {
+            outline: none; border-color: #667eea;
+        }
+        .form-nueva-pregunta textarea { min-height: 70px; resize: vertical; }
+        .form-nueva-pregunta label { color: #aaa; font-size: 0.8em; margin-bottom: -4px; }
+        .btn-guardar-pregunta {
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 11px;
+            font-size: 0.95em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-guardar-pregunta:hover { background: #4f5fd5; }
+        .btn-guardar-pregunta:disabled { background: #444; cursor: not-allowed; }
+        .msg-guardado { font-size: 0.85em; text-align: center; padding: 4px 0; }
+        .msg-ok { color: #22c55e; }
+        .msg-error { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <div class="conexion-badge conectado" id="conexionBadge">Conectando...</div>
+
+    <div class="container">
+        <div class="header">
+            <h1>OLIMPIADAS DE HISTORIA</h1>
+            <p>Botonera — Panel del Moderador</p>
+        </div>
+
+        <!-- Estado actual -->
+        <div class="panel">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+                <h2 style="margin-bottom:0;">📺 Estado en pantalla</h2>
+                <button class="btn btn-habilitar" id="btnHabilitar" onclick="toggleBoton()" style="flex:unset; padding:10px 18px; font-size:0.9em;">✅ Habilitar botones</button>
+            </div>
+            <div class="estado-actual">
+                <h3>Pregunta activa</h3>
+                <div class="pregunta-activa vacia" id="preguntaActiva">Sin pregunta activa</div>
+                <div id="badgeEstado"></div>
+            </div>
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-numero" id="turnoActual">—</div>
+                    <div class="stat-label">Turno actual</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-numero" id="enCola">0</div>
+                    <div class="stat-label">En cola</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-numero" id="totalTurnos">0</div>
+                    <div class="stat-label">Turnos totales</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preguntas predeterminadas -->
+        <div class="panel">
+            <h2>📚 Preguntas predeterminadas</h2>
+            <div class="filtro-categorias" id="filtroCategorias"></div>
+            <div class="lista-preguntas" id="listaPreguntas">
+                <p class="cargando-preguntas">Cargando preguntas...</p>
+            </div>
+
+            <button class="btn-toggle-form" onclick="toggleFormNueva()">+ Agregar nueva pregunta</button>
+            <div class="form-nueva-pregunta" id="formNueva">
+                <label>Categoría</label>
+                <input type="text" id="nuevaCategoria" placeholder="Ej: Historia de Chile" list="listaCategorias">
+                <datalist id="listaCategorias"></datalist>
+                <label>Pregunta</label>
+                <textarea id="nuevaPregunta" placeholder="Escribe la pregunta..."></textarea>
+                <button class="btn-guardar-pregunta" id="btnGuardar" onclick="guardarNuevaPregunta()">💾 Guardar en preguntas.json</button>
+                <span class="msg-guardado" id="msgGuardado"></span>
+            </div>
+        </div>
+
+        <!-- Cola actual -->
+        <div class="panel">
+            <h2>📋 Cola de espera</h2>
+            <div id="colaPanel"><p class="vacio">No hay nadie en cola</p></div>
+        </div>
+
+        <!-- Reiniciar -->
+        <div class="panel">
+            <h2>⚙️ Acciones</h2>
+            <div class="fila-botones">
+                <button class="btn btn-reiniciar" onclick="reiniciar()">🔄 Reiniciar turno y cola</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+
+        socket.on('connect', () => {
+            const b = document.getElementById('conexionBadge');
+            b.textContent = 'Conectado';
+            b.className = 'conexion-badge conectado';
+        });
+        socket.on('disconnect', () => {
+            const b = document.getElementById('conexionBadge');
+            b.textContent = 'Desconectado';
+            b.className = 'conexion-badge desconectado';
+        });
+
+        socket.on('estado-inicial', actualizarUI);
+        socket.on('estado-actualizado', actualizarUI);
+
+        function actualizarUI(estado) {
+            // Pregunta activa
+            const pregEl = document.getElementById('preguntaActiva');
+            if (estado.pregunta) {
+                pregEl.textContent = estado.pregunta;
+                pregEl.className = 'pregunta-activa';
+            } else {
+                pregEl.textContent = 'Sin pregunta activa';
+                pregEl.className = 'pregunta-activa vacia';
+            }
+
+            // Badge botón
+            const badge = document.getElementById('badgeEstado');
+            badge.innerHTML = estado.botonHabilitado
+                ? '<span class="badge badge-abierto">🟢 Botones abiertos</span>'
+                : '<span class="badge badge-cerrado">🔴 Botones cerrados</span>';
+
+            // Stats
+            document.getElementById('turnoActual').textContent = estado.turnoActual ? estado.turnoActual.nombre : '—';
+            document.getElementById('enCola').textContent = estado.cola.length;
+            document.getElementById('totalTurnos').textContent = estado.totalTurnos;
+
+            // Botón habilitar
+            const btnH = document.getElementById('btnHabilitar');
+            if (estado.botonHabilitado) {
+                btnH.textContent = '🔴 Deshabilitar botones';
+                btnH.className = 'btn btn-habilitar activo';
+            } else {
+                btnH.textContent = '✅ Habilitar botones';
+                btnH.className = 'btn btn-habilitar';
+            }
+
+            // Cola
+            const colaEl = document.getElementById('colaPanel');
+            if (!estado.turnoActual && estado.cola.length === 0) {
+                colaEl.innerHTML = '<p class="vacio">No hay nadie en cola</p>';
+            } else {
+                let html = '';
+                if (estado.turnoActual) {
+                    html += `<div class="turno-destaque">🎯 ${estado.turnoActual.nombre}</div>`;
+                }
+                html += estado.cola.map((nombre, i) =>
+                    `<div class="cola-item">
+                        <div class="posicion">${i + 1}</div>
+                        <span>${nombre}</span>
+                    </div>`
+                ).join('');
+                colaEl.innerHTML = html;
+            }
+        }
+
+        function toggleBoton() {
+            const activo = document.getElementById('btnHabilitar').classList.contains('activo');
+            socket.emit('set-boton', { habilitado: !activo });
+        }
+
+        function reiniciar() {
+            if (!confirm('¿Reiniciar todo? Se borrarán turno, cola y la pregunta activa en todos los dispositivos.')) return;
+            fetch('/reiniciar', { method: 'POST' });
+        }
+
+        // ── Preguntas predeterminadas ──────────────────────────────
+        let preguntasData = [];
+        let categoriaActiva = 'Todas';
+
+        async function cargarPreguntas() {
+            try {
+                const res = await fetch('/preguntas.json');
+                preguntasData = await res.json();
+                renderFiltros();
+                renderPreguntas();
+            } catch (e) {
+                document.getElementById('listaPreguntas').innerHTML =
+                    '<p class="cargando-preguntas">⚠️ No se pudo cargar preguntas.json</p>';
+            }
+        }
+
+        function renderFiltros() {
+            const categorias = ['Todas', ...new Set(preguntasData.map(p => p.categoria))];
+            const contenedor = document.getElementById('filtroCategorias');
+            contenedor.innerHTML = categorias.map(cat =>
+                `<button class="btn-filtro${cat === categoriaActiva ? ' activo' : ''}"
+                    onclick="filtrarPor('${cat}')">${cat}</button>`
+            ).join('');
+            // Actualizar datalist para el formulario
+            document.getElementById('listaCategorias').innerHTML =
+                categorias.filter(c => c !== 'Todas').map(c => `<option value="${c}">`).join('');
+        }
+
+        function filtrarPor(cat) {
+            categoriaActiva = cat;
+            renderFiltros();
+            renderPreguntas();
+        }
+
+        function renderPreguntas() {
+            const lista = document.getElementById('listaPreguntas');
+            const filtradas = categoriaActiva === 'Todas'
+                ? preguntasData
+                : preguntasData.filter(p => p.categoria === categoriaActiva);
+
+            if (filtradas.length === 0) {
+                lista.innerHTML = '<p class="cargando-preguntas">No hay preguntas en esta categoría.</p>';
+                return;
+            }
+            lista.innerHTML = filtradas.map(p =>
+                `<button class="pregunta-preset" onclick="publicarPreset(${p.id})">
+                    <span class="icono-enviar">▶</span>
+                    <span class="pregunta-texto-wrap">
+                        <span class="cat-tag">${p.categoria}</span>
+                        ${p.pregunta}
+                    </span>
+                </button>`
+            ).join('');
+        }
+
+        function publicarPreset(id) {
+            const p = preguntasData.find(x => x.id === id);
+            if (!p) return;
+            socket.emit('set-pregunta', { pregunta: p.pregunta });
+        }
+
+        function toggleFormNueva() {
+            document.getElementById('formNueva').classList.toggle('visible');
+            document.getElementById('msgGuardado').textContent = '';
+        }
+
+        async function guardarNuevaPregunta() {
+            const categoria = document.getElementById('nuevaCategoria').value.trim();
+            const pregunta = document.getElementById('nuevaPregunta').value.trim();
+            const msg = document.getElementById('msgGuardado');
+            const btn = document.getElementById('btnGuardar');
+            if (!categoria || !pregunta) {
+                msg.textContent = 'Completa la categoría y la pregunta.';
+                msg.className = 'msg-guardado msg-error';
+                return;
+            }
+            btn.disabled = true;
+            btn.textContent = 'Guardando...';
+            try {
+                const res = await fetch('/preguntas', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ categoria, pregunta })
+                });
+                const data = await res.json();
+                if (data.ok) {
+                    preguntasData.push(data.pregunta);
+                    renderFiltros();
+                    renderPreguntas();
+                    document.getElementById('nuevaCategoria').value = '';
+                    document.getElementById('nuevaPregunta').value = '';
+                    msg.textContent = '✓ Pregunta guardada correctamente.';
+                    msg.className = 'msg-guardado msg-ok';
+                } else {
+                    msg.textContent = data.mensaje || 'Error al guardar.';
+                    msg.className = 'msg-guardado msg-error';
+                }
+            } catch {
+                msg.textContent = 'Error de conexión con el servidor.';
+                msg.className = 'msg-guardado msg-error';
+            }
+            btn.disabled = false;
+            btn.textContent = '💾 Guardar en preguntas.json';
+        }
+
+        cargarPreguntas();
+    </script>
+</body>
+</html>

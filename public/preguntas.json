@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "categoria": "Historia de Chile",
+    "pregunta": "¿En qué año se firmó el Acta de Independencia de Chile?"
+  },
+  {
+    "id": 2,
+    "categoria": "Historia de Chile",
+    "pregunta": "¿Quién fue el primer presidente de Chile tras la organización de la República?"
+  },
+  {
+    "id": 3,
+    "categoria": "Historia de Chile",
+    "pregunta": "¿Cómo se denomina el período comprendido entre 1810 y 1817 en la historia de Chile?"
+  },
+  {
+    "id": 4,
+    "categoria": "Historia de Chile",
+    "pregunta": "¿Qué batalla consolidó la Independencia de Chile en 1818?"
+  },
+  {
+    "id": 5,
+    "categoria": "Historia Universal",
+    "pregunta": "¿En qué año cayó el Imperio Romano de Occidente?"
+  },
+  {
+    "id": 6,
+    "categoria": "Historia Universal",
+    "pregunta": "¿Qué evento histórico desencadenó el inicio de la Primera Guerra Mundial en 1914?"
+  },
+  {
+    "id": 7,
+    "categoria": "Historia Universal",
+    "pregunta": "¿Cuál fue el primer país del mundo en otorgar el derecho a voto a la mujer a nivel nacional?"
+  },
+  {
+    "id": 8,
+    "categoria": "Historia de América",
+    "pregunta": "¿En qué año llegó Cristóbal Colón a América y qué isla tocó primero?"
+  },
+  {
+    "id": 9,
+    "categoria": "Historia de América",
+    "pregunta": "¿Qué civilización construyó Machu Picchu y en qué período aproximado?"
+  },
+  {
+    "id": 10,
+    "categoria": "Historia de América",
+    "pregunta": "¿Cuál fue la causa principal de la Guerra del Pacífico (1879–1884) y qué países participaron?"
+  },
+  {
+    "id": 11,
+    "categoria": "Historia Universal",
+    "pregunta": "¿Qué documento firmado en 1215 limitó el poder del rey inglés y sentó bases del constitucionalismo?"
+  },
+  {
+    "id": 12,
+    "categoria": "Historia de Chile",
+    "pregunta": "¿Qué fue la Guerra Civil chilena de 1891 y cuál fue su resultado?"
+  },
+  {
+    "id": 13,
+    "categoria": "Historia Universal",
+    "pregunta": "¿Qué revolución ocurrió en Francia en 1789 y cuál fue su lema principal?"
+  },
+  {
+    "id": 14,
+    "categoria": "Historia de América",
+    "pregunta": "¿Quién fue Simón Bolívar y qué países liberó de la dominación española?"
+  },
+  {
+    "id": 15,
+    "categoria": "Historia Universal",
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial y cuáles fueron los tratados de paz más importantes?"
+  }
+]
