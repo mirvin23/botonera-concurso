@@ -179,6 +179,16 @@ botonera-concurso/
 
 ---
 
+## Autor
+
+**Erwin Cortez**
+Docente de Tecnología y Pensamiento Computacional
+Taller de Programación y Robótica
+
+© 2026 Erwin Cortez. Todos los derechos reservados.
+
+---
+
 ## Licencia
 
 ISC
