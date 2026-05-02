@@ -151,14 +151,14 @@ const fs = require('fs');
 const PREGUNTAS_PATH = path.join(__dirname, 'public/preguntas.json');
 
 app.post('/preguntas', (req, res) => {
-  const { categoria, pregunta } = req.body;
-  if (!categoria || !pregunta) {
+  const { categoria, pregunta, respuestaCorrecta } = req.body;
+  if (!categoria || !pregunta || !respuestaCorrecta) {
     return res.status(400).json({ ok: false, mensaje: 'Faltan campos.' });
   }
   let lista = [];
   try { lista = JSON.parse(fs.readFileSync(PREGUNTAS_PATH, 'utf8')); } catch {}
   const nuevoId = lista.length > 0 ? Math.max(...lista.map(p => p.id)) + 1 : 1;
-  const nueva = { id: nuevoId, categoria: categoria.trim(), pregunta: pregunta.trim() };
+  const nueva = { id: nuevoId, categoria: categoria.trim(), pregunta: pregunta.trim(), respuestaCorrecta: respuestaCorrecta.trim() };
   lista.push(nueva);
   fs.writeFileSync(PREGUNTAS_PATH, JSON.stringify(lista, null, 2), 'utf8');
   res.json({ ok: true, pregunta: nueva });

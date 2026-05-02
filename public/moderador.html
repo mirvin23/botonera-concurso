@@ -355,6 +355,8 @@
                 <datalist id="listaCategorias"></datalist>
                 <label>Pregunta</label>
                 <textarea id="nuevaPregunta" placeholder="Escribe la pregunta..."></textarea>
+                <label>Respuesta correcta</label>
+                <textarea id="nuevaRespuesta" placeholder="Escribe la respuesta correcta..."></textarea>
                 <button class="btn-guardar-pregunta" id="btnGuardar" onclick="guardarNuevaPregunta()">💾 Guardar en preguntas.json</button>
                 <span class="msg-guardado" id="msgGuardado"></span>
             </div>
@@ -563,10 +565,11 @@
         async function guardarNuevaPregunta() {
             const categoria = document.getElementById('nuevaCategoria').value.trim();
             const pregunta = document.getElementById('nuevaPregunta').value.trim();
+            const respuestaCorrecta = document.getElementById('nuevaRespuesta').value.trim();
             const msg = document.getElementById('msgGuardado');
             const btn = document.getElementById('btnGuardar');
-            if (!categoria || !pregunta) {
-                msg.textContent = 'Completa la categoría y la pregunta.';
+            if (!categoria || !pregunta || !respuestaCorrecta) {
+                msg.textContent = 'Completa la categoría, la pregunta y la respuesta correcta.';
                 msg.className = 'msg-guardado msg-error';
                 return;
             }
@@ -576,7 +579,7 @@
                 const res = await fetch('/preguntas', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ categoria, pregunta })
+                    body: JSON.stringify({ categoria, pregunta, respuestaCorrecta })
                 });
                 const data = await res.json();
                 if (data.ok) {
@@ -585,6 +588,7 @@
                     renderPreguntas();
                     document.getElementById('nuevaCategoria').value = '';
                     document.getElementById('nuevaPregunta').value = '';
+                    document.getElementById('nuevaRespuesta').value = '';
                     msg.textContent = '✓ Pregunta guardada correctamente.';
                     msg.className = 'msg-guardado msg-ok';
                 } else {
