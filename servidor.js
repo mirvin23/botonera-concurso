@@ -146,9 +146,29 @@ io.on('connection', (socket) => {
   });
 });
 
+// Endpoint para vaciar el banco de preguntas
+app.post('/preguntas/vaciar', (req, res) => {
+  fs.writeFileSync(PREGUNTAS_PATH, '[]', 'utf8');
+  console.log('🗑️ Banco de preguntas vaciado');
+  res.json({ ok: true });
+});
+
+// Endpoint para restaurar el banco predeterminado
+app.post('/preguntas/restaurar', (req, res) => {
+  fs.copyFileSync(PREGUNTAS_DEFAULT_PATH, PREGUNTAS_PATH);
+  const lista = JSON.parse(fs.readFileSync(PREGUNTAS_PATH, 'utf8'));
+  console.log('↩️ Banco de preguntas restaurado');
+  res.json({ ok: true, preguntas: lista });
+});
+
 // Endpoint para agregar pregunta a preguntas.json
 const fs = require('fs');
 const PREGUNTAS_PATH = path.join(__dirname, 'public/preguntas.json');
+const PREGUNTAS_DEFAULT_PATH = path.join(__dirname, 'public/preguntas-default.json');
+
+// Al iniciar, restaurar siempre el banco predeterminado
+fs.copyFileSync(PREGUNTAS_DEFAULT_PATH, PREGUNTAS_PATH);
+console.log('📚 Banco de preguntas restaurado al inicio');
 
 app.post('/preguntas', (req, res) => {
   const { categoria, pregunta, respuestaCorrecta } = req.body;

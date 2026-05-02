@@ -259,6 +259,23 @@
         .msg-ok { color: #22c55e; }
         .msg-error { color: #ef4444; }
 
+        /* Gestión banco de preguntas */
+        .separador-banco { border: none; border-top: 1px solid #333; margin: 16px 0 12px; }
+        .fila-gestion { display: flex; gap: 10px; flex-wrap: wrap; }
+        .btn-gestion {
+            flex: 1;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 0.82em;
+            font-weight: bold;
+            cursor: pointer;
+            min-width: 130px;
+        }
+        .btn-gestion-vaciar { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
+        .btn-gestion-vaciar:hover { background: #7f1d1d; color: white; }
+        .btn-gestion-restaurar { background: #1c1917; color: #fcd34d; border: 1px solid #78350f; }
+        .btn-gestion-restaurar:hover { background: #78350f; color: white; }
+
         /* Evaluación de respuesta */
         .seccion-evaluacion {
             margin-top: 16px;
@@ -359,6 +376,12 @@
                 <textarea id="nuevaRespuesta" placeholder="Escribe la respuesta correcta..."></textarea>
                 <button class="btn-guardar-pregunta" id="btnGuardar" onclick="guardarNuevaPregunta()">💾 Guardar en preguntas.json</button>
                 <span class="msg-guardado" id="msgGuardado"></span>
+            </div>
+
+            <hr class="separador-banco">
+            <div class="fila-gestion">
+                <button class="btn-gestion btn-gestion-restaurar" onclick="restaurarBanco()">↩️ Restaurar predeterminadas</button>
+                <button class="btn-gestion btn-gestion-vaciar" onclick="vaciarBanco()">🗑️ Vaciar banco</button>
             </div>
         </div>
 
@@ -601,6 +624,27 @@
             }
             btn.disabled = false;
             btn.textContent = '💾 Guardar en preguntas.json';
+        }
+
+        async function vaciarBanco() {
+            if (!confirm('¿Eliminar TODAS las preguntas del banco?\nEsta acción no se puede deshacer hasta restaurar las predeterminadas.')) return;
+            await fetch('/preguntas/vaciar', { method: 'POST' });
+            preguntasData = [];
+            categoriaActiva = 'Todas';
+            renderFiltros();
+            renderPreguntas();
+        }
+
+        async function restaurarBanco() {
+            if (!confirm('¿Restaurar el banco de preguntas predeterminadas?\nSe perderán las preguntas personalizadas agregadas.')) return;
+            const res = await fetch('/preguntas/restaurar', { method: 'POST' });
+            const data = await res.json();
+            if (data.ok) {
+                preguntasData = data.preguntas;
+                categoriaActiva = 'Todas';
+                renderFiltros();
+                renderPreguntas();
+            }
         }
 
         cargarPreguntas();
