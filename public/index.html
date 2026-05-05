@@ -119,6 +119,29 @@
         .estado { position: fixed; top: 20px; right: 20px; background: rgba(0,0,0,0.7); color: white; padding: 10px 15px; border-radius: 5px; }
         .conectado { background: rgba(34, 197, 94, 0.8); }
 
+        /* Botón mute */
+        .btn-mute {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.65);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.25);
+            border-radius: 50%;
+            width: 52px;
+            height: 52px;
+            font-size: 1.5em;
+            cursor: pointer;
+            z-index: 300;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s, border-color 0.2s;
+            padding: 0;
+            line-height: 1;
+        }
+        .btn-mute:hover { background: rgba(0,0,0,0.88); border-color: rgba(255,255,255,0.5); }
+
         /* Overlay resultado */
         .overlay-resultado {
             position: fixed;
@@ -165,6 +188,9 @@
     </style>
 </head>
 <body>
+    <!-- Botón silenciar música -->
+    <button class="btn-mute" id="btnMute" title="Silenciar música" onclick="toggleMute()">🔊</button>
+
     <!-- Overlay resultado (correcto/incorrecto) -->
     <div id="overlayResultado" style="display:none;">
         <div id="overlayCard" class="overlay-card">
@@ -239,6 +265,7 @@
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
     <script>
         const socket = io();
+        let prevResultadoActual = null;
 
         socket.on('estado-inicial', actualizarUI);
         socket.on('estado-actualizado', actualizarUI);
@@ -306,6 +333,11 @@
             const overlay = document.getElementById('overlayResultado');
             if (estado.resultadoActual) {
                 const r = estado.resultadoActual;
+                // Reproducir sonido solo cuando aparece un resultado nuevo
+                if (!prevResultadoActual) {
+                    if (r.correcta) playCorrecto();
+                    else playIncorrecto();
+                }
                 overlay.className = 'overlay-resultado';
                 overlay.style.display = 'flex';
                 const card = document.getElementById('overlayCard');
@@ -323,6 +355,7 @@
             } else {
                 overlay.style.display = 'none';
             }
+            prevResultadoActual = estado.resultadoActual || null;
 
             // Puntajes
             const puntajes = estado.puntajes || {};
@@ -345,6 +378,130 @@
             }
         }
 
+    </script>
+    <script>
+        // ===== SISTEMA DE AUDIO =====
+        let audioCtx = null;
+        let bgGainNode = null;
+        let isMuted = false;
+        let bgScheduled = false;
+
+        const BPM = 108;
+        const BEAT = 60 / BPM;
+        const LOOP_BEATS = 8;
+        const LOOP_DUR = LOOP_BEATS * BEAT;
+
+        // Melodía principal (frecuencia, inicio en beats, duración en beats)
+        const melody = [
+            [330, 0,   0.42], [392, 0.5, 0.42], [440, 1,   0.92],
+            [392, 2,   0.42], [330, 2.5, 0.42], [294, 3,   0.42],
+            [262, 3.5, 0.92], [330, 4.5, 0.42], [392, 5,   0.42],
+            [440, 5.5, 0.42], [523, 6,   0.92], [440, 7,   0.42], [392, 7.5, 0.42],
+        ];
+        // Línea de bajo
+        const bass = [
+            [131, 0, 0.82], [196, 1, 0.82], [220, 2, 0.82], [175, 3, 0.82],
+            [131, 4, 0.82], [196, 5, 0.82], [175, 6, 0.82], [196, 7, 0.82],
+        ];
+
+        function initAudio() {
+            if (audioCtx) {
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                return;
+            }
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            bgGainNode = audioCtx.createGain();
+            bgGainNode.gain.value = 0.22;
+            bgGainNode.connect(audioCtx.destination);
+            if (!isMuted) startBgMusic();
+        }
+
+        function playNote(freq, start, dur, vol, dest, type = 'sine') {
+            const osc = audioCtx.createOscillator();
+            const env = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.value = freq;
+            env.gain.setValueAtTime(vol, start);
+            env.gain.setValueAtTime(vol, start + dur * 0.72);
+            env.gain.exponentialRampToValueAtTime(0.0001, start + dur);
+            osc.connect(env);
+            env.connect(dest);
+            osc.start(start);
+            osc.stop(start + dur + 0.02);
+        }
+
+        function scheduleLoop(loopStart) {
+            if (!audioCtx || !bgScheduled) return;
+            melody.forEach(([f, b, d]) => playNote(f, loopStart + b * BEAT, d * BEAT, 0.07, bgGainNode, 'triangle'));
+            bass.forEach(([f, b, d])   => playNote(f, loopStart + b * BEAT, d * BEAT, 0.10, bgGainNode, 'sine'));
+            setTimeout(() => scheduleLoop(loopStart + LOOP_DUR), (LOOP_DUR - 0.35) * 1000);
+        }
+
+        function startBgMusic() {
+            if (bgScheduled || !audioCtx || isMuted) return;
+            bgScheduled = true;
+            scheduleLoop(audioCtx.currentTime + 0.15);
+        }
+
+        function toggleMute() {
+            isMuted = !isMuted;
+            const btn = document.getElementById('btnMute');
+            if (isMuted) {
+                bgScheduled = false;
+                if (bgGainNode) {
+                    bgGainNode.gain.setValueAtTime(bgGainNode.gain.value, audioCtx.currentTime);
+                    bgGainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.4);
+                }
+                btn.textContent = '🔇';
+                btn.title = 'Activar música';
+            } else {
+                if (!audioCtx) {
+                    initAudio();
+                } else {
+                    if (audioCtx.state === 'suspended') audioCtx.resume();
+                    bgGainNode.gain.setValueAtTime(0, audioCtx.currentTime);
+                    bgGainNode.gain.linearRampToValueAtTime(0.22, audioCtx.currentTime + 0.4);
+                    bgScheduled = false;
+                    startBgMusic();
+                }
+                btn.textContent = '🔊';
+                btn.title = 'Silenciar música';
+            }
+        }
+
+        function playCorrecto() {
+            if (!audioCtx || isMuted) return;
+            const now = audioCtx.currentTime;
+            const dest = audioCtx.destination;
+            // Fanfarria ascendente
+            [330, 392, 523, 659, 784].forEach((f, i) => {
+                playNote(f, now + i * 0.11, 0.45, 0.22, dest, 'square');
+            });
+            // Acorde final sostenido
+            [523, 659, 784].forEach(f => playNote(f, now + 0.62, 1.3, 0.10, dest, 'sine'));
+        }
+
+        function playIncorrecto() {
+            if (!audioCtx || isMuted) return;
+            const now = audioCtx.currentTime;
+            const osc = audioCtx.createOscillator();
+            const env = audioCtx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(240, now);
+            osc.frequency.exponentialRampToValueAtTime(65, now + 0.85);
+            env.gain.setValueAtTime(0.28, now);
+            env.gain.exponentialRampToValueAtTime(0.0001, now + 0.85);
+            osc.connect(env);
+            env.connect(audioCtx.destination);
+            osc.start(now);
+            osc.stop(now + 0.9);
+        }
+
+        // Iniciar audio en la primera interacción del usuario
+        document.addEventListener('click', function startOnce() {
+            initAudio();
+            document.removeEventListener('click', startOnce);
+        });
     </script>
     <script>
         if ('serviceWorker' in navigator) {
