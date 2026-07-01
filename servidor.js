@@ -75,6 +75,8 @@ io.on('connection', (socket) => {
     estado.pregunta = data.pregunta || '';
     estado.respuestaCorrecta = data.respuestaCorrecta || '';
     estado.botonHabilitado = false;
+    estado.turnoActual = null;
+    estado.cola = [];
     estado.resultadoActual = null;
     console.log(`📝 Nueva pregunta: ${estado.pregunta}`);
     io.emit('estado-actualizado', estado);
