@@ -286,6 +286,17 @@
         .btn-correcto:hover { background: #16a34a; }
         .btn-incorrecto { background: #ef4444; color: white; }
         .btn-incorrecto:hover { background: #dc2626; }
+        .btn-finalizar { background: #7c3aed; color: white; }
+        .btn-finalizar:hover { background: #6d28d9; }
+        .aviso-agotada {
+            background: #1c1033;
+            border: 2px solid #7c3aed;
+            border-radius: 10px;
+            padding: 14px 18px;
+            color: #c4b5fd;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
 
         /* Puntajes */
         .fila-puntaje {
@@ -347,6 +358,14 @@
                 <div class="fila-botones">
                     <button class="btn btn-correcto" onclick="evaluarRespuesta(true)">✅ Correcta</button>
                     <button class="btn btn-incorrecto" onclick="evaluarRespuesta(false)">❌ Incorrecta</button>
+                </div>
+            </div>
+
+            <!-- Sección pregunta agotada (todos erraron) -->
+            <div class="seccion-evaluacion" id="seccionAgotada" style="display:none;">
+                <div class="aviso-agotada">⚠️ Todos los equipos respondieron incorrectamente. Puedes mostrar la respuesta correcta en pantalla.</div>
+                <div class="fila-botones">
+                    <button class="btn btn-finalizar" onclick="finalizarPregunta()">📌 Mostrar respuesta correcta</button>
                 </div>
             </div>
         </div>
@@ -474,14 +493,22 @@
 
             // Sección evaluación
             const secEval = document.getElementById('seccionEvaluacion');
+            const secAgotada = document.getElementById('seccionAgotada');
             if (estado.turnoActual && !estado.resultadoActual) {
                 secEval.style.display = 'block';
+                secAgotada.style.display = 'none';
                 document.getElementById('evalNombre').textContent = estado.turnoActual.nombre;
                 document.getElementById('respuestaRef').textContent = estado.respuestaCorrecta
                     ? 'Respuesta correcta: ' + estado.respuestaCorrecta
                     : '';
             } else {
                 secEval.style.display = 'none';
+            }
+            // Mostrar botón finalizar cuando todos erraron
+            if (estado.preguntaAgotada && !estado.resultadoActual) {
+                secAgotada.style.display = 'block';
+            } else {
+                secAgotada.style.display = 'none';
             }
 
             // Puntajes
@@ -507,6 +534,10 @@
 
         function evaluarRespuesta(correcta) {
             socket.emit('evaluar-respuesta', { correcta });
+        }
+
+        function finalizarPregunta() {
+            socket.emit('finalizar-pregunta');
         }
 
         function toggleBoton() {

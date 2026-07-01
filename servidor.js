@@ -40,8 +40,9 @@ let estado = {
   pregunta: '',
   respuestaCorrecta: '',
   botonHabilitado: false,
-  puntajes: {},       // { [nombreEquipo]: { correctas, incorrectas } }
-  resultadoActual: null  // { correcta, equipo, respuestaCorrecta } | null
+  puntajes: {},
+  resultadoActual: null,
+  preguntaAgotada: false
 };
 
 // Cuando se conecta un cliente
@@ -78,6 +79,7 @@ io.on('connection', (socket) => {
     estado.turnoActual = null;
     estado.cola = [];
     estado.resultadoActual = null;
+    estado.preguntaAgotada = false;
     console.log(`📝 Nueva pregunta: ${estado.pregunta}`);
     io.emit('estado-actualizado', estado);
   });
@@ -97,19 +99,44 @@ io.on('connection', (socket) => {
     if (!estado.puntajes[equipo]) {
       estado.puntajes[equipo] = { correctas: 0, incorrectas: 0 };
     }
+
+    estado.botonHabilitado = false;
+
     if (data.correcta) {
       estado.puntajes[equipo].correctas++;
+      estado.resultadoActual = { correcta: true, equipo, respuestaCorrecta: estado.respuestaCorrecta };
+      console.log(`📊 ${equipo}: ✅ CORRECTA`);
+      io.emit('estado-actualizado', estado);
     } else {
       estado.puntajes[equipo].incorrectas++;
+      // Mostrar overlay INCORRECTO sin revelar la respuesta
+      estado.resultadoActual = { correcta: false, equipo };
+      // Avanzar al siguiente en cola
+      if (estado.cola.length > 0) {
+        estado.turnoActual = { nombre: estado.cola.shift() };
+        estado.preguntaAgotada = false;
+      } else {
+        estado.turnoActual = null;
+        estado.preguntaAgotada = true;
+      }
+      console.log(`📊 ${equipo}: ❌ INCORRECTA → siguiente: ${estado.turnoActual ? estado.turnoActual.nombre : 'nadie'}`);
+      io.emit('estado-actualizado', estado);
+      // Limpiar overlay tras 2.5s
+      setTimeout(() => {
+        estado.resultadoActual = null;
+        io.emit('estado-actualizado', estado);
+      }, 2500);
     }
+  });
 
-    estado.resultadoActual = {
-      correcta: data.correcta,
-      equipo,
-      respuestaCorrecta: estado.respuestaCorrecta
-    };
+  // Evento: moderador finaliza pregunta sin respuesta correcta (muestra la respuesta)
+  socket.on('finalizar-pregunta', () => {
+    estado.resultadoActual = { finalizada: true, respuestaCorrecta: estado.respuestaCorrecta };
+    estado.turnoActual = null;
+    estado.cola = [];
+    estado.preguntaAgotada = false;
     estado.botonHabilitado = false;
-    console.log(`📊 ${equipo}: ${data.correcta ? '✅ CORRECTA' : '❌ INCORRECTA'}`);
+    console.log('📌 Pregunta finalizada sin respuesta correcta');
     io.emit('estado-actualizado', estado);
   });
 
@@ -199,7 +226,8 @@ app.post('/reiniciar', (req, res) => {
     respuestaCorrecta: '',
     botonHabilitado: false,
     puntajes: {},
-    resultadoActual: null
+    resultadoActual: null,
+    preguntaAgotada: false
   };
   console.log('🔄 Sistema reiniciado');
   io.emit('estado-actualizado', estado);

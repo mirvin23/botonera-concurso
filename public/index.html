@@ -171,6 +171,11 @@
             border: 5px solid #ef4444;
             box-shadow: 0 0 60px rgba(239, 68, 68, 0.4);
         }
+        .overlay-finalizada {
+            background: linear-gradient(135deg, #1e1b4b, #312e81);
+            border: 5px solid #7c3aed;
+            box-shadow: 0 0 60px rgba(124, 58, 237, 0.4);
+        }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         @keyframes scaleIn { from { transform: scale(0.75); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 
@@ -333,24 +338,42 @@
             const overlay = document.getElementById('overlayResultado');
             if (estado.resultadoActual) {
                 const r = estado.resultadoActual;
-                // Reproducir sonido solo cuando aparece un resultado nuevo
-                if (!prevResultadoActual) {
-                    if (r.correcta) playCorrecto();
-                    else playIncorrecto();
-                }
-                overlay.className = 'overlay-resultado';
-                overlay.style.display = 'flex';
                 const card = document.getElementById('overlayCard');
-                card.className = 'overlay-card ' + (r.correcta ? 'overlay-correcto' : 'overlay-incorrecto');
-                document.getElementById('overlayIcono').textContent = r.correcta ? '🎉' : '❌';
-                document.getElementById('overlayTitulo').textContent = r.correcta ? '¡CORRECTO!' : 'INCORRECTO';
-                document.getElementById('overlayEquipo').textContent = r.equipo;
                 const respEl = document.getElementById('overlayRespuesta');
-                if (r.respuestaCorrecta) {
-                    respEl.style.display = 'block';
-                    respEl.innerHTML = '<strong>Respuesta correcta:</strong> ' + r.respuestaCorrecta;
+
+                if (r.finalizada) {
+                    // Todos erraron: mostrar respuesta correcta en overlay morado
+                    overlay.className = 'overlay-resultado';
+                    overlay.style.display = 'flex';
+                    card.className = 'overlay-card overlay-finalizada';
+                    document.getElementById('overlayIcono').textContent = '📌';
+                    document.getElementById('overlayTitulo').textContent = 'NADIE RESPONDIÓ';
+                    document.getElementById('overlayEquipo').textContent = '';
+                    if (r.respuestaCorrecta) {
+                        respEl.style.display = 'block';
+                        respEl.innerHTML = '<strong>Respuesta correcta:</strong> ' + r.respuestaCorrecta;
+                    } else {
+                        respEl.style.display = 'none';
+                    }
                 } else {
-                    respEl.style.display = 'none';
+                    // Correcto o incorrecto normal
+                    if (!prevResultadoActual) {
+                        if (r.correcta) playCorrecto();
+                        else playIncorrecto();
+                    }
+                    overlay.className = 'overlay-resultado';
+                    overlay.style.display = 'flex';
+                    card.className = 'overlay-card ' + (r.correcta ? 'overlay-correcto' : 'overlay-incorrecto');
+                    document.getElementById('overlayIcono').textContent = r.correcta ? '🎉' : '❌';
+                    document.getElementById('overlayTitulo').textContent = r.correcta ? '¡CORRECTO!' : 'INCORRECTO';
+                    document.getElementById('overlayEquipo').textContent = r.equipo;
+                    // Incorrecto: NO mostrar respuesta correcta
+                    if (r.correcta && r.respuestaCorrecta) {
+                        respEl.style.display = 'block';
+                        respEl.innerHTML = '<strong>Respuesta correcta:</strong> ' + r.respuestaCorrecta;
+                    } else {
+                        respEl.style.display = 'none';
+                    }
                 }
             } else {
                 overlay.style.display = 'none';
