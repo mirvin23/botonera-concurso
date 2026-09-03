@@ -238,5 +238,245 @@
     "categoria": "4° Básico",
     "pregunta": "En la sociedad inca, ¿quién era la Coya?",
     "respuestaCorrecta": "La esposa del Sapa Inca, considerada un ser sagrado"
+  },
+  {
+    "id": 1,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál es una característica fundamental de Chile como república democrática?",
+    "respuestaCorrecta": "Las autoridades son elegidas periódicamente por la ciudadanía"
+  },
+  {
+    "id": 2,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué función cumple principalmente la Constitución Política de un país?",
+    "respuestaCorrecta": "Establecer la organización del Estado y reconocer derechos y deberes"
+  },
+  {
+    "id": 3,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?",
+    "respuestaCorrecta": "El Presidente de la República"
+  },
+  {
+    "id": 4,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué institución forma parte del Poder Legislativo?",
+    "respuestaCorrecta": "El Congreso Nacional"
+  },
+  {
+    "id": 5,
+    "categoria": "6° Básico",
+    "pregunta": "¿Por qué es importante la división de los poderes del Estado?",
+    "respuestaCorrecta": "Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder"
+  },
+  {
+    "id": 6,
+    "categoria": "6° Básico",
+    "pregunta": "Una comunidad se organiza para presentar una petición a la municipalidad sobre un problema de su barrio. ¿Qué tipo de participación representa principalmente?",
+    "respuestaCorrecta": "Participación comunitaria"
+  },
+  {
+    "id": 7,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué característica permite considerar democrática una elección?",
+    "respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
+  },
+  {
+    "id": 8,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál situación representa mejor la participación ciudadana?",
+    "respuestaCorrecta": "Una persona se informa, opina fundamentadamente y participa en una organización comunitaria"
+  },
+  {
+    "id": 9,
+    "categoria": "6° Básico",
+    "pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?",
+    "respuestaCorrecta": "La división de poderes del Estado"
+  },
+  {
+    "id": 10,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué relación existe entre la representación popular y las elecciones periódicas?",
+    "respuestaCorrecta": "Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada"
+  },
+  {
+    "id": 11,
+    "categoria": "6° Básico",
+    "pregunta": "Un grupo de estudiantes quiere fortalecer la convivencia democrática en su curso. ¿Cuál acción se relaciona mejor con los principios estudiados?",
+    "respuestaCorrecta": "Dialogar, escuchar distintas opiniones y buscar acuerdos"
+  },
+  {
+    "id": 12,
+    "categoria": "6° Básico",
+    "pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?",
+    "respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
+  },
+  {
+    "id": 13,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué acontecimiento dio inicio al proceso de independencia de Chile en 1810?",
+    "respuestaCorrecta": "La formación de la Primera Junta Nacional de Gobierno"
+  },
+  {
+    "id": 14,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál fue una causa externa que favoreció el inicio de los procesos de independencia hispanoamericanos?",
+    "respuestaCorrecta": "La invasión napoleónica a España"
+  },
+  {
+    "id": 15,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué batalla de 1814 marcó el fin de la Patria Vieja?",
+    "respuestaCorrecta": "Rancagua"
+  },
+  {
+    "id": 16,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?",
+    "respuestaCorrecta": "La proclamación de la Independencia de Chile"
+  },
+  {
+    "id": 17,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál secuencia presenta correctamente las principales etapas del proceso de independencia de Chile?",
+    "respuestaCorrecta": "Patria Vieja → Reconquista → Patria Nueva"
+  },
+  {
+    "id": 18,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué característica tuvo la Patria Nueva?",
+    "respuestaCorrecta": "El regreso de los patriotas al poder y la consolidación de la independencia"
+  },
+  {
+    "id": 19,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?",
+    "respuestaCorrecta": "Organizar políticamente la nueva república"
+  },
+  {
+    "id": 20,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué característica distinguió al período conservador iniciado en 1830?",
+    "respuestaCorrecta": "Un Estado fuerte, centralizado y con un marcado autoritarismo político"
+  },
+  {
+    "id": 21,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué importancia tuvo la Constitución de 1833 durante el período conservador?",
+    "respuestaCorrecta": "Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador"
+  },
+  {
+    "id": 22,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál fue uno de los principales objetivos de las reformas liberales de la segunda mitad del siglo XIX?",
+    "respuestaCorrecta": "Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades"
+  },
+  {
+    "id": 23,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué ejemplo corresponde a una de las llamadas Leyes Laicas?",
+    "respuestaCorrecta": "La creación del Registro Civil"
+  },
+  {
+    "id": 24,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué relación existe entre la Guerra del Pacífico y la conformación territorial de Chile en el siglo XIX?",
+    "respuestaCorrecta": "Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta"
+  },
+  {
+    "id": 25,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál alternativa relaciona correctamente un proceso territorial del siglo XIX con su forma principal de incorporación?",
+    "respuestaCorrecta": "Valdivia y Llanquihue - colonización"
+  },
+  {
+    "id": 26,
+    "categoria": "6° Básico",
+    "pregunta": "Un historiador afirma que la construcción del Estado-nación chileno fue un proceso de cambios políticos y territoriales. ¿Cuál evidencia apoya mejor esa afirmación?",
+    "respuestaCorrecta": "Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio"
+  },
+  {
+    "id": 27,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué proceso describe mejor la democratización de la sociedad chilena durante el siglo XX?",
+    "respuestaCorrecta": "La incorporación progresiva de distintos grupos a la participación política y social"
+  },
+  {
+    "id": 28,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué actividad económica generó importantes ingresos para el Estado chileno a fines del siglo XIX e inicios del XX?",
+    "respuestaCorrecta": "La explotación del salitre"
+  },
+  {
+    "id": 29,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?",
+    "respuestaCorrecta": "Sectores medios"
+  },
+  {
+    "id": 30,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué avance fue fundamental para ampliar la participación política de las mujeres durante el siglo XX?",
+    "respuestaCorrecta": "El reconocimiento del derecho a sufragio femenino"
+  },
+  {
+    "id": 31,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué característica tuvo el rol del Estado chileno entre las décadas de 1920 y 1970?",
+    "respuestaCorrecta": "Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación"
+  },
+  {
+    "id": 32,
+    "categoria": "6° Básico",
+    "pregunta": "¿Por qué la expansión de la radio fue importante para la sociedad chilena?",
+    "respuestaCorrecta": "Porque permitió difundir información y cultura a un público amplio"
+  },
+  {
+    "id": 33,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué situación caracterizó la política chilena entre 1958 y 1973?",
+    "respuestaCorrecta": "Una creciente polarización entre distintos sectores políticos y sociales"
+  },
+  {
+    "id": 34,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué medida relacionada con la minería del cobre ocurrió durante el gobierno de Salvador Allende?",
+    "respuestaCorrecta": "La nacionalización y estatización del cobre"
+  },
+  {
+    "id": 35,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?",
+    "respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
+  },
+  {
+    "id": 36,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?",
+    "respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
+  },
+  {
+    "id": 37,
+    "categoria": "6° Básico",
+    "pregunta": "¿Por qué el respeto de los derechos humanos es especialmente importante al estudiar el período de dictadura militar?",
+    "respuestaCorrecta": "Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan"
+  },
+  {
+    "id": 38,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?",
+    "respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
+  },
+  {
+    "id": 39,
+    "categoria": "6° Básico",
+    "pregunta": "¿Qué acontecimiento fue decisivo para iniciar el proceso de recuperación de la democracia a fines del siglo XX?",
+    "respuestaCorrecta": "El plebiscito de 1988"
+  },
+  {
+    "id": 40,
+    "categoria": "6° Básico",
+    "pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?",
+    "respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
   }
 ]
