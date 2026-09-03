@@ -478,5 +478,11 @@
 "categoria": "6° Básico",
 "pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?\nA) Constitución de 1925 → elecciones de 1989 → golpe de Estado de 1973\nB) Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990\nC) Elecciones de 1989 → golpe de Estado de 1973 → plebiscito de 1988\nD) Golpe de Estado de 1973 → plebiscito de 1988 → elecciones de 1970",
 "respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
+},
+{
+"id":1,
+"categoria": "espera",
+"pregunta": "",
+"respuestaCorrecta": ""
 }
 ]
