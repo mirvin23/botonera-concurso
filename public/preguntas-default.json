@@ -1,122 +1,242 @@
 [
   {
     "id": 1,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Quién encabezó la expedición que llegó al valle del río Mapocho y fundó Santiago de la Nueva Extremadura?\nA) Francisco Pizarro\nB) Hernán Cortés\nC) Pedro de Valdivia\nD) Diego de Almagro",
-    "respuestaCorrecta": "Pedro de Valdivia"
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué hito biológico y evolutivo es considerado la primera transformación fundamental dentro de la cadena de hominización en África?\nA) La invención del fuego para cocinar y protegerse.\nB) El desarrollo del bipedismo o marcha bípeda.\nC) El surgimiento del lenguaje articulado y simbólico.\nD) La elaboración de las primeras herramientas de metal.",
+    "respuestaCorrecta": "El desarrollo del bipedismo o marcha bípeda."
   },
   {
     "id": 2,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?\nA) Se realizó el plebiscito nacional\nB) Se promuló la Constitución de 1925\nC) Se produjo un golpe de Estado que interrumpió el régimen democrático\nD) Se realizaron elecciones presidenciales",
-    "respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
+    "categoria": "7° Básico",
+    "pregunta": "Durante el período Paleolítico, las comunidades humanas eran nómadas. ¿Cuál era la principal razón territorial y económica de este desplazamiento continuo?\nA) La dependencia de la caza, la pesca y la recolección para subsistir.\nB) La constante búsqueda de minas para la extracción de metales finos.\nC) El desarrollo del comercio intercontinental de cereales y bienes.\nD) La necesidad de huir de guerras intercoloniales organizadas.",
+    "respuestaCorrecta": "La dependencia de la caza, la pesca y la recolección para subsistir."
   },
   {
     "id": 3,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué relación existe entre mestizaje y sincretismo cultural durante la Colonia?\nA) Ambos significan exclusivamente la desaparición de las culturas indígenas\nB) No tuvieron ninguna relación con el encuentro entre europeos, indígenas y africanos\nC) El mestizaje se refiere solo al comercio y el sincretismo solo a la agricultura\nD) Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial",
-    "respuestaCorrecta": "Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial"
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué consecuencia demográfica y territorial provocó de forma directa la consolidación de la agricultura en la Revolución Neolítica?\nA) La disminución paulatina y constante de la población mundial.\nB) El sedentarismo y la conformación de las primeras aldeas permanentes.\nC) El abandono definitivo de las zonas costeras marítimas habitables.\nD) La migración masiva e ininterrumpida de grupos humanos hacia los polos.",
+    "respuestaCorrecta": "El sedentarismo y la conformación de las primeras aldeas permanentes."
   },
   {
     "id": 4,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?\nA) El Presidente de la República\nB) Los tribunales de justicia\nC) El Congreso Nacional\nD) La Corte Suprema",
-    "respuestaCorrecta": "El Presidente de la República"
+    "categoria": "7° Básico",
+    "pregunta": "¿Cuál fue uno de los primeros animales en ser domesticados para tareas de pastoreo y alimento durante el Neolítico en el Medio Oriente?\nA) La oveja y la cabra para la producción ganadera.\nB) El caballo salvaje en las zonas de América del Sur.\nC) El elefante africano para la carga de bienes pesados.\nD) El reno polar utilizado en las estepas heladas septentrionales.",
+    "respuestaCorrecta": "La oveja y la cabra para la producción ganadera."
   },
   {
     "id": 5,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué característica distingue al Norte Chico del Norte Grande?\nA) El Norte Chico carece de cordillera de los Andes\nB) El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal\nC) En el Norte Chico predominan los glaciares y fiordos\nD) En el Norte Chico todos los ríos son temporales y no desembocan en el mar",
-    "respuestaCorrecta": "El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal"
+    "categoria": "7° Básico",
+    "pregunta": "Las Pirámides de Giza en Egipto son obras monumentales del Imperio Antiguo. ¿Cuál era su propósito fundamental?\nA) Funcionar como tumbas reales para garantizar el tránsito del faraón a la vida eterna.\nB) Servir como fortificaciones defensivas militares frente a invasiones enemigas de imperios vecinos.\nC) Operar como centros astronómicos y de almacenamiento público de cosechas anuales de trigo.\nD) Establecer sedes administrativas para el cobro masivo de impuestos provinciales a comerciantes.",
+    "respuestaCorrecta": "Funcionar como tumbas reales para garantizar el tránsito del faraón a la vida eterna."
   },
   {
     "id": 6,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?\nA) El retorno al sistema económico colonial\nB) La prohibición del comercio internacional\nC) La eliminación de toda actividad privada\nD) El establecimiento de un sistema económico basado en el libre mercado",
-    "respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
+    "categoria": "7° Básico",
+    "pregunta": "Las primeras civilizaciones compartían una visión religiosa politeísta. ¿En qué consistía este sistema de creencias?\nA) En la creencia exclusiva en un único dios creador todopoderoso y supremo.\nB) En la adoración de múltiples deidades asociadas a fuerzas naturales y astros.\nC) En el rechazo absoluto de cualquier culto divino o espiritualidad en la sociedad.\nD) En la divinización de los filósofos y sabios destacados de cada ciudad.",
+    "respuestaCorrecta": "En la adoración de múltiples deidades asociadas a fuerzas naturales y astros."
   },
   {
     "id": 7,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Cuál era uno de los principales objetivos de los viajes europeos de exploración?\nA) Evitar todo contacto con otros territorios\nB) Encontrar nuevas rutas comerciales\nC) Abandonar el comercio marítimo\nD) Explorar únicamente el interior de Europa",
-    "respuestaCorrecta": "Encontrar nuevas rutas comerciales"
+    "categoria": "7° Básico",
+    "pregunta": "¿Cuál fue una de las principales contribuciones tecnológicas y culturales de la civilización de la China Antigua?\nA) El desarrollo de la democracia directa y el teatro trágico público.\nB) La creación del alfabeto fonético de veintidós letras consonánticas simples.\nC) La edificación del Coliseo y el sistema de alcantarillado subterráneo.\nD) La invención del papel, la pólvora y la técnica de la seda.",
+    "respuestaCorrecta": "La invención del papel, la pólvora y la técnica de la seda."
   },
   {
     "id": 8,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?\nA) Eliminación de las Fuerzas Armadas de la vida política\nB) Elecciones presidenciales anuales\nC) Ampliación inmediata de las libertades políticas\nD) Restricción de derechos y libertades y concentración del poder",
-    "respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
+    "categoria": "7° Básico",
+    "pregunta": "El relieve geográfico de la península balcánica (montañoso y fragmentado) influyó directamente en la formación de:\nA) Un imperio fuertemente unificado y centralizado desde un único palacio regio.\nB) Sociedades puramente nómadas dedicadas a la caza en las grandes llanuras del norte.\nC) Una confederación fluvial de estados dedicados exclusivamente a la agricultura intensiva.\nD) Una red de ciudades-estado independientes llamadas Polis.",
+    "respuestaCorrecta": "Una red de ciudades-estado independientes llamadas Polis."
   },
   {
     "id": 9,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Cuál afirmación explica mejor por qué Chile presenta una gran diversidad de paisajes?\nA) Porque todo el territorio posee el mismo clima\nB) Porque todos sus ríos nacen en la costa\nC) Porque la población está distribuida de manera uniforme\nD) Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad",
-    "respuestaCorrecta": "Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad"
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué legado cultural de la Antigua Grecia se mantiene plenamente vigente hasta el día de hoy en la civilización occidental?\nA) El pensamiento filosófico racional, el teatro y los Juegos Olímpicos.\nB) El sistema de castas sociales cerradas e hereditarias según el nacimiento.\nC) El uso de la escritura cuneiforme grabada sobre tablillas de arcilla húmeda.\nD) La construcción de pirámides escalonadas para el culto solar de los faraones.",
+    "respuestaCorrecta": "El pensamiento filosófico racional, el teatro y los Juegos Olímpicos."
   },
   {
     "id": 10,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?\nA) La Batalla de Rancagua\nB) La proclamación de la Independencia de Chile\nC) La Batalla de Lircay\nD) La llegada del Ejército Libertador a Chile",
-    "respuestaCorrecta": "La proclamación de la Independencia de Chile"
+    "categoria": "7° Básico",
+    "pregunta": "Según la tradición histórica y mitológica, la ciudad de Roma fue fundada en el año 753 a.C. a orillas del río:\nA) Río Nilo, en el fértil valle del noreste del continente africano.\nB) Río Eufrates, en las llanuras interfluviales de la antigua Mesopotamia.\nC) Río Évros, cerca de las costas del Mar Egeo y Tracia.\nD) Río Tíber, en la región central de la Península Itálica.",
+    "respuestaCorrecta": "Río Tíber, en la región central de la Península Itálica."
   },
   {
     "id": 11,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Quiénes eran los criollos?\nA) Indígenas que vivían en pueblos de indios\nB) Europeos nacidos exclusivamente en España\nC) Personas de origen africano nacidas únicamente en Europa\nD) Descendientes de europeos nacidos en América",
-    "respuestaCorrecta": "Descendientes de europeos nacidos en América"
+    "categoria": "7° Básico",
+    "pregunta": "La sociedad romana de la época republicana estaba dividida principalmente en dos grandes grupos de ciudadanos libres:\nA) Los espartanos (guerreros) y los ilotas (siervos agrícolas estatales).\nB) Los patricios (nobles) y los plebeyos (campesinos y artesanos).\nC) Los brahmanes (sacerdotes) y los sudras (trabajadores manuales).\nD) Los mandarines (burocracia) y los siervos de la gleba feudales.",
+    "respuestaCorrecta": "Los patricios (nobles) y los plebeyos (campesinos y artesanos)."
   },
   {
     "id": 12,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?\nA) La concentración del poder\nB) La ausencia de instituciones\nC) La división de poderes del Estado\nD) La eliminación de la representación",
-    "respuestaCorrecta": "La división de poderes del Estado"
+    "categoria": "7° Básico",
+    "pregunta": "¿Quién fue el primer Emperador Romano, con quien se inicia la etapa del Imperio en el año 27 a.C. tras el fin de la República?\nA) Octavio Augusto, quien concentró el poder civil y militar supremo.\nB) Julio César, el cónsul asesinado en las Iduas de Marzo por senadores.\nC) Alejandro Magno, el conquistador macedonio del Imperio Persa e India.\nD) Rómulo Augústulo, el último soberano derrocado por los pueblos germanos.",
+    "respuestaCorrecta": "Octavio Augusto, quien concentró el poder civil y militar supremo."
   },
   {
     "id": 13,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Cuál de los siguientes es un recurso natural no renovable?\nA) El agua\nB) Los recursos pesqueros\nC) El cobre\nD) Los bosques",
-    "respuestaCorrecta": "El cobre"
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué hito histórico marca el fin de la Edad Antigua y el comienzo de la Edad Media en el año 476 d.C.?\nA) El descubrimiento de América por parte de las expediciones hispanas europeas.\nB) La caída o colapso del Imperio Romano de Occidente ante las invasiones germánicas.\nC) La invención de la imprenta de tipos móviles por Johannes Gutenberg en Alemania.\nD) La firma del Edicto de Milán por el emperador Constantino el Grande.",
+    "respuestaCorrecta": "La caída o colapso del Imperio Romano de Occidente ante las invasiones germánicas."
   },
   {
     "id": 14,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?\nA) Reconstruir el Imperio español\nB) Eliminar todas las instituciones del Estado\nC) Abandonar la educación y la cultura\nD) Organizar políticamente la nueva república",
-    "respuestaCorrecta": "Organizar políticamente la nueva república"
+    "categoria": "7° Básico",
+    "pregunta": "El dominar la producción de fuego por parte de los homínidos representó un avance crucial. ¿Cuál fue un impacto inmediato?\nA) Permitió la construcción inmediata de grandes ciudades de piedra con murallas.\nB) Inició el comercio de metales refinados como el bronce y el hierro a gran escala.\nC) Detuvo completamente las migraciones de homínidos hacia otros continentes del mundo.\nD) Facilitó la cocción de alimentos, mejorando la nutrición y la cohesión comunitaria.",
+    "respuestaCorrecta": "Facilitó la cocción de alimentos, mejorando la nutrición y la cohesión comunitaria."
   },
   {
     "id": 15,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "Un estudiante compara a peninsulares, criollos, mestizos, indígenas y personas de origen africano. ¿Qué conclusión es más adecuada?\nA) Los criollos ocupaban siempre los cargos públicos más importantes por encima de los peninsulares\nB) Todos tenían el mismo acceso al poder político\nC) La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo\nD) Los mestizos no existían en la sociedad colonial",
-    "respuestaCorrecta": "La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo"
+    "categoria": "7° Básico",
+    "pregunta": "[Arte Rupestre en Cueva de Lascaux] ¿Qué función cultural le atribuyen principalmente los historiadores a estas pinturas?\nA) Un registro contable de los impuestos cobrados por los reyes de las cavernas.\nB) Un plano cartográfico detallado de las rutas comerciales intercontinentales.\nC) Una decoración estética de viviendas permanentes construidas en las aldeas neolíticas.\nD) Un ritual mágico propiciatorio para favorecer el éxito en las actividades de caza.",
+    "respuestaCorrecta": "Un ritual mágico propiciatorio para favorecer el éxito en las actividades de caza."
   },
   {
     "id": 16,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?\nA) Sectores medios\nB) Sectores populares\nC) Oligarquía\nD) Aristocracia colonial",
-    "respuestaCorrecta": "Sectores medios"
+    "categoria": "7° Básico",
+    "pregunta": "La denominada «Revolución Neolítica» acuñada por Gordon Childe se caracteriza fundamentalmente por:\nA) La invención del motor de vapor y la fabricación masiva de herramientas de acero.\nB) La transición de la vida en ciudades-estado a tribus nómadas dispersas en bosques.\nC) El paso de una economía depredadora (caza) a una economía productora (agricultura).\nD) El reemplazo total del uso de la piedra pulida por plástico e industrias químicas.",
+    "respuestaCorrecta": "El paso de una economía depredadora (caza) a una economía productora (agricultura)."
   },
   {
     "id": 17,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué diferencia importante existió entre las rutas iniciales de Almagro y Valdivia?\nA) Valdivia ingresó por la cordillera de los Andes y Almagro por el océano Pacífico\nB) Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama\nC) Almagro llegó directamente al valle del Mapocho y Valdivia al Cusco\nD) Ambos ingresaron por la misma ruta marítima",
-    "respuestaCorrecta": "Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama"
+    "categoria": "7° Básico",
+    "pregunta": "[El \"Creciente Fértil\"] ¿Qué características geográficas compartían Mesopotamia y Egipto que permitieron sus desarrollos urbanos?\nA) La presencia de grandes cuencas hidrográficas (ríos) que fertilizaban la tierra.\nB) Su ubicación en extensos archipiélagos volcánicos con escasa vegetación cultivable.\nC) La existencia de climas fríos polares que favorecían la conservación de carne salvaje.\nD) La ausencia total de cursos de agua dulce en cientos de kilómetros a la redonda.",
+    "respuestaCorrecta": "La presencia de grandes cuencas hidrográficas (ríos) que fertilizaban la tierra."
   },
   {
     "id": 18,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?\nA) Porque hace innecesarias las elecciones\nB) Porque reemplaza a todas las instituciones del Estado\nC) Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas\nD) Porque evita que existan opiniones diferentes",
-    "respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
+    "categoria": "7° Básico",
+    "pregunta": "La invención de la escritura cuneiforme en Mesopotamia (alrededor del 3200 a.C.) respondió originalmente a la necesidad de:\nA) Escribir novelas de ficción y obras teatrales de entretenimiento cívico público.\nB) Transmitir discursos políticos en elecciones democráticas directas de ciudadanos libres.\nC) Registrar las transacciones comerciales, tributos y administración de templos.\nD) Elaborar mapas estelares para la navegación de barcos transoceánicos lejanos.",
+    "respuestaCorrecta": "Registrar las transacciones comerciales, tributos y administración de templos."
   },
   {
     "id": 19,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿En qué año fue fundada Santiago de la Nueva Extremadura?\nA) 1536\nB) 1608\nC) 1541\nD) 1492",
-    "respuestaCorrecta": "1541"
+    "categoria": "7° Básico",
+    "pregunta": "[Ziggurat de Ur en Mesopotamia] ¿Qué función principal cumplía este gran monumento urbano?\nA) Servía de coliseo deportivo para combates de gladiadores romanos y carros.\nB) Operaba como mercado privado exclusivo para el trueque de esclavos y armas de bronce.\nC) Era una tumba subterránea exclusiva para los soldados caídos en guerras extranjeras.\nD) Funcionaba como centro religioso (templo), depósito de granos y núcleo de poder.",
+    "respuestaCorrecta": "Funcionaba como centro religioso (templo), depósito de granos y núcleo de poder."
   },
   {
     "id": 20,
-    "categoria": "Final 5° y 6°",
-    "pregunta": "¿Qué característica permite considerar democrática una elección?\nA) Que exista una sola candidatura\nB) Que los resultados no puedan ser conocidos por la ciudadanía\nC) Que la autoridad decida quién puede votar según sus preferencias\nD) Que las elecciones sean libres, competitivas y periódicas",
-    "respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
+    "categoria": "7° Básico",
+    "pregunta": "Nombre una importante innovación técnica de transporte y guerra introducida durante la Edad de los Metales en el Cercano Oriente:\nA) La brújula magnética para la orientación nocturna en el océano Pacífico.\nB) La invención de la rueda aplicada al carro de tiro tirado por caballos.\nC) El barco de vapor impulsado por carbón mineral refinado en minas.\nD) La imprenta de caracteres de plomo para la difusión masiva de edictos.",
+    "respuestaCorrecta": "La invención de la rueda aplicada al carro de tiro tirado por caballos."
+  },
+  {
+    "id": 21,
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué elemento medioambiental natural condicionó y posibilitó la próspera agricultura de regadío en el Antiguo Egipto?\nA) Las lluvias monzónicas estivales que derretían las nieves de la península Arábiga.\nB) La presencia de glaciares cordilleranos que abastecían canales subterráneos de piedra.\nC) La crecida o inundación anual regulada del río Nilo que depositaba fértil limo.\nD) Las mareas oceánicas del Mar Rojo que desalinizaban los campos de cultivo secos.",
+    "respuestaCorrecta": "La crecida o inundación anual regulada del río Nilo que depositaba fértil limo."
+  },
+  {
+    "id": 22,
+    "categoria": "7° Básico",
+    "pregunta": "[La Acrópolis de Atenas] ¿Qué espacio urbano y de significación religiosa representaba la Acrópolis dentro de una polis griega?\nA) La cima fortificada de la ciudad dedicada a los templos y al culto protector.\nB) El puerto comercial costero donde amarraban barcos mercantes de todo el Mediterráneo.\nC) La plaza pública del mercado o ágora donde los ciudadanos debatían leyes civiles.\nD) El barrio periférico donde vivían hacinados los siervos y esclavos agrícolas extranjeros.",
+    "respuestaCorrecta": "La cima fortificada de la ciudad dedicada a los templos y al culto protector."
+  },
+  {
+    "id": 23,
+    "categoria": "7° Básico",
+    "pregunta": "A diferencia de Atenas, la polis de Esparta estructuró su sociedad y sistema educativo (agogé) con un marcado énfasis en:\nA) El fomento de las artes poéticas, la filosofía platónica y la navegación comercial.\nB) La libertad individual absoluta, el pacifismo cívico y la abolición del ejército.\nC) La preparación militar permanente y la estricta disciplina ciudadana del Estado.\nD) La construcción de monumentos religiosos dedicados a reyes extranjeros del Este.",
+    "respuestaCorrecta": "La preparación militar permanente y la estricta disciplina ciudadana del Estado."
+  },
+  {
+    "id": 24,
+    "categoria": "7° Básico",
+    "pregunta": "Las históricas Guerras Médicas enfrentaron a las polis griegas aliadas contra el expansionismo del poderoso:\nA) Imperio Romano Germánico, liderado por emperadores de las legiones occidentales.\nB) Imperio Persa o Aqueménida, gobernado por reyes como Darío y Jerjes.\nC) Imperio Egipcio del Nuevo Reino, comandado por faraones de la dinastía tebana.\nD) Imperio Cartaginés, dirigido por generales del norte de África como Aníbal Barca.",
+    "respuestaCorrecta": "Imperio Persa o Aqueménida, gobernado por reyes como Darío y Jerjes."
+  },
+  {
+    "id": 25,
+    "categoria": "7° Básico",
+    "pregunta": "Durante la etapa de la República Romana (509 a.C. - 27 a.C.), la institución con mayor autoridad política y legislativa era:\nA) El Tribunal de la Inquisición, encargado de velar por la ortodoxia de los templos.\nB) La Asamblea de la Polis, donde votaban los filósofos atenienses radicados en Italia.\nC) El Consejo de los Faraones, reunido para fijar los impuestos al comercio de grano.\nD) El Senado Romano, compuesto por representantes patricios de familias aristocráticas.",
+    "respuestaCorrecta": "El Senado Romano, compuesto por representantes patricios de familias aristocráticas."
+  },
+  {
+    "id": 26,
+    "categoria": "7° Básico",
+    "pregunta": "Los romanos denominaron al Mar Mediterráneo como \"Mare Nostrum\" (\"Nuestro Mar\"). ¿Por qué recibió este nombre?\nA) Porque era el único cuerpo de agua dulce existente en toda la cuenca europea costera.\nB) Porque allí nació según la mitología el primer dios fundador de la civilización romana.\nC) Porque lograron dominar militar y comercialmente todas las costas que lo rodeaban.\nD) Porque estaba prohibido el tránsito de cualquier embarcación de transporte mercante.",
+    "respuestaCorrecta": "Porque lograron dominar militar y comercialmente todas las costas que lo rodeaban."
+  },
+  {
+    "id": 27,
+    "categoria": "7° Básico",
+    "pregunta": "[El Coliseo Romano] ¿Qué función social cumplía dentro de la estrategia política del Imperio conocida como \"Pan y Circo\"?\nA) Servía como parlamento democrático para la votación de presupuestos públicos anuales.\nB) Era la sede del tribunal supremo encargado de juzgar pleitos comerciales entre patricios.\nC) Albergaba espectáculos masivos para entretener y controlar el descontento popular.\nD) Funcionaba como hospital militar para atender a los heridos de las legiones romanas.",
+    "respuestaCorrecta": "Albergaba espectáculos masivos para entretener y controlar el descontento popular."
+  },
+  {
+    "id": 28,
+    "categoria": "7° Básico",
+    "pregunta": "Durante el Imperio Romano, la extensa red de calzadas y caminos construida en las provincias tenía el objetivo principal de:\nA) Conectar militar y administrativamente a Roma con sus provincias y legiones.\nB) Servir como pistas de carreras exclusivas para carruajes de la nobleza patricia.\nC) Delimitar las fronteras agrícolas privadas impidiendo el paso de campesinos locales.\nD) Crear acueductos elevados para conducir agua potable desde las montañas al campo.",
+    "respuestaCorrecta": "Conectar militar y administrativamente a Roma con sus provincias y legiones."
+  },
+  {
+    "id": 29,
+    "categoria": "7° Básico",
+    "pregunta": "El Edicto de Milán (313 d.C.) promulgado por el emperador Constantino fue un hito decisivo en Roma porque garantizaba:\nA) La abolición total de la esclavitud en todas las provincias y villas latinas.\nB) El reparto de tierras agrícolas pertenecientes a los senadores entre los plebeyos.\nC) La división definitiva del Imperio Romano en dos Estados independientes en oriente.\nD) La libertad de culto religioso en todo el Imperio, finalizando la persecución cristiana.",
+    "respuestaCorrecta": "La libertad de culto religioso en todo el Imperio, finalizando la persecución cristiana."
+  },
+  {
+    "id": 30,
+    "categoria": "7° Básico",
+    "pregunta": "Con la consolidación de excedentes agrícolas en el Neolítico, las sociedades humanas comenzaron tempranamente a:\nA) Especializar el trabajo y dar origen a las primeras jerarquías e inequidades sociales.\nB) Abandonar completamente el uso del lenguaje oral reemplazándolo por signos grabados.\nC) Prohibir el intercambio comercial de alimentos entre aldeas vecinas del mismo territorio.\nD) Retornar a la vida nómada de caza y recolección en los bosques selváticos continentales.",
+    "respuestaCorrecta": "Especializar el trabajo y dar origen a las primeras jerarquías e inequidades sociales."
+  },
+  {
+    "id": 31,
+    "categoria": "7° Básico",
+    "pregunta": "En el Antiguo Egipto, la figura del Faraón encarnaba un gobierno teocrático. ¿Qué significa este concepto?\nA) Su poder era limitado por un parlamento democrático elegido por votos de campesinos.\nB) Concentraba el poder político, militar y religioso, siendo considerado un dios viviente.\nC) Gobernaba únicamente durante un año tras ser electo en asambleas populares de la polis.\nD) Carecía de autoridad militar, actuando solo como consejero espiritual sin tropas.",
+    "respuestaCorrecta": "Concentraba el poder político, militar y religioso, siendo considerado un dios viviente."
+  },
+  {
+    "id": 32,
+    "categoria": "7° Básico",
+    "pregunta": "[Código de Hammurabi] ¿Cuál era el principio punitivo básico que regía este antiguo cuerpo legal (Ley del Talión)?\nA) El perdón incondicional de todos los delitos mediante el pago de multas simbólicas.\nB) La aplicación de trabajos forzados perpetuos en obras públicas sin importar la falta.\nC) \"Ojo por ojo, diente por diente\" (la pena debía ser equivalente al daño provocado).\nD) La absolución automática de los acusados que pertenecieran a clases trabajadoras.",
+    "respuestaCorrecta": "\"Ojo por ojo, diente por diente\" (la pena debía ser equivalente al daño provocado)."
+  },
+  {
+    "id": 33,
+    "categoria": "7° Básico",
+    "pregunta": "En la antigua civilización india (cuenca del Indo), la organización de la sociedad se articulaba mediante un sistema de:\nA) Clases sociales móviles donde cualquier persona podía ascender por riqueza o mérito.\nB) Ciudadanía democrática con derecho a voto para elegir a los reyes gobernantes.\nC) Feudos independientes administrados por caballeros vasallos bajo juramento cívico.\nD) Castas cerradas e hereditarias determinadas de forma rígida por el nacimiento.",
+    "respuestaCorrecta": "Castas cerradas e hereditarias determinadas de forma rígida por el nacimiento."
+  },
+  {
+    "id": 34,
+    "categoria": "7° Básico",
+    "pregunta": "El alfabeto creado por los fenicios representó un avance trascendental en la comunicación histórica debido a que:\nA) Introdujo un signo o letra para representar cada sonido consonántico en vez de dibujos.\nB) Fue el primer sistema de escritura que utilizó papel e imprenta para su difusión.\nC) Permitió traducir automáticamente todas las lenguas conocidas del mundo antiguo.\nD) Estaba destinado exclusivamente a la redacción de textos sagrados y oraciones.",
+    "respuestaCorrecta": "Introdujo un signo o letra para representar cada sonido consonántico en vez de dibujos."
+  },
+  {
+    "id": 35,
+    "categoria": "7° Básico",
+    "pregunta": "La democracia ateniense desarrollada en el siglo V a.C. bajo el liderazgo de Pericles se caracterizaba por ser:\nA) Una democracia representativa, donde se elegía a diputados por partidos políticos.\nB) Un régimen militar cerrado encabezado por dos reyes hereditarios de por vida.\nC) Una democracia directa, donde los ciudadanos votaban personalmente en la Asamblea.\nD) Una monarquía absoluta donde el rey nombraba a sus consejeros de forma secreta.",
+    "respuestaCorrecta": "Una democracia directa, donde los ciudadanos votaban personalmente en la Asamblea."
+  },
+  {
+    "id": 36,
+    "categoria": "7° Básico",
+    "pregunta": "A pesar del desarrollo de la democracia en Atenas, ¿quiénes estaban explícitamente excluidos del derecho a la ciudadanía?\nA) Los miembros del ejército y los soldados que combatían en las guerras navales.\nB) Las mujeres, los esclavos y los extranjeros residentes denominados metecos.\nC) Los propietarios de tierras agrícolas situadas en el campo de la región del Ática.\nD) Los filósofos y maestros dedicados a la enseñanza de la juventud en las academias.",
+    "respuestaCorrecta": "Las mujeres, los esclavos y los extranjeros residentes denominados metecos."
+  },
+  {
+    "id": 37,
+    "categoria": "7° Básico",
+    "pregunta": "Durante el período Helenístico, Alejandro Magno logró difundir la cultura griega integrándola con Oriente. ¿Qué territorio abarcó su imperio?\nA) Toda la Península Ibérica y las Islas Británicas en el Océano Atlántico Norte.\nB) La totalidad del continente americano y el norte de las estepas rusas heladas.\nC) Desde Grecia y Egipto hasta los confines del Imperio Persa e India.\nD) Exclusivamente las islas del Mar Egeo y la costa sur de la Península Itálica.",
+    "respuestaCorrecta": "Desde Grecia y Egipto hasta los confines del Imperio Persa e India."
+  },
+  {
+    "id": 38,
+    "categoria": "7° Básico",
+    "pregunta": "¿Qué magistratura fue creada en Roma tras las demandas plebeyas para defender sus derechos mediante el poder de veto?\nA) El Dictador Romano, nombrado para gobernar con poder absoluto durante seis meses.\nB) El Censor, responsable de elaborar el censo de ciudadanos y vigilar la moral pública.\nC) El Pontífice Máximo, autoridad suprema encargada de los ritos religiosos del Estado.\nD) El Tribuno de la Plebe, encargado de proteger a los plebeyos contra abusos de patricios.",
+    "respuestaCorrecta": "El Tribuno de la Plebe, encargado de proteger a los plebeyos contra abusos de patricios."
+  },
+  {
+    "id": 39,
+    "categoria": "7° Básico",
+    "pregunta": "¿Cuál es considerado el mayor aporte del mundo romano a las instituciones políticas y judiciales de la civilización occidental?\nA) La invención de la filosofía estoica y la lógica matemática para el comercio.\nB) La creación de las Olimpiadas y los certámenes poéticos internacionales cívicos.\nC) El desarrollo del Derecho Romano escrito y codificado (como la Ley de las XII Tablas).\nD) El diseño de las primeras bibliotecas públicas de papiro en la cuenca del Nilo.",
+    "respuestaCorrecta": "El desarrollo del Derecho Romano escrito y codificado (como la Ley de las XII Tablas)."
+  },
+  {
+    "id": 40,
+    "categoria": "7° Básico",
+    "pregunta": "Tanto la cultura griega como la romana influyeron de manera decisiva en el concepto moderno de \"Ciudadanía\". ¿En qué consiste esta herencia?\nA) En la obligación cívica de pertenecer a una religión oficial impuesta por el gobernante.\nB) En la idea de que los individuos tienen deberes y derechos cívicos garantizados ante la ley.\nC) En la división rígida de la sociedad en castas de nacimiento que nunca pueden cambiarse.\nD) En el principio de que los reyes gobiernan por derecho divino sin control de las leyes.",
+    "respuestaCorrecta": "En la idea de que los individuos tienen deberes y derechos cívicos garantizados ante la ley."
   }
 ]
