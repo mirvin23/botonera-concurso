@@ -478,5 +478,245 @@
     "categoria": "6° Básico",
     "pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?",
     "respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
+  },
+  {
+    "id": 1,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuáles son las cinco grandes zonas naturales de Chile?",
+    "respuestaCorrecta": "Norte Grande, Norte Chico, Zona Central, Zona Sur y Zona Austral"
+  },
+  {
+    "id": 2,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál de los siguientes corresponde a una unidad del relieve chileno?",
+    "respuestaCorrecta": "La cordillera de los Andes"
+  },
+  {
+    "id": 3,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál de los siguientes es un recurso natural no renovable?",
+    "respuestaCorrecta": "El cobre"
+  },
+  {
+    "id": 4,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué concepto corresponde al conjunto y variedad de seres vivos presentes en un ambiente natural?",
+    "respuestaCorrecta": "Biodiversidad"
+  },
+  {
+    "id": 5,
+    "categoria": "5° Básico",
+    "pregunta": "¿Por qué los paisajes del Norte Grande son, en general, muy secos?",
+    "respuestaCorrecta": "Porque predominan las condiciones del clima desértico, con escasas precipitaciones"
+  },
+  {
+    "id": 6,
+    "categoria": "5° Básico",
+    "pregunta": "Un estudiante observa un paisaje con abundantes lagos, ríos, bosques y volcanes. ¿Qué zona natural es más probable que esté observando?",
+    "respuestaCorrecta": "Zona Sur"
+  },
+  {
+    "id": 7,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué característica distingue al Norte Chico del Norte Grande?",
+    "respuestaCorrecta": "El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal"
+  },
+  {
+    "id": 8,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué relación entre clima y biodiversidad es correcta?",
+    "respuestaCorrecta": "Las condiciones climáticas de una zona influyen en los tipos de vegetación y fauna que pueden vivir allí"
+  },
+  {
+    "id": 9,
+    "categoria": "5° Básico",
+    "pregunta": "Un mapa muestra que una especie vegetal aparece solamente en un sector de la Zona Sur y no en todo Chile. ¿Qué conclusión es más adecuada?",
+    "respuestaCorrecta": "La distribución de la biodiversidad puede variar según las condiciones geográficas de cada lugar"
+  },
+  {
+    "id": 10,
+    "categoria": "5° Básico",
+    "pregunta": "Una comunidad desea utilizar un recurso natural sin agotarlo y procurando que siga disponible para el futuro. ¿Qué principio está aplicando?",
+    "respuestaCorrecta": "Desarrollo sostenible"
+  },
+  {
+    "id": 11,
+    "categoria": "5° Básico",
+    "pregunta": "En una zona con alta actividad volcánica, la comunidad organiza rutas de evacuación y realiza simulacros. ¿Qué objetivo está cumpliendo principalmente?",
+    "respuestaCorrecta": "Prepararse para enfrentar un riesgo natural"
+  },
+  {
+    "id": 12,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál afirmación explica mejor por qué Chile presenta una gran diversidad de paisajes?",
+    "respuestaCorrecta": "Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad"
+  },
+  {
+    "id": 13,
+    "categoria": "5° Básico",
+    "pregunta": "¿En qué siglo comenzó en Europa el proceso de expansión que impulsó los viajes de exploración ultramarina estudiados en 5° Básico?",
+    "respuestaCorrecta": "Siglo XV"
+  },
+  {
+    "id": 14,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál era uno de los principales objetivos de los viajes europeos de exploración?",
+    "respuestaCorrecta": "Encontrar nuevas rutas comerciales"
+  },
+  {
+    "id": 15,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál de estos instrumentos ayudó a perfeccionar la navegación durante los viajes de exploración?",
+    "respuestaCorrecta": "Astrolabio"
+  },
+  {
+    "id": 16,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué diferencia existe entre exploración y conquista?",
+    "respuestaCorrecta": "La exploración se relacionó con la búsqueda de nuevas rutas y territorios, mientras la conquista buscó obtener control sobre ellos"
+  },
+  {
+    "id": 17,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué combinación explica mejor por qué los viajes de exploración fueron posibles?",
+    "respuestaCorrecta": "Avances tecnológicos de navegación y búsqueda de nuevas rutas comerciales"
+  },
+  {
+    "id": 18,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué viaje permitió a los europeos comprobar que era posible atravesar una ruta marítima alrededor del extremo sur de América?",
+    "respuestaCorrecta": "La expedición de Hernando de Magallanes, completada por Sebastián Elcano"
+  },
+  {
+    "id": 19,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál de los siguientes era un objetivo de la Corona española durante la conquista de América?",
+    "respuestaCorrecta": "Evangelizar, incorporar territorios y obtener riquezas"
+  },
+  {
+    "id": 20,
+    "categoria": "5° Básico",
+    "pregunta": "Un historiador señala que la conquista de América no puede explicarse por una sola causa. ¿Cuál situación apoya mejor esta idea?",
+    "respuestaCorrecta": "La conquista estuvo relacionada con factores militares, alianzas, conflictos internos, enfermedades y otros elementos"
+  },
+  {
+    "id": 21,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál fue una consecuencia demográfica importante de la conquista y colonización para numerosos pueblos indígenas americanos?",
+    "respuestaCorrecta": "Una fuerte disminución de la población, relacionada con enfermedades, violencia, explotación y otros factores"
+  },
+  {
+    "id": 22,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué idea permite comprender mejor el concepto de 'choque cultural' estudiado en la unidad?",
+    "respuestaCorrecta": "El encuentro entre sociedades con formas de vida, creencias y costumbres diferentes produjo profundas transformaciones"
+  },
+  {
+    "id": 23,
+    "categoria": "5° Básico",
+    "pregunta": "¿Quién encabezó la expedición que llegó al valle del río Mapocho y fundó Santiago de la Nueva Extremadura?",
+    "respuestaCorrecta": "Pedro de Valdivia"
+  },
+  {
+    "id": 24,
+    "categoria": "5° Básico",
+    "pregunta": "¿En qué año fue fundada Santiago de la Nueva Extremadura?",
+    "respuestaCorrecta": "1541"
+  },
+  {
+    "id": 25,
+    "categoria": "5° Básico",
+    "pregunta": "¿Por qué Diego de Almagro decidió regresar al Cusco después de explorar parte del territorio chileno?",
+    "respuestaCorrecta": "Porque consideró que el territorio no tenía las riquezas esperadas y encontró resistencia indígena"
+  },
+  {
+    "id": 26,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué diferencia importante existió entre las rutas iniciales de Almagro y Valdivia?",
+    "respuestaCorrecta": "Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama"
+  },
+  {
+    "id": 27,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué hecho ocurrió en septiembre de 1541?",
+    "respuestaCorrecta": "El levantamiento dirigido por Michimalonco que atacó y destruyó gran parte de Santiago"
+  },
+  {
+    "id": 28,
+    "categoria": "5° Básico",
+    "pregunta": "¿Por qué la fundación de ciudades fue importante para los conquistadores españoles?",
+    "respuestaCorrecta": "Porque permitía establecer asentamientos permanentes y expresar la intención de permanecer y expandirse en el territorio"
+  },
+  {
+    "id": 29,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué situación permite comprender mejor que la conquista de Chile fue un proceso prolongado?",
+    "respuestaCorrecta": "La resistencia indígena y la necesidad de establecer ciudades y fuertes hicieron que la conquista se extendiera durante décadas"
+  },
+  {
+    "id": 30,
+    "categoria": "5° Básico",
+    "pregunta": "Al comparar las expediciones de Almagro y Valdivia, ¿qué conclusión está mejor fundamentada?",
+    "respuestaCorrecta": "Valdivia enfrentó dificultades geográficas y resistencia indígena, pero continuó el proceso mediante la fundación de ciudades y fuertes"
+  },
+  {
+    "id": 31,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué significa que las colonias americanas fueran dependientes de una metrópoli?",
+    "respuestaCorrecta": "Que dependían de un centro de poder europeo que dirigía aspectos de su administración y economía"
+  },
+  {
+    "id": 32,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál institución colonial española estaba relacionada con el control del comercio entre España y sus territorios americanos?",
+    "respuestaCorrecta": "La Casa de Contratación"
+  },
+  {
+    "id": 33,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál fue un papel importante de la Iglesia católica durante la Colonia?",
+    "respuestaCorrecta": "Participar en la evangelización de la población"
+  },
+  {
+    "id": 34,
+    "categoria": "5° Básico",
+    "pregunta": "¿Cuál afirmación describe mejor a la sociedad colonial?",
+    "respuestaCorrecta": "Era jerárquica y estratificada, y el origen de las personas influía en su posición social"
+  },
+  {
+    "id": 35,
+    "categoria": "5° Básico",
+    "pregunta": "¿Quiénes eran los criollos?",
+    "respuestaCorrecta": "Descendientes de europeos nacidos en América"
+  },
+  {
+    "id": 36,
+    "categoria": "5° Básico",
+    "pregunta": "¿En qué consistía principalmente la encomienda?",
+    "respuestaCorrecta": "En entregar un grupo de indígenas a un encomendero para que prestara servicios o pagara tributos, junto con obligaciones de evangelización y protección"
+  },
+  {
+    "id": 37,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué objetivo tuvieron las tasas dictadas por la Corona española respecto del trabajo indígena?",
+    "respuestaCorrecta": "Regular las condiciones y formas del trabajo indígena y limitar ciertos abusos"
+  },
+  {
+    "id": 38,
+    "categoria": "5° Básico",
+    "pregunta": "Un estudiante compara a peninsulares, criollos, mestizos, indígenas y personas de origen africano. ¿Qué conclusión es más adecuada?",
+    "respuestaCorrecta": "La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo"
+  },
+  {
+    "id": 39,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué relación existe entre mestizaje y sincretismo cultural durante la Colonia?",
+    "respuestaCorrecta": "Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial"
+  },
+  {
+    "id": 40,
+    "categoria": "5° Básico",
+    "pregunta": "¿Qué afirmación explica mejor la importancia de la frontera hispano-mapuche durante la Colonia en Chile?",
+    "respuestaCorrecta": "Fue un espacio de contacto, conflicto, intercambio y negociación entre distintas comunidades"
   }
 ]
