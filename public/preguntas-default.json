@@ -1,92 +1,242 @@
 [
   {
     "id": 1,
-    "categoria": "Historia de Chile",
-    "pregunta": "¿En qué año se firmó el Acta de Independencia de Chile?",
-    "respuestaCorrecta": "1818"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cuál es el segundo continente más extenso del mundo, después de Asia?",
+    "respuestaCorrecta": "América"
   },
   {
     "id": 2,
-    "categoria": "Historia de Chile",
-    "pregunta": "¿Quién fue el primer presidente de Chile tras la organización de la República?",
-    "respuestaCorrecta": "Manuel Blanco Encalada (1826)"
+    "categoria": "4° Básico",
+    "pregunta": "¿En cuántas grandes regiones se divide el continente americano?",
+    "respuestaCorrecta": "Tres"
   },
   {
     "id": 3,
-    "categoria": "Historia de Chile",
-    "pregunta": "¿Cómo se denomina el período comprendido entre 1810 y 1817 en la historia de Chile?",
-    "respuestaCorrecta": "La Patria Vieja"
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué océano limita al continente americano por el oeste?",
+    "respuestaCorrecta": "Pacífico"
   },
   {
     "id": 4,
-    "categoria": "Historia de Chile",
-    "pregunta": "¿Qué batalla consolidó la Independencia de Chile en 1818?",
-    "respuestaCorrecta": "La Batalla de Maipú (5 de abril de 1818)"
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué océano limita al continente americano por el este?",
+    "respuestaCorrecta": "Atlántico"
   },
   {
     "id": 5,
-    "categoria": "Historia Universal",
-    "pregunta": "¿En qué año cayó el Imperio Romano de Occidente?",
-    "respuestaCorrecta": "476 d.C."
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llama la línea imaginaria que divide a la Tierra en hemisferio norte y hemisferio sur?",
+    "respuestaCorrecta": "Línea del Ecuador"
   },
   {
     "id": 6,
-    "categoria": "Historia Universal",
-    "pregunta": "¿Qué evento histórico desencadenó el inicio de la Primera Guerra Mundial en 1914?",
-    "respuestaCorrecta": "El asesinato del archiduque Francisco Fernando de Austria en Sarajevo (28 de junio de 1914)"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llaman las líneas imaginarias que cruzan el planeta de forma vertical y sirven para medir la longitud?",
+    "respuestaCorrecta": "Meridianos"
   },
   {
     "id": 7,
-    "categoria": "Historia Universal",
-    "pregunta": "¿Cuál fue el primer país del mundo en otorgar el derecho a voto a la mujer a nivel nacional?",
-    "respuestaCorrecta": "Nueva Zelanda (1893)"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba el gobernante de cada ciudad-Estado maya?",
+    "respuestaCorrecta": "Ajaw"
   },
   {
     "id": 8,
-    "categoria": "Historia de América",
-    "pregunta": "¿En qué año llegó Cristóbal Colón a América y qué isla tocó primero?",
-    "respuestaCorrecta": "1492; tocó la isla Guanahaní (actual San Salvador, Bahamas)"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cuál era la ciudad principal del Imperio azteca, desde donde gobernaba el Tlatoani?",
+    "respuestaCorrecta": "Tenochtitlan"
   },
   {
     "id": 9,
-    "categoria": "Historia de América",
-    "pregunta": "¿Qué civilización construyó Machu Picchu y en qué período aproximado?",
-    "respuestaCorrecta": "Los Incas, en el siglo XV (circa 1450 d.C.)"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba el gobernante supremo del Imperio azteca?",
+    "respuestaCorrecta": "Tlatoani"
   },
   {
     "id": 10,
-    "categoria": "Historia de América",
-    "pregunta": "¿Cuál fue la causa principal de la Guerra del Pacífico (1879–1884) y qué países participaron?",
-    "respuestaCorrecta": "Disputas por territorios ricos en salitre y guano; participaron Chile, Bolivia y Perú"
+    "categoria": "4° Básico",
+    "pregunta": "¿En qué región de América se desarrolló la civilización Inca?",
+    "respuestaCorrecta": "Andes Centrales"
   },
   {
     "id": 11,
-    "categoria": "Historia Universal",
-    "pregunta": "¿Qué documento firmado en 1215 limitó el poder del rey inglés y sentó bases del constitucionalismo?",
-    "respuestaCorrecta": "La Carta Magna, firmada por el rey Juan I de Inglaterra"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cuál era la ciudad que servía de capital al Imperio inca?",
+    "respuestaCorrecta": "Cusco"
   },
   {
     "id": 12,
-    "categoria": "Historia de Chile",
-    "pregunta": "¿Qué fue la Guerra Civil chilena de 1891 y cuál fue su resultado?",
-    "respuestaCorrecta": "Conflicto entre el Congreso y el Presidente Balmaceda; triunfó el Congreso y Balmaceda se suicidó"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba el gobernante supremo del Imperio inca?",
+    "respuestaCorrecta": "Sapa Inca"
   },
   {
     "id": 13,
-    "categoria": "Historia Universal",
-    "pregunta": "¿Qué revolución ocurrió en Francia en 1789 y cuál fue su lema principal?",
-    "respuestaCorrecta": "La Revolución Francesa; lema: Libertad, Igualdad, Fraternidad"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cuál fue el principal cultivo y alimento base de mayas y aztecas?",
+    "respuestaCorrecta": "Maíz"
   },
   {
     "id": 14,
-    "categoria": "Historia de América",
-    "pregunta": "¿Quién fue Simón Bolívar y qué países liberó de la dominación española?",
-    "respuestaCorrecta": "El Libertador; liberó Venezuela, Colombia, Ecuador, Perú y Bolivia"
+    "categoria": "4° Básico",
+    "pregunta": "¿Cuál de los siguientes recursos naturales es renovable?",
+    "respuestaCorrecta": "Agua"
   },
   {
     "id": 15,
-    "categoria": "Historia Universal",
-    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial y cuáles fueron los tratados de paz más importantes?",
-    "respuestaCorrecta": "1945; rendición de Alemania (8 de mayo) y de Japón (2 de septiembre); Conferencia de Potsdam y Tratado de San Francisco"
+    "categoria": "4° Básico",
+    "pregunta": "Para determinar la ubicación absoluta de un lugar en un mapa, ¿qué se necesita conocer?",
+    "respuestaCorrecta": "La latitud y la longitud"
+  },
+  {
+    "id": 16,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué tipo de paisaje se ubica cerca del círculo polar ártico, con abundante nieve y escasa vegetación?",
+    "respuestaCorrecta": "Paisaje polar"
+  },
+  {
+    "id": 17,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llama el sistema agrícola maya que consistía en talar y quemar la vegetación para preparar la tierra de cultivo?",
+    "respuestaCorrecta": "Tala y roza"
+  },
+  {
+    "id": 18,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaban las islas artificiales de cultivo que los aztecas construyeron en el lago Texcoco?",
+    "respuestaCorrecta": "Chinampas"
+  },
+  {
+    "id": 19,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué forma de organización política tuvo la civilización azteca?",
+    "respuestaCorrecta": "Un imperio centralizado"
+  },
+  {
+    "id": 20,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué civilización mesoamericana fue la primera en utilizar el número cero?",
+    "respuestaCorrecta": "Maya"
+  },
+  {
+    "id": 21,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaban los documentos o libros manuscritos mesoamericanos hechos con signos llamados glifos?",
+    "respuestaCorrecta": "Códices"
+  },
+  {
+    "id": 22,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba la extensa red de caminos construida por los incas para conectar su imperio?",
+    "respuestaCorrecta": "Qhapaq Ñan"
+  },
+  {
+    "id": 23,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaban los funcionarios incas encargados de transmitir mensajes y noticias a lo largo de los caminos del imperio?",
+    "respuestaCorrecta": "Chasquis"
+  },
+  {
+    "id": 24,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué instrumento de cuerdas y nudos utilizaban los incas para llevar registros y contabilidad?",
+    "respuestaCorrecta": "Quipu"
+  },
+  {
+    "id": 25,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba la comunidad inca formada por un grupo de familias con un antepasado común?",
+    "respuestaCorrecta": "Ayllu"
+  },
+  {
+    "id": 26,
+    "categoria": "4° Básico",
+    "pregunta": "¿Cómo se llamaba el sistema de trabajo por turnos que los incas imponían a los pueblos conquistados?",
+    "respuestaCorrecta": "Mita"
+  },
+  {
+    "id": 27,
+    "categoria": "4° Básico",
+    "pregunta": "En el Imperio inca, ¿a quién pertenecía la tierra, su principal recurso económico?",
+    "respuestaCorrecta": "Al Sapa Inca"
+  },
+  {
+    "id": 28,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué diferencia principal existe entre los recursos naturales renovables y los no renovables?",
+    "respuestaCorrecta": "El tiempo que tardan en regenerarse"
+  },
+  {
+    "id": 29,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios azteca era considerado dios de la guerra y del sol?",
+    "respuestaCorrecta": "Huitzilopochtli"
+  },
+  {
+    "id": 30,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios azteca era considerado dios del viento y creador de los seres humanos?",
+    "respuestaCorrecta": "Quetzalcoatl"
+  },
+  {
+    "id": 31,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios maya era considerado señor de los cielos y protector de los seres humanos?",
+    "respuestaCorrecta": "Itzamná"
+  },
+  {
+    "id": 32,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios maya era el señor de las lluvias?",
+    "respuestaCorrecta": "Chaac"
+  },
+  {
+    "id": 33,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios inca era considerado el creador del universo, de los hombres y del ganado?",
+    "respuestaCorrecta": "Viracocha"
+  },
+  {
+    "id": 34,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios inca era el Sol, padre de los incas, y regía el ciclo agrícola?",
+    "respuestaCorrecta": "Inti"
+  },
+  {
+    "id": 35,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué diosa inca representaba a la Tierra?",
+    "respuestaCorrecta": "Pachamama"
+  },
+  {
+    "id": 36,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué dios inca gobernaba el rayo y la lluvia?",
+    "respuestaCorrecta": "Illapa"
+  },
+  {
+    "id": 37,
+    "categoria": "4° Básico",
+    "pregunta": "Según el mito inca, ¿quiénes fueron enviados por el dios Inti para enseñar a los hombres a cultivar y fundar el Cusco?",
+    "respuestaCorrecta": "Manco Cápac y Mama Ocllo"
+  },
+  {
+    "id": 38,
+    "categoria": "4° Básico",
+    "pregunta": "¿Qué significa la palabra \"Tahuantinsuyo\", nombre del Imperio inca?",
+    "respuestaCorrecta": "Las cuatro regiones unidas"
+  },
+  {
+    "id": 39,
+    "categoria": "4° Básico",
+    "pregunta": "En la sociedad inca, ¿qué eran los \"yanaconas\"?",
+    "respuestaCorrecta": "Personas que trabajaban de por vida en labores domésticas o pesadas"
+  },
+  {
+    "id": 40,
+    "categoria": "4° Básico",
+    "pregunta": "En la sociedad inca, ¿quién era la Coya?",
+    "respuestaCorrecta": "La esposa del Sapa Inca, considerada un ser sagrado"
   }
 ]
