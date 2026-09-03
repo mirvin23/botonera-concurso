@@ -1,722 +1,482 @@
 [
-  {
-    "id": 1,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cuál es el segundo continente más extenso del mundo, después de Asia?",
-    "respuestaCorrecta": "América"
-  },
-  {
-    "id": 2,
-    "categoria": "4° Básico",
-    "pregunta": "¿En cuántas grandes regiones se divide el continente americano?",
-    "respuestaCorrecta": "Tres"
-  },
-  {
-    "id": 3,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué océano limita al continente americano por el oeste?",
-    "respuestaCorrecta": "Pacífico"
-  },
-  {
-    "id": 4,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué océano limita al continente americano por el este?",
-    "respuestaCorrecta": "Atlántico"
-  },
-  {
-    "id": 5,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llama la línea imaginaria que divide a la Tierra en hemisferio norte y hemisferio sur?",
-    "respuestaCorrecta": "Línea del Ecuador"
-  },
-  {
-    "id": 6,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llaman las líneas imaginarias que cruzan el planeta de forma vertical y sirven para medir la longitud?",
-    "respuestaCorrecta": "Meridianos"
-  },
-  {
-    "id": 7,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba el gobernante de cada ciudad-Estado maya?",
-    "respuestaCorrecta": "Ajaw"
-  },
-  {
-    "id": 8,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cuál era la ciudad principal del Imperio azteca, desde donde gobernaba el Tlatoani?",
-    "respuestaCorrecta": "Tenochtitlan"
-  },
-  {
-    "id": 9,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba el gobernante supremo del Imperio azteca?",
-    "respuestaCorrecta": "Tlatoani"
-  },
-  {
-    "id": 10,
-    "categoria": "4° Básico",
-    "pregunta": "¿En qué región de América se desarrolló la civilización Inca?",
-    "respuestaCorrecta": "Andes Centrales"
-  },
-  {
-    "id": 11,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cuál era la ciudad que servía de capital al Imperio inca?",
-    "respuestaCorrecta": "Cusco"
-  },
-  {
-    "id": 12,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba el gobernante supremo del Imperio inca?",
-    "respuestaCorrecta": "Sapa Inca"
-  },
-  {
-    "id": 13,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cuál fue el principal cultivo y alimento base de mayas y aztecas?",
-    "respuestaCorrecta": "Maíz"
-  },
-  {
-    "id": 14,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cuál de los siguientes recursos naturales es renovable?",
-    "respuestaCorrecta": "Agua"
-  },
-  {
-    "id": 15,
-    "categoria": "4° Básico",
-    "pregunta": "Para determinar la ubicación absoluta de un lugar en un mapa, ¿qué se necesita conocer?",
-    "respuestaCorrecta": "La latitud y la longitud"
-  },
-  {
-    "id": 16,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué tipo de paisaje se ubica cerca del círculo polar ártico, con abundante nieve y escasa vegetación?",
-    "respuestaCorrecta": "Paisaje polar"
-  },
-  {
-    "id": 17,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llama el sistema agrícola maya que consistía en talar y quemar la vegetación para preparar la tierra de cultivo?",
-    "respuestaCorrecta": "Tala y roza"
-  },
-  {
-    "id": 18,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaban las islas artificiales de cultivo que los aztecas construyeron en el lago Texcoco?",
-    "respuestaCorrecta": "Chinampas"
-  },
-  {
-    "id": 19,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué forma de organización política tuvo la civilización azteca?",
-    "respuestaCorrecta": "Un imperio centralizado"
-  },
-  {
-    "id": 20,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué civilización mesoamericana fue la primera en utilizar el número cero?",
-    "respuestaCorrecta": "Maya"
-  },
-  {
-    "id": 21,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaban los documentos o libros manuscritos mesoamericanos hechos con signos llamados glifos?",
-    "respuestaCorrecta": "Códices"
-  },
-  {
-    "id": 22,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba la extensa red de caminos construida por los incas para conectar su imperio?",
-    "respuestaCorrecta": "Qhapaq Ñan"
-  },
-  {
-    "id": 23,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaban los funcionarios incas encargados de transmitir mensajes y noticias a lo largo de los caminos del imperio?",
-    "respuestaCorrecta": "Chasquis"
-  },
-  {
-    "id": 24,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué instrumento de cuerdas y nudos utilizaban los incas para llevar registros y contabilidad?",
-    "respuestaCorrecta": "Quipu"
-  },
-  {
-    "id": 25,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba la comunidad inca formada por un grupo de familias con un antepasado común?",
-    "respuestaCorrecta": "Ayllu"
-  },
-  {
-    "id": 26,
-    "categoria": "4° Básico",
-    "pregunta": "¿Cómo se llamaba el sistema de trabajo por turnos que los incas imponían a los pueblos conquistados?",
-    "respuestaCorrecta": "Mita"
-  },
-  {
-    "id": 27,
-    "categoria": "4° Básico",
-    "pregunta": "En el Imperio inca, ¿a quién pertenecía la tierra, su principal recurso económico?",
-    "respuestaCorrecta": "Al Sapa Inca"
-  },
-  {
-    "id": 28,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué diferencia principal existe entre los recursos naturales renovables y los no renovables?",
-    "respuestaCorrecta": "El tiempo que tardan en regenerarse"
-  },
-  {
-    "id": 29,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios azteca era considerado dios de la guerra y del sol?",
-    "respuestaCorrecta": "Huitzilopochtli"
-  },
-  {
-    "id": 30,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios azteca era considerado dios del viento y creador de los seres humanos?",
-    "respuestaCorrecta": "Quetzalcoatl"
-  },
-  {
-    "id": 31,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios maya era considerado señor de los cielos y protector de los seres humanos?",
-    "respuestaCorrecta": "Itzamná"
-  },
-  {
-    "id": 32,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios maya era el señor de las lluvias?",
-    "respuestaCorrecta": "Chaac"
-  },
-  {
-    "id": 33,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios inca era considerado el creador del universo, de los hombres y del ganado?",
-    "respuestaCorrecta": "Viracocha"
-  },
-  {
-    "id": 34,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios inca era el Sol, padre de los incas, y regía el ciclo agrícola?",
-    "respuestaCorrecta": "Inti"
-  },
-  {
-    "id": 35,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué diosa inca representaba a la Tierra?",
-    "respuestaCorrecta": "Pachamama"
-  },
-  {
-    "id": 36,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué dios inca gobernaba el rayo y la lluvia?",
-    "respuestaCorrecta": "Illapa"
-  },
-  {
-    "id": 37,
-    "categoria": "4° Básico",
-    "pregunta": "Según el mito inca, ¿quiénes fueron enviados por el dios Inti para enseñar a los hombres a cultivar y fundar el Cusco?",
-    "respuestaCorrecta": "Manco Cápac y Mama Ocllo"
-  },
-  {
-    "id": 38,
-    "categoria": "4° Básico",
-    "pregunta": "¿Qué significa la palabra \"Tahuantinsuyo\", nombre del Imperio inca?",
-    "respuestaCorrecta": "Las cuatro regiones unidas"
-  },
-  {
-    "id": 39,
-    "categoria": "4° Básico",
-    "pregunta": "En la sociedad inca, ¿qué eran los \"yanaconas\"?",
-    "respuestaCorrecta": "Personas que trabajaban de por vida en labores domésticas o pesadas"
-  },
-  {
-    "id": 40,
-    "categoria": "4° Básico",
-    "pregunta": "En la sociedad inca, ¿quién era la Coya?",
-    "respuestaCorrecta": "La esposa del Sapa Inca, considerada un ser sagrado"
-  },
-  {
-    "id": 1,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál es una característica fundamental de Chile como república democrática?",
-    "respuestaCorrecta": "Las autoridades son elegidas periódicamente por la ciudadanía"
-  },
-  {
-    "id": 2,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué función cumple principalmente la Constitución Política de un país?",
-    "respuestaCorrecta": "Establecer la organización del Estado y reconocer derechos y deberes"
-  },
-  {
-    "id": 3,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?",
-    "respuestaCorrecta": "El Presidente de la República"
-  },
-  {
-    "id": 4,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué institución forma parte del Poder Legislativo?",
-    "respuestaCorrecta": "El Congreso Nacional"
-  },
-  {
-    "id": 5,
-    "categoria": "6° Básico",
-    "pregunta": "¿Por qué es importante la división de los poderes del Estado?",
-    "respuestaCorrecta": "Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder"
-  },
-  {
-    "id": 6,
-    "categoria": "6° Básico",
-    "pregunta": "Una comunidad se organiza para presentar una petición a la municipalidad sobre un problema de su barrio. ¿Qué tipo de participación representa principalmente?",
-    "respuestaCorrecta": "Participación comunitaria"
-  },
-  {
-    "id": 7,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué característica permite considerar democrática una elección?",
-    "respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
-  },
-  {
-    "id": 8,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál situación representa mejor la participación ciudadana?",
-    "respuestaCorrecta": "Una persona se informa, opina fundamentadamente y participa en una organización comunitaria"
-  },
-  {
-    "id": 9,
-    "categoria": "6° Básico",
-    "pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?",
-    "respuestaCorrecta": "La división de poderes del Estado"
-  },
-  {
-    "id": 10,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué relación existe entre la representación popular y las elecciones periódicas?",
-    "respuestaCorrecta": "Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada"
-  },
-  {
-    "id": 11,
-    "categoria": "6° Básico",
-    "pregunta": "Un grupo de estudiantes quiere fortalecer la convivencia democrática en su curso. ¿Cuál acción se relaciona mejor con los principios estudiados?",
-    "respuestaCorrecta": "Dialogar, escuchar distintas opiniones y buscar acuerdos"
-  },
-  {
-    "id": 12,
-    "categoria": "6° Básico",
-    "pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?",
-    "respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
-  },
-  {
-    "id": 13,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué acontecimiento dio inicio al proceso de independencia de Chile en 1810?",
-    "respuestaCorrecta": "La formación de la Primera Junta Nacional de Gobierno"
-  },
-  {
-    "id": 14,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál fue una causa externa que favoreció el inicio de los procesos de independencia hispanoamericanos?",
-    "respuestaCorrecta": "La invasión napoleónica a España"
-  },
-  {
-    "id": 15,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué batalla de 1814 marcó el fin de la Patria Vieja?",
-    "respuestaCorrecta": "Rancagua"
-  },
-  {
-    "id": 16,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?",
-    "respuestaCorrecta": "La proclamación de la Independencia de Chile"
-  },
-  {
-    "id": 17,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál secuencia presenta correctamente las principales etapas del proceso de independencia de Chile?",
-    "respuestaCorrecta": "Patria Vieja → Reconquista → Patria Nueva"
-  },
-  {
-    "id": 18,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué característica tuvo la Patria Nueva?",
-    "respuestaCorrecta": "El regreso de los patriotas al poder y la consolidación de la independencia"
-  },
-  {
-    "id": 19,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?",
-    "respuestaCorrecta": "Organizar políticamente la nueva república"
-  },
-  {
-    "id": 20,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué característica distinguió al período conservador iniciado en 1830?",
-    "respuestaCorrecta": "Un Estado fuerte, centralizado y con un marcado autoritarismo político"
-  },
-  {
-    "id": 21,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué importancia tuvo la Constitución de 1833 durante el período conservador?",
-    "respuestaCorrecta": "Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador"
-  },
-  {
-    "id": 22,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál fue uno de los principales objetivos de las reformas liberales de la segunda mitad del siglo XIX?",
-    "respuestaCorrecta": "Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades"
-  },
-  {
-    "id": 23,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué ejemplo corresponde a una de las llamadas Leyes Laicas?",
-    "respuestaCorrecta": "La creación del Registro Civil"
-  },
-  {
-    "id": 24,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué relación existe entre la Guerra del Pacífico y la conformación territorial de Chile en el siglo XIX?",
-    "respuestaCorrecta": "Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta"
-  },
-  {
-    "id": 25,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál alternativa relaciona correctamente un proceso territorial del siglo XIX con su forma principal de incorporación?",
-    "respuestaCorrecta": "Valdivia y Llanquihue - colonización"
-  },
-  {
-    "id": 26,
-    "categoria": "6° Básico",
-    "pregunta": "Un historiador afirma que la construcción del Estado-nación chileno fue un proceso de cambios políticos y territoriales. ¿Cuál evidencia apoya mejor esa afirmación?",
-    "respuestaCorrecta": "Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio"
-  },
-  {
-    "id": 27,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué proceso describe mejor la democratización de la sociedad chilena durante el siglo XX?",
-    "respuestaCorrecta": "La incorporación progresiva de distintos grupos a la participación política y social"
-  },
-  {
-    "id": 28,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué actividad económica generó importantes ingresos para el Estado chileno a fines del siglo XIX e inicios del XX?",
-    "respuestaCorrecta": "La explotación del salitre"
-  },
-  {
-    "id": 29,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?",
-    "respuestaCorrecta": "Sectores medios"
-  },
-  {
-    "id": 30,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué avance fue fundamental para ampliar la participación política de las mujeres durante el siglo XX?",
-    "respuestaCorrecta": "El reconocimiento del derecho a sufragio femenino"
-  },
-  {
-    "id": 31,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué característica tuvo el rol del Estado chileno entre las décadas de 1920 y 1970?",
-    "respuestaCorrecta": "Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación"
-  },
-  {
-    "id": 32,
-    "categoria": "6° Básico",
-    "pregunta": "¿Por qué la expansión de la radio fue importante para la sociedad chilena?",
-    "respuestaCorrecta": "Porque permitió difundir información y cultura a un público amplio"
-  },
-  {
-    "id": 33,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué situación caracterizó la política chilena entre 1958 y 1973?",
-    "respuestaCorrecta": "Una creciente polarización entre distintos sectores políticos y sociales"
-  },
-  {
-    "id": 34,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué medida relacionada con la minería del cobre ocurrió durante el gobierno de Salvador Allende?",
-    "respuestaCorrecta": "La nacionalización y estatización del cobre"
-  },
-  {
-    "id": 35,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?",
-    "respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
-  },
-  {
-    "id": 36,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?",
-    "respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
-  },
-  {
-    "id": 37,
-    "categoria": "6° Básico",
-    "pregunta": "¿Por qué el respeto de los derechos humanos es especialmente importante al estudiar el período de dictadura militar?",
-    "respuestaCorrecta": "Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan"
-  },
-  {
-    "id": 38,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?",
-    "respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
-  },
-  {
-    "id": 39,
-    "categoria": "6° Básico",
-    "pregunta": "¿Qué acontecimiento fue decisivo para iniciar el proceso de recuperación de la democracia a fines del siglo XX?",
-    "respuestaCorrecta": "El plebiscito de 1988"
-  },
-  {
-    "id": 40,
-    "categoria": "6° Básico",
-    "pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?",
-    "respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
-  },
-  {
-    "id": 1,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuáles son las cinco grandes zonas naturales de Chile?",
-    "respuestaCorrecta": "Norte Grande, Norte Chico, Zona Central, Zona Sur y Zona Austral"
-  },
-  {
-    "id": 2,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál de los siguientes corresponde a una unidad del relieve chileno?",
-    "respuestaCorrecta": "La cordillera de los Andes"
-  },
-  {
-    "id": 3,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál de los siguientes es un recurso natural no renovable?",
-    "respuestaCorrecta": "El cobre"
-  },
-  {
-    "id": 4,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué concepto corresponde al conjunto y variedad de seres vivos presentes en un ambiente natural?",
-    "respuestaCorrecta": "Biodiversidad"
-  },
-  {
-    "id": 5,
-    "categoria": "5° Básico",
-    "pregunta": "¿Por qué los paisajes del Norte Grande son, en general, muy secos?",
-    "respuestaCorrecta": "Porque predominan las condiciones del clima desértico, con escasas precipitaciones"
-  },
-  {
-    "id": 6,
-    "categoria": "5° Básico",
-    "pregunta": "Un estudiante observa un paisaje con abundantes lagos, ríos, bosques y volcanes. ¿Qué zona natural es más probable que esté observando?",
-    "respuestaCorrecta": "Zona Sur"
-  },
-  {
-    "id": 7,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué característica distingue al Norte Chico del Norte Grande?",
-    "respuestaCorrecta": "El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal"
-  },
-  {
-    "id": 8,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué relación entre clima y biodiversidad es correcta?",
-    "respuestaCorrecta": "Las condiciones climáticas de una zona influyen en los tipos de vegetación y fauna que pueden vivir allí"
-  },
-  {
-    "id": 9,
-    "categoria": "5° Básico",
-    "pregunta": "Un mapa muestra que una especie vegetal aparece solamente en un sector de la Zona Sur y no en todo Chile. ¿Qué conclusión es más adecuada?",
-    "respuestaCorrecta": "La distribución de la biodiversidad puede variar según las condiciones geográficas de cada lugar"
-  },
-  {
-    "id": 10,
-    "categoria": "5° Básico",
-    "pregunta": "Una comunidad desea utilizar un recurso natural sin agotarlo y procurando que siga disponible para el futuro. ¿Qué principio está aplicando?",
-    "respuestaCorrecta": "Desarrollo sostenible"
-  },
-  {
-    "id": 11,
-    "categoria": "5° Básico",
-    "pregunta": "En una zona con alta actividad volcánica, la comunidad organiza rutas de evacuación y realiza simulacros. ¿Qué objetivo está cumpliendo principalmente?",
-    "respuestaCorrecta": "Prepararse para enfrentar un riesgo natural"
-  },
-  {
-    "id": 12,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál afirmación explica mejor por qué Chile presenta una gran diversidad de paisajes?",
-    "respuestaCorrecta": "Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad"
-  },
-  {
-    "id": 13,
-    "categoria": "5° Básico",
-    "pregunta": "¿En qué siglo comenzó en Europa el proceso de expansión que impulsó los viajes de exploración ultramarina estudiados en 5° Básico?",
-    "respuestaCorrecta": "Siglo XV"
-  },
-  {
-    "id": 14,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál era uno de los principales objetivos de los viajes europeos de exploración?",
-    "respuestaCorrecta": "Encontrar nuevas rutas comerciales"
-  },
-  {
-    "id": 15,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál de estos instrumentos ayudó a perfeccionar la navegación durante los viajes de exploración?",
-    "respuestaCorrecta": "Astrolabio"
-  },
-  {
-    "id": 16,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué diferencia existe entre exploración y conquista?",
-    "respuestaCorrecta": "La exploración se relacionó con la búsqueda de nuevas rutas y territorios, mientras la conquista buscó obtener control sobre ellos"
-  },
-  {
-    "id": 17,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué combinación explica mejor por qué los viajes de exploración fueron posibles?",
-    "respuestaCorrecta": "Avances tecnológicos de navegación y búsqueda de nuevas rutas comerciales"
-  },
-  {
-    "id": 18,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué viaje permitió a los europeos comprobar que era posible atravesar una ruta marítima alrededor del extremo sur de América?",
-    "respuestaCorrecta": "La expedición de Hernando de Magallanes, completada por Sebastián Elcano"
-  },
-  {
-    "id": 19,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál de los siguientes era un objetivo de la Corona española durante la conquista de América?",
-    "respuestaCorrecta": "Evangelizar, incorporar territorios y obtener riquezas"
-  },
-  {
-    "id": 20,
-    "categoria": "5° Básico",
-    "pregunta": "Un historiador señala que la conquista de América no puede explicarse por una sola causa. ¿Cuál situación apoya mejor esta idea?",
-    "respuestaCorrecta": "La conquista estuvo relacionada con factores militares, alianzas, conflictos internos, enfermedades y otros elementos"
-  },
-  {
-    "id": 21,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál fue una consecuencia demográfica importante de la conquista y colonización para numerosos pueblos indígenas americanos?",
-    "respuestaCorrecta": "Una fuerte disminución de la población, relacionada con enfermedades, violencia, explotación y otros factores"
-  },
-  {
-    "id": 22,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué idea permite comprender mejor el concepto de 'choque cultural' estudiado en la unidad?",
-    "respuestaCorrecta": "El encuentro entre sociedades con formas de vida, creencias y costumbres diferentes produjo profundas transformaciones"
-  },
-  {
-    "id": 23,
-    "categoria": "5° Básico",
-    "pregunta": "¿Quién encabezó la expedición que llegó al valle del río Mapocho y fundó Santiago de la Nueva Extremadura?",
-    "respuestaCorrecta": "Pedro de Valdivia"
-  },
-  {
-    "id": 24,
-    "categoria": "5° Básico",
-    "pregunta": "¿En qué año fue fundada Santiago de la Nueva Extremadura?",
-    "respuestaCorrecta": "1541"
-  },
-  {
-    "id": 25,
-    "categoria": "5° Básico",
-    "pregunta": "¿Por qué Diego de Almagro decidió regresar al Cusco después de explorar parte del territorio chileno?",
-    "respuestaCorrecta": "Porque consideró que el territorio no tenía las riquezas esperadas y encontró resistencia indígena"
-  },
-  {
-    "id": 26,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué diferencia importante existió entre las rutas iniciales de Almagro y Valdivia?",
-    "respuestaCorrecta": "Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama"
-  },
-  {
-    "id": 27,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué hecho ocurrió en septiembre de 1541?",
-    "respuestaCorrecta": "El levantamiento dirigido por Michimalonco que atacó y destruyó gran parte de Santiago"
-  },
-  {
-    "id": 28,
-    "categoria": "5° Básico",
-    "pregunta": "¿Por qué la fundación de ciudades fue importante para los conquistadores españoles?",
-    "respuestaCorrecta": "Porque permitía establecer asentamientos permanentes y expresar la intención de permanecer y expandirse en el territorio"
-  },
-  {
-    "id": 29,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué situación permite comprender mejor que la conquista de Chile fue un proceso prolongado?",
-    "respuestaCorrecta": "La resistencia indígena y la necesidad de establecer ciudades y fuertes hicieron que la conquista se extendiera durante décadas"
-  },
-  {
-    "id": 30,
-    "categoria": "5° Básico",
-    "pregunta": "Al comparar las expediciones de Almagro y Valdivia, ¿qué conclusión está mejor fundamentada?",
-    "respuestaCorrecta": "Valdivia enfrentó dificultades geográficas y resistencia indígena, pero continuó el proceso mediante la fundación de ciudades y fuertes"
-  },
-  {
-    "id": 31,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué significa que las colonias americanas fueran dependientes de una metrópoli?",
-    "respuestaCorrecta": "Que dependían de un centro de poder europeo que dirigía aspectos de su administración y economía"
-  },
-  {
-    "id": 32,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál institución colonial española estaba relacionada con el control del comercio entre España y sus territorios americanos?",
-    "respuestaCorrecta": "La Casa de Contratación"
-  },
-  {
-    "id": 33,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál fue un papel importante de la Iglesia católica durante la Colonia?",
-    "respuestaCorrecta": "Participar en la evangelización de la población"
-  },
-  {
-    "id": 34,
-    "categoria": "5° Básico",
-    "pregunta": "¿Cuál afirmación describe mejor a la sociedad colonial?",
-    "respuestaCorrecta": "Era jerárquica y estratificada, y el origen de las personas influía en su posición social"
-  },
-  {
-    "id": 35,
-    "categoria": "5° Básico",
-    "pregunta": "¿Quiénes eran los criollos?",
-    "respuestaCorrecta": "Descendientes de europeos nacidos en América"
-  },
-  {
-    "id": 36,
-    "categoria": "5° Básico",
-    "pregunta": "¿En qué consistía principalmente la encomienda?",
-    "respuestaCorrecta": "En entregar un grupo de indígenas a un encomendero para que prestara servicios o pagara tributos, junto con obligaciones de evangelización y protección"
-  },
-  {
-    "id": 37,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué objetivo tuvieron las tasas dictadas por la Corona española respecto del trabajo indígena?",
-    "respuestaCorrecta": "Regular las condiciones y formas del trabajo indígena y limitar ciertos abusos"
-  },
-  {
-    "id": 38,
-    "categoria": "5° Básico",
-    "pregunta": "Un estudiante compara a peninsulares, criollos, mestizos, indígenas y personas de origen africano. ¿Qué conclusión es más adecuada?",
-    "respuestaCorrecta": "La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo"
-  },
-  {
-    "id": 39,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué relación existe entre mestizaje y sincretismo cultural durante la Colonia?",
-    "respuestaCorrecta": "Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial"
-  },
-  {
-    "id": 40,
-    "categoria": "5° Básico",
-    "pregunta": "¿Qué afirmación explica mejor la importancia de la frontera hispano-mapuche durante la Colonia en Chile?",
-    "respuestaCorrecta": "Fue un espacio de contacto, conflicto, intercambio y negociación entre distintas comunidades"
-  }
+ {
+"id": 1,
+"categoria": "5° Básico",
+"pregunta": "¿Cuáles son las cinco grandes zonas naturales de Chile?\nA) Norte, Centro, Sur, Patagonia y Antártica\nB) Norte Grande, Norte Chico, Zona Central, Zona Sur y Zona Austral\nC) Norte Grande, Zona Andina, Zona Insular, Zona Sur y Zona Austral\nD) Norte Chico, Zona Central, Zona Austral, Rapa Nui y Antártica",
+"respuestaCorrecta": "Norte Grande, Norte Chico, Zona Central, Zona Sur y Zona Austral"
+},
+{
+"id": 2,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál de los siguientes corresponde a una unidad del relieve chileno?\nA) La población\nB) La cordillera de los Andes\nC) La biodiversidad\nD) El clima mediterráneo",
+"respuestaCorrecta": "La cordillera de los Andes"
+},
+{
+"id": 3,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál de los siguientes es un recurso natural no renovable?\nA) El cobre\nB) El agua\nC) Los recursos pesqueros\nD) Los bosques",
+"respuestaCorrecta": "El cobre"
+},
+{
+"id": 4,
+"categoria": "5° Básico",
+"pregunta": "¿Qué concepto corresponde al conjunto y variedad de seres vivos presentes en un ambiente natural?\nA) Hidrografía\nB) Relieve\nC) Biodiversidad\nD) Clima",
+"respuestaCorrecta": "Biodiversidad"
+},
+{
+"id": 5,
+"categoria": "5° Básico",
+"pregunta": "¿Por qué los paisajes del Norte Grande son, en general, muy secos?\nA) Porque recibe lluvias durante todo el año\nB) Porque todos sus ríos tienen un caudal permanente\nC) Porque predominan las condiciones del clima desértico, con escasas precipitaciones\nD) Porque posee abundantes bosques húmedos",
+"respuestaCorrecta": "Porque predominan las condiciones del clima desértico, con escasas precipitaciones"
+},
+{
+"id": 6,
+"categoria": "5° Básico",
+"pregunta": "Un estudiante observa un paisaje con abundantes lagos, ríos, bosques y volcanes. ¿Qué zona natural es más probable que esté observando?\nA) Norte Grande\nB) Norte Chico\nC) Zona Sur\nD) Zona Austral",
+"respuestaCorrecta": "Zona Sur"
+},
+{
+"id": 7,
+"categoria": "5° Básico",
+"pregunta": "¿Qué característica distingue al Norte Chico del Norte Grande?\nA) En el Norte Chico todos los ríos son temporales y no desembocan en el mar\nB) En el Norte Chico predominan los glaciares y fiordos\nC) El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal\nD) El Norte Chico carece de cordillera de los Andes",
+"respuestaCorrecta": "El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal"
+},
+{
+"id": 8,
+"categoria": "5° Básico",
+"pregunta": "¿Qué relación entre clima y biodiversidad es correcta?\nA) El clima no influye en la distribución de los seres vivos\nB) La biodiversidad depende únicamente de la cantidad de habitantes\nC) Las condiciones climáticas de una zona influyen en los tipos de vegetación y fauna que pueden vivir allí\nD) Las especies se distribuyen de la misma manera en todo Chile",
+"respuestaCorrecta": "Las condiciones climáticas de una zona influyen en los tipos de vegetación y fauna que pueden vivir allí"
+},
+{
+"id": 9,
+"categoria": "5° Básico",
+"pregunta": "Un mapa muestra que una especie vegetal aparece solamente en un sector de la Zona Sur y no en todo Chile. ¿Qué conclusión es más adecuada?\nA) Las plantas solo pueden vivir cerca de las ciudades\nB) Las especies se distribuyen de manera homogénea en el territorio\nC) La distribución de la biodiversidad puede variar según las condiciones geográficas de cada lugar\nD) Los mapas no permiten estudiar la biodiversidad",
+"respuestaCorrecta": "La distribución de la biodiversidad puede variar según las condiciones geográficas de cada lugar"
+},
+{
+"id": 10,
+"categoria": "5° Básico",
+"pregunta": "Una comunidad desea utilizar un recurso natural sin agotarlo y procurando que siga disponible para el futuro. ¿Qué principio está aplicando?\nA) Desarrollo sostenible\nB) Aislamiento geográfico\nC) Urbanización\nD) Expansión territorial",
+"respuestaCorrecta": "Desarrollo sostenible"
+},
+{
+"id": 11,
+"categoria": "5° Básico",
+"pregunta": "En una zona con alta actividad volcánica, la comunidad organiza rutas de evacuación y realiza simulacros. ¿Qué objetivo está cumpliendo principalmente?\nA) Modificar el clima local\nB) Aumentar la explotación de recursos\nC) Prepararse para enfrentar un riesgo natural\nD) Reducir la población",
+"respuestaCorrecta": "Prepararse para enfrentar un riesgo natural"
+},
+{
+"id": 12,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál afirmación explica mejor por qué Chile presenta una gran diversidad de paisajes?\nA) Porque todos sus ríos nacen en la costa\nB) Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad\nC) Porque todo el territorio posee el mismo clima\nD) Porque la población está distribuida de manera uniforme",
+"respuestaCorrecta": "Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad"
+},
+{
+"id": 13,
+"categoria": "5° Básico",
+"pregunta": "¿En qué siglo comenzó en Europa el proceso de expansión que impulsó los viajes de exploración ultramarina estudiados en 5° Básico?\nA) Siglo XIV\nB) Siglo XV\nC) Siglo XIII\nD) Siglo XVII",
+"respuestaCorrecta": "Siglo XV"
+},
+{
+"id": 14,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál era uno de los principales objetivos de los viajes europeos de exploración?\nA) Abandonar el comercio marítimo\nB) Encontrar nuevas rutas comerciales\nC) Explorar únicamente el interior de Europa\nD) Evitar todo contacto con otros territorios",
+"respuestaCorrecta": "Encontrar nuevas rutas comerciales"
+},
+{
+"id": 15,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál de estos instrumentos ayudó a perfeccionar la navegación durante los viajes de exploración?\nA) Termómetro\nB) Microscopio\nC) Astrolabio\nD) Telescopio",
+"respuestaCorrecta": "Astrolabio"
+},
+{
+"id": 16,
+"categoria": "5° Básico",
+"pregunta": "¿Qué diferencia existe entre exploración y conquista?\nA) No existe ninguna diferencia entre ambos conceptos\nB) La exploración buscaba ampliar el control mediante las armas y la conquista solo buscaba conocer nuevos territorios\nC) La exploración fue realizada solo por indígenas y la conquista solo por comerciantes\nD) La exploración se relacionó con la búsqueda de nuevas rutas y territorios, mientras la conquista buscó obtener control sobre ellos",
+"respuestaCorrecta": "La exploración se relacionó con la búsqueda de nuevas rutas y territorios, mientras la conquista buscó obtener control sobre ellos"
+},
+{
+"id": 17,
+"categoria": "5° Básico",
+"pregunta": "¿Qué combinación explica mejor por qué los viajes de exploración fueron posibles?\nA) Disminución de los conocimientos geográficos europeos\nB) Ausencia de comercio y rechazo de la navegación\nC) Avances tecnológicos de navegación y búsqueda de nuevas rutas comerciales\nD) Desaparición de las embarcaciones",
+"respuestaCorrecta": "Avances tecnológicos de navegación y búsqueda de nuevas rutas comerciales"
+},
+{
+"id": 18,
+"categoria": "5° Básico",
+"pregunta": "¿Qué viaje permitió a los europeos comprobar que era posible atravesar una ruta marítima alrededor del extremo sur de América?\nA) La expedición de Hernando de Magallanes, completada por Sebastián Elcano\nB) La expedición de Hernán Cortés\nC) El primer viaje de Cristóbal Colón\nD) La expedición de Francisco Pizarro",
+"respuestaCorrecta": "La expedición de Hernando de Magallanes, completada por Sebastián Elcano"
+},
+{
+"id": 19,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál de los siguientes era un objetivo de la Corona española durante la conquista de América?\nA) Evangelizar, incorporar territorios y obtener riquezas\nB) Eliminar todo intercambio entre Europa y América\nC) Impedir la expansión de la religión católica\nD) Abandonar los territorios conquistados inmediatamente",
+"respuestaCorrecta": "Evangelizar, incorporar territorios y obtener riquezas"
+},
+{
+"id": 20,
+"categoria": "5° Básico",
+"pregunta": "Un historiador señala que la conquista de América no puede explicarse por una sola causa. ¿Cuál situación apoya mejor esta idea?\nA) La conquista estuvo relacionada con factores militares, alianzas, conflictos internos, enfermedades y otros elementos\nB) Solo las armas europeas explican todos los resultados\nC) Las condiciones geográficas no tuvieron ninguna importancia\nD) Todos los pueblos indígenas actuaron de la misma manera",
+"respuestaCorrecta": "La conquista estuvo relacionada con factores militares, alianzas, conflictos internos, enfermedades y otros elementos"
+},
+{
+"id": 21,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál fue una consecuencia demográfica importante de la conquista y colonización para numerosos pueblos indígenas americanos?\nA) El traslado de toda la población indígena a Europa\nB) La desaparición de todas las sociedades indígenas\nC) Una fuerte disminución de la población, relacionada con enfermedades, violencia, explotación y otros factores\nD) Un aumento inmediato y general de su población",
+"respuestaCorrecta": "Una fuerte disminución de la población, relacionada con enfermedades, violencia, explotación y otros factores"
+},
+{
+"id": 22,
+"categoria": "5° Básico",
+"pregunta": "¿Qué idea permite comprender mejor el concepto de 'choque cultural' estudiado en la unidad?\nA) Europeos e indígenas tenían exactamente las mismas costumbres\nB) Solo cambiaron las rutas marítimas, pero no las sociedades\nC) El contacto no produjo ningún cambio en las sociedades americanas\nD) El encuentro entre sociedades con formas de vida, creencias y costumbres diferentes produjo profundas transformaciones",
+"respuestaCorrecta": "El encuentro entre sociedades con formas de vida, creencias y costumbres diferentes produjo profundas transformaciones"
+},
+{
+"id": 23,
+"categoria": "5° Básico",
+"pregunta": "¿Quién encabezó la expedición que llegó al valle del río Mapocho y fundó Santiago de la Nueva Extremadura?\nA) Hernán Cortés\nB) Diego de Almagro\nC) Pedro de Valdivia\nD) Francisco Pizarro",
+"respuestaCorrecta": "Pedro de Valdivia"
+},
+{
+"id": 24,
+"categoria": "5° Básico",
+"pregunta": "¿En qué año fue fundada Santiago de la Nueva Extremadura?\nA) 1541\nB) 1608\nC) 1492\nD) 1536",
+"respuestaCorrecta": "1541"
+},
+{
+"id": 25,
+"categoria": "5° Básico",
+"pregunta": "¿Por qué Diego de Almagro decidió regresar al Cusco después de explorar parte del territorio chileno?\nA) Porque Pedro de Valdivia le ordenó abandonar la expedición\nB) Porque consideró que el territorio no tenía las riquezas esperadas y encontró resistencia indígena\nC) Porque Santiago ya había sido fundada\nD) Porque encontró enormes cantidades de oro y decidió regresar para informar al rey",
+"respuestaCorrecta": "Porque consideró que el territorio no tenía las riquezas esperadas y encontró resistencia indígena"
+},
+{
+"id": 26,
+"categoria": "5° Básico",
+"pregunta": "¿Qué diferencia importante existió entre las rutas iniciales de Almagro y Valdivia?\nA) Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama\nB) Valdivia ingresó por la cordillera de los Andes y Almagro por el océano Pacífico\nC) Ambos ingresaron por la misma ruta marítima\nD) Almagro llegó directamente al valle del Mapocho y Valdivia al Cusco",
+"respuestaCorrecta": "Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama"
+},
+{
+"id": 27,
+"categoria": "5° Básico",
+"pregunta": "¿Qué hecho ocurrió en septiembre de 1541?\nA) El inicio de la expedición de Almagro\nB) La fundación de Santiago\nC) La llegada de Colón a América\nD) El levantamiento dirigido por Michimalonco que atacó y destruyó gran parte de Santiago",
+"respuestaCorrecta": "El levantamiento dirigido por Michimalonco que atacó y destruyó gran parte de Santiago"
+},
+{
+"id": 28,
+"categoria": "5° Básico",
+"pregunta": "¿Por qué la fundación de ciudades fue importante para los conquistadores españoles?\nA) Porque eliminaba inmediatamente la resistencia indígena\nB) Porque permitía establecer asentamientos permanentes y expresar la intención de permanecer y expandirse en el territorio\nC) Porque obligaba a los españoles a abandonar el territorio\nD) Porque impedía toda organización política española",
+"respuestaCorrecta": "Porque permitía establecer asentamientos permanentes y expresar la intención de permanecer y expandirse en el territorio"
+},
+{
+"id": 29,
+"categoria": "5° Básico",
+"pregunta": "¿Qué situación permite comprender mejor que la conquista de Chile fue un proceso prolongado?\nA) La Corona española prohibió nuevas expediciones después de 1541\nB) Chile no tenía población indígena\nC) La resistencia indígena y la necesidad de establecer ciudades y fuertes hicieron que la conquista se extendiera durante décadas\nD) Valdivia llegó y conquistó todo el territorio en un solo día",
+"respuestaCorrecta": "La resistencia indígena y la necesidad de establecer ciudades y fuertes hicieron que la conquista se extendiera durante décadas"
+},
+{
+"id": 30,
+"categoria": "5° Básico",
+"pregunta": "Al comparar las expediciones de Almagro y Valdivia, ¿qué conclusión está mejor fundamentada?\nA) Almagro nunca llegó al territorio chileno\nB) Ambas tuvieron exactamente los mismos resultados y dificultades\nC) Valdivia abandonó Chile inmediatamente después de llegar al valle del Mapocho\nD) Valdivia enfrentó dificultades geográficas y resistencia indígena, pero continuó el proceso mediante la fundación de ciudades y fuertes",
+"respuestaCorrecta": "Valdivia enfrentó dificultades geográficas y resistencia indígena, pero continuó el proceso mediante la fundación de ciudades y fuertes"
+},
+{
+"id": 31,
+"categoria": "5° Básico",
+"pregunta": "¿Qué significa que las colonias americanas fueran dependientes de una metrópoli?\nA) Que no tenían ninguna autoridad política\nB) Que dependían de un centro de poder europeo que dirigía aspectos de su administración y economía\nC) Que tenían completa independencia política y económica\nD) Que solo intercambiaban productos con otros territorios americanos",
+"respuestaCorrecta": "Que dependían de un centro de poder europeo que dirigía aspectos de su administración y economía"
+},
+{
+"id": 32,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál institución colonial española estaba relacionada con el control del comercio entre España y sus territorios americanos?\nA) El Cabildo indígena\nB) La Casa de Contratación\nC) La Real Audiencia de Chile\nD) El Parlamento de Quilín",
+"respuestaCorrecta": "La Casa de Contratación"
+},
+{
+"id": 33,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál fue un papel importante de la Iglesia católica durante la Colonia?\nA) Eliminar todas las instituciones coloniales\nB) Gobernar directamente todas las ciudades\nC) Organizar exclusivamente el comercio marítimo\nD) Participar en la evangelización de la población",
+"respuestaCorrecta": "Participar en la evangelización de la población"
+},
+{
+"id": 34,
+"categoria": "5° Básico",
+"pregunta": "¿Cuál afirmación describe mejor a la sociedad colonial?\nA) Era completamente igualitaria\nB) No existían diferencias entre los grupos sociales\nC) Era jerárquica y estratificada, y el origen de las personas influía en su posición social\nD) Estaba formada únicamente por españoles",
+"respuestaCorrecta": "Era jerárquica y estratificada, y el origen de las personas influía en su posición social"
+},
+{
+"id": 35,
+"categoria": "5° Básico",
+"pregunta": "¿Quiénes eran los criollos?\nA) Indígenas que vivían en pueblos de indios\nB) Europeos nacidos exclusivamente en España\nC) Personas de origen africano nacidas únicamente en Europa\nD) Descendientes de europeos nacidos en América",
+"respuestaCorrecta": "Descendientes de europeos nacidos en América"
+},
+{
+"id": 36,
+"categoria": "5° Básico",
+"pregunta": "¿En qué consistía principalmente la encomienda?\nA) En entregar tierras exclusivamente a los indígenas\nB) En prohibir todo trabajo indígena\nC) En permitir que cualquier persona gobernara una colonia\nD) En entregar un grupo de indígenas a un encomendero para que prestara servicios o pagara tributos, junto con obligaciones de evangelización y protección",
+"respuestaCorrecta": "En entregar un grupo de indígenas a un encomendero para que prestara servicios o pagara tributos, junto con obligaciones de evangelización y protección"
+},
+{
+"id": 37,
+"categoria": "5° Básico",
+"pregunta": "¿Qué objetivo tuvieron las tasas dictadas por la Corona española respecto del trabajo indígena?\nA) Regular las condiciones y formas del trabajo indígena y limitar ciertos abusos\nB) Eliminar las actividades agrícolas\nC) Prohibir la evangelización\nD) Eliminar toda regulación sobre el trabajo",
+"respuestaCorrecta": "Regular las condiciones y formas del trabajo indígena y limitar ciertos abusos"
+},
+{
+"id": 38,
+"categoria": "5° Básico",
+"pregunta": "Un estudiante compara a peninsulares, criollos, mestizos, indígenas y personas de origen africano. ¿Qué conclusión es más adecuada?\nA) Todos tenían el mismo acceso al poder político\nB) Los criollos ocupaban siempre los cargos públicos más importantes por encima de los peninsulares\nC) La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo\nD) Los mestizos no existían en la sociedad colonial",
+"respuestaCorrecta": "La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo"
+},
+{
+"id": 39,
+"categoria": "5° Básico",
+"pregunta": "¿Qué relación existe entre mestizaje y sincretismo cultural durante la Colonia?\nA) No tuvieron ninguna relación con el encuentro entre europeos, indígenas y africanos\nB) Ambos significan exclusivamente la desaparición de las culturas indígenas\nC) Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial\nD) El mestizaje se refiere solo al comercio y el sincretismo solo a la agricultura",
+"respuestaCorrecta": "Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial"
+},
+{
+"id": 40,
+"categoria": "5° Básico",
+"pregunta": "¿Qué afirmación explica mejor la importancia de la frontera hispano-mapuche durante la Colonia en Chile?\nA) Fue un espacio de contacto, conflicto, intercambio y negociación entre distintas comunidades\nB) Fue una zona sin población ni intercambio\nC) Fue un límite que impidió cualquier relación entre españoles y mapuche\nD) Fue una región controlada completamente por la Corona desde el inicio de la conquista",
+"respuestaCorrecta": "Fue un espacio de contacto, conflicto, intercambio y negociación entre distintas comunidades"
+},
+{
+"id": 1,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál es una característica fundamental de Chile como república democrática?\nA) Las leyes dependen de la decisión de una sola persona\nB) Las autoridades son elegidas periódicamente por la ciudadanía\nC) El poder se concentra permanentemente en una sola autoridad\nD) No existen instituciones que regulen el poder",
+"respuestaCorrecta": "Las autoridades son elegidas periódicamente por la ciudadanía"
+},
+{
+"id": 2,
+"categoria": "6° Básico",
+"pregunta": "¿Qué función cumple principalmente la Constitución Política de un país?\nA) Reemplazar todas las leyes del país\nB) Elegir directamente a todas las autoridades\nC) Organizar solamente las elecciones\nD) Establecer la organización del Estado y reconocer derechos y deberes",
+"respuestaCorrecta": "Establecer la organización del Estado y reconocer derechos y deberes"
+},
+{
+"id": 3,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?\nA) El Congreso Nacional\nB) El Presidente de la República\nC) La Corte Suprema\nD) Los tribunales de justicia",
+"respuestaCorrecta": "El Presidente de la República"
+},
+{
+"id": 4,
+"categoria": "6° Básico",
+"pregunta": "¿Qué institución forma parte del Poder Legislativo?\nA) El Congreso Nacional\nB) La Corte Suprema\nC) La Presidencia de la República\nD) Los ministerios",
+"respuestaCorrecta": "El Congreso Nacional"
+},
+{
+"id": 5,
+"categoria": "6° Básico",
+"pregunta": "¿Por qué es importante la división de los poderes del Estado?\nA) Porque elimina la necesidad de leyes\nB) Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder\nC) Porque permite que una autoridad concentre todas las funciones\nD) Porque impide que las instituciones se fiscalicen entre sí",
+"respuestaCorrecta": "Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder"
+},
+{
+"id": 6,
+"categoria": "6° Básico",
+"pregunta": "Una comunidad se organiza para presentar una petición a la municipalidad sobre un problema de su barrio. ¿Qué tipo de participación representa principalmente?\nA) Participación civil\nB) Participación política electoral\nC) Participación judicial\nD) Participación comunitaria",
+"respuestaCorrecta": "Participación comunitaria"
+},
+{
+"id": 7,
+"categoria": "6° Básico",
+"pregunta": "¿Qué característica permite considerar democrática una elección?\nA) Que la autoridad decida quién puede votar según sus preferencias\nB) Que los resultados no puedan ser conocidos por la ciudadanía\nC) Que exista una sola candidatura\nD) Que las elecciones sean libres, competitivas y periódicas",
+"respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
+},
+{
+"id": 8,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál situación representa mejor la participación ciudadana?\nA) Una persona evita informarse sobre asuntos públicos\nB) Una persona se informa, opina fundamentadamente y participa en una organización comunitaria\nC) Una comunidad renuncia a expresar sus necesidades\nD) Una autoridad toma todas las decisiones sin consultar a nadie",
+"respuestaCorrecta": "Una persona se informa, opina fundamentadamente y participa en una organización comunitaria"
+},
+{
+"id": 9,
+"categoria": "6° Básico",
+"pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?\nA) La división de poderes del Estado\nB) La concentración del poder\nC) La eliminación de la representación\nD) La ausencia de instituciones",
+"respuestaCorrecta": "La división de poderes del Estado"
+},
+{
+"id": 10,
+"categoria": "6° Básico",
+"pregunta": "¿Qué relación existe entre la representación popular y las elecciones periódicas?\nA) Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada\nB) Las elecciones eliminan la necesidad de participación ciudadana\nC) La representación permite que las autoridades gobiernen sin límites\nD) La representación significa que todas las decisiones las toma directamente el Presidente",
+"respuestaCorrecta": "Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada"
+},
+{
+"id": 11,
+"categoria": "6° Básico",
+"pregunta": "Un grupo de estudiantes quiere fortalecer la convivencia democrática en su curso. ¿Cuál acción se relaciona mejor con los principios estudiados?\nA) Imponer la opinión del grupo más numeroso\nB) Dejar las decisiones únicamente en manos del profesor\nC) Evitar discutir las diferencias\nD) Dialogar, escuchar distintas opiniones y buscar acuerdos",
+"respuestaCorrecta": "Dialogar, escuchar distintas opiniones y buscar acuerdos"
+},
+{
+"id": 12,
+"categoria": "6° Básico",
+"pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?\nA) Porque evita que existan opiniones diferentes\nB) Porque reemplaza a todas las instituciones del Estado\nC) Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas\nD) Porque hace innecesarias las elecciones",
+"respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
+},
+{
+"id": 13,
+"categoria": "6° Básico",
+"pregunta": "¿Qué acontecimiento dio inicio al proceso de independencia de Chile en 1810?\nA) La proclamación de la Independencia\nB) La formación de la Primera Junta Nacional de Gobierno\nC) La Batalla de Chacabuco\nD) La Batalla de Maipú",
+"respuestaCorrecta": "La formación de la Primera Junta Nacional de Gobierno"
+},
+{
+"id": 14,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál fue una causa externa que favoreció el inicio de los procesos de independencia hispanoamericanos?\nA) La invasión napoleónica a España\nB) La Guerra del Pacífico\nC) La Constitución de 1833\nD) La Revolución Industrial en Chile",
+"respuestaCorrecta": "La invasión napoleónica a España"
+},
+{
+"id": 15,
+"categoria": "6° Básico",
+"pregunta": "¿Qué batalla de 1814 marcó el fin de la Patria Vieja?\nA) Maipú\nB) Rancagua\nC) Chacabuco\nD) Lircay",
+"respuestaCorrecta": "Rancagua"
+},
+{
+"id": 16,
+"categoria": "6° Básico",
+"pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?\nA) La Batalla de Rancagua\nB) La llegada del Ejército Libertador a Chile\nC) La Batalla de Lircay\nD) La proclamación de la Independencia de Chile",
+"respuestaCorrecta": "La proclamación de la Independencia de Chile"
+},
+{
+"id": 17,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál secuencia presenta correctamente las principales etapas del proceso de independencia de Chile?\nA) Patria Vieja → Patria Nueva → Reconquista\nB) Patria Vieja → Reconquista → Patria Nueva\nC) Reconquista → Patria Vieja → Patria Nueva\nD) Patria Nueva → Reconquista → Patria Vieja",
+"respuestaCorrecta": "Patria Vieja → Reconquista → Patria Nueva"
+},
+{
+"id": 18,
+"categoria": "6° Básico",
+"pregunta": "¿Qué característica tuvo la Patria Nueva?\nA) El retorno del dominio español\nB) El inicio de la Guerra del Pacífico\nC) El regreso de los patriotas al poder y la consolidación de la independencia\nD) La instauración inmediata de la Constitución de 1833",
+"respuestaCorrecta": "El regreso de los patriotas al poder y la consolidación de la independencia"
+},
+{
+"id": 19,
+"categoria": "6° Básico",
+"pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?\nA) Organizar políticamente la nueva república\nB) Reconstruir el Imperio español\nC) Eliminar todas las instituciones del Estado\nD) Abandonar la educación y la cultura",
+"respuestaCorrecta": "Organizar políticamente la nueva república"
+},
+{
+"id": 20,
+"categoria": "6° Básico",
+"pregunta": "¿Qué característica distinguió al período conservador iniciado en 1830?\nA) Un Estado fuerte, centralizado y con un marcado autoritarismo político\nB) La eliminación de la autoridad presidencial\nC) Un Estado débil y descentralizado\nD) La separación inmediata entre Iglesia y Estado",
+"respuestaCorrecta": "Un Estado fuerte, centralizado y con un marcado autoritarismo político"
+},
+{
+"id": 21,
+"categoria": "6° Básico",
+"pregunta": "¿Qué importancia tuvo la Constitución de 1833 durante el período conservador?\nA) Estableció el sufragio universal para toda la población\nB) Limitó fuertemente el poder presidencial\nC) Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador\nD) Eliminó el Poder Ejecutivo",
+"respuestaCorrecta": "Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador"
+},
+{
+"id": 22,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál fue uno de los principales objetivos de las reformas liberales de la segunda mitad del siglo XIX?\nA) Aumentar la influencia de la Iglesia sobre el Estado\nB) Eliminar las elecciones\nC) Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades\nD) Restaurar el orden colonial",
+"respuestaCorrecta": "Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades"
+},
+{
+"id": 23,
+"categoria": "6° Básico",
+"pregunta": "¿Qué ejemplo corresponde a una de las llamadas Leyes Laicas?\nA) La Ley de libertad de vientre\nB) La creación del Ejército Libertador\nC) La fundación de la Primera Junta de Gobierno\nD) La creación del Registro Civil",
+"respuestaCorrecta": "La creación del Registro Civil"
+},
+{
+"id": 24,
+"categoria": "6° Básico",
+"pregunta": "¿Qué relación existe entre la Guerra del Pacífico y la conformación territorial de Chile en el siglo XIX?\nA) Permitió la incorporación de la Patagonia oriental\nB) Terminó con la ocupación de la Araucanía\nC) Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta\nD) Provocó la pérdida de todo el territorio norte",
+"respuestaCorrecta": "Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta"
+},
+{
+"id": 25,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál alternativa relaciona correctamente un proceso territorial del siglo XIX con su forma principal de incorporación?\nA) Rapa Nui - guerra con Argentina\nB) Tarapacá - tratado con España\nC) Valdivia y Llanquihue - colonización\nD) Araucanía - compra a Francia",
+"respuestaCorrecta": "Valdivia y Llanquihue - colonización"
+},
+{
+"id": 26,
+"categoria": "6° Básico",
+"pregunta": "Un historiador afirma que la construcción del Estado-nación chileno fue un proceso de cambios políticos y territoriales. ¿Cuál evidencia apoya mejor esa afirmación?\nA) El territorio permaneció exactamente igual al de la época colonial\nB) Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio\nC) La independencia no produjo transformaciones políticas\nD) Chile solo cambió sus símbolos nacionales",
+"respuestaCorrecta": "Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio"
+},
+{
+"id": 27,
+"categoria": "6° Básico",
+"pregunta": "¿Qué proceso describe mejor la democratización de la sociedad chilena durante el siglo XX?\nA) La desaparición de las organizaciones sociales\nB) La reducción de la participación de nuevos grupos sociales\nC) La incorporación progresiva de distintos grupos a la participación política y social\nD) La concentración del poder político en una sola persona",
+"respuestaCorrecta": "La incorporación progresiva de distintos grupos a la participación política y social"
+},
+{
+"id": 28,
+"categoria": "6° Básico",
+"pregunta": "¿Qué actividad económica generó importantes ingresos para el Estado chileno a fines del siglo XIX e inicios del XX?\nA) La informática\nB) La explotación del salitre\nC) La producción de petróleo\nD) La industria automotriz",
+"respuestaCorrecta": "La explotación del salitre"
+},
+{
+"id": 29,
+"categoria": "6° Básico",
+"pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?\nA) Sectores medios\nB) Oligarquía\nC) Sectores populares\nD) Aristocracia colonial",
+"respuestaCorrecta": "Sectores medios"
+},
+{
+"id": 30,
+"categoria": "6° Básico",
+"pregunta": "¿Qué avance fue fundamental para ampliar la participación política de las mujeres durante el siglo XX?\nA) La prohibición de organizaciones femeninas\nB) El reconocimiento del derecho a sufragio femenino\nC) La reducción del acceso de las mujeres a la educación\nD) La eliminación de las elecciones",
+"respuestaCorrecta": "El reconocimiento del derecho a sufragio femenino"
+},
+{
+"id": 31,
+"categoria": "6° Básico",
+"pregunta": "¿Qué característica tuvo el rol del Estado chileno entre las décadas de 1920 y 1970?\nA) Dejó de participar en educación\nB) Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación\nC) Abandonó completamente las políticas sociales\nD) Se limitó exclusivamente a organizar elecciones",
+"respuestaCorrecta": "Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación"
+},
+{
+"id": 32,
+"categoria": "6° Básico",
+"pregunta": "¿Por qué la expansión de la radio fue importante para la sociedad chilena?\nA) Porque permitió difundir información y cultura a un público amplio\nB) Porque solo podía ser escuchada por personas alfabetizadas\nC) Porque eliminó los demás medios de comunicación\nD) Porque reemplazó completamente a la educación escolar",
+"respuestaCorrecta": "Porque permitió difundir información y cultura a un público amplio"
+},
+{
+"id": 33,
+"categoria": "6° Básico",
+"pregunta": "¿Qué situación caracterizó la política chilena entre 1958 y 1973?\nA) La ausencia de conflictos sociales\nB) Una creciente polarización entre distintos sectores políticos y sociales\nC) La desaparición de las diferencias políticas\nD) La suspensión de todas las elecciones",
+"respuestaCorrecta": "Una creciente polarización entre distintos sectores políticos y sociales"
+},
+{
+"id": 34,
+"categoria": "6° Básico",
+"pregunta": "¿Qué medida relacionada con la minería del cobre ocurrió durante el gobierno de Salvador Allende?\nA) La privatización completa del cobre\nB) La nacionalización y estatización del cobre\nC) La entrega del cobre a empresas extranjeras sin participación estatal\nD) El cierre de todas las minas de cobre",
+"respuestaCorrecta": "La nacionalización y estatización del cobre"
+},
+{
+"id": 35,
+"categoria": "6° Básico",
+"pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?\nA) Se realizó el plebiscito nacional\nB) Se realizaron elecciones presidenciales\nC) Se promuló la Constitución de 1925\nD) Se produjo un golpe de Estado que interrumpió el régimen democrático",
+"respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
+},
+{
+"id": 36,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?\nA) Eliminación de las Fuerzas Armadas de la vida política\nB) Elecciones presidenciales anuales\nC) Ampliación inmediata de las libertades políticas\nD) Restricción de derechos y libertades y concentración del poder",
+"respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
+},
+{
+"id": 37,
+"categoria": "6° Básico",
+"pregunta": "¿Por qué el respeto de los derechos humanos es especialmente importante al estudiar el período de dictadura militar?\nA) Porque demuestra que los derechos solo existen durante las dictaduras\nB) Porque elimina la necesidad de conocer otras fuentes históricas\nC) Porque permite justificar cualquier acción del Estado\nD) Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan",
+"respuestaCorrecta": "Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan"
+},
+{
+"id": 38,
+"categoria": "6° Básico",
+"pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?\nA) La eliminación de toda actividad privada\nB) El retorno al sistema económico colonial\nC) El establecimiento de un sistema económico basado en el libre mercado\nD) La prohibición del comercio internacional",
+"respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
+},
+{
+"id": 39,
+"categoria": "6° Básico",
+"pregunta": "¿Qué acontecimiento fue decisivo para iniciar el proceso de recuperación de la democracia a fines del siglo XX?\nA) El plebiscito de 1988\nB) La Guerra del Pacífico\nC) La Constitución de 1833\nD) La Batalla de Maipú",
+"respuestaCorrecta": "El plebiscito de 1988"
+},
+{
+"id": 40,
+"categoria": "6° Básico",
+"pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?\nA) Constitución de 1925 → elecciones de 1989 → golpe de Estado de 1973\nB) Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990\nC) Elecciones de 1989 → golpe de Estado de 1973 → plebiscito de 1988\nD) Golpe de Estado de 1973 → plebiscito de 1988 → elecciones de 1970",
+"respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
+}
 ]
