@@ -1,122 +1,242 @@
 [
   {
     "id": 1,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Cuál fue una característica de la hacienda decimonónica como unidad productiva tradicional en Chile?\nA) La producción destinada exclusivamente al mercado asiático de exportación directa\nB) El uso generalizado de tecnologías automatizadas e importadas de alta productividad\nC) La ausencia absoluta de mano de obra local campesina\nD) La coexistencia de una economía rural basada en el inquilinaje y el peonaje bajo relaciones laborales tradicionales",
-    "respuestaCorrecta": "La coexistencia de una economía rural basada en el inquilinaje y el peonaje bajo relaciones laborales tradicionales"
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué sistema de alianzas e imperialismos tensionó a Europa a principios del siglo XX, desencadenando la Primera Guerra Mundial (1914-1918) tras el atentado de Sarajevo?\nA) El Pacto de Varsovia y la OTAN.\nB) La Liga de las Naciones y las Naciones Unidas.\nC) La Triple Entente y la Triple Alianza.\nD) La Santa Alianza y los Aliados.",
+    "respuestaCorrecta": "La Triple Entente y la Triple Alianza."
   },
   {
     "id": 2,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué consecuencias tuvo para Chile la Gran Depresión de 1929?\nA) La estatización pacífica de la totalidad de los yacimientos mineros de carbón\nB) La abolición completa de las barreras arancelarias de importación comercial\nC) La expansión y auge inmediato de la venta de salitre en mercados mundiales\nD) El colapso del modelo exportador de materias primas y la redefinición del rol del Estado hacia la promoción de la industria",
-    "respuestaCorrecta": "El colapso del modelo exportador de materias primas y la redefinición del rol del Estado hacia la promoción de la industria"
+    "categoria": "3° Medio",
+    "pregunta": "La Revolución Rusa de 1917 derrocó al régimen zarista e instauró el primer Estado socialista del mundo. ¿Qué facción política, liderada por Vladimir Lenin, tomó el poder durante la fase de Octubre?\nA) Los Mencheviques.\nB) Los Cadetes.\nC) Los Bolcheviques.\nD) Los Socialrevolucionarios.",
+    "respuestaCorrecta": "Los Bolcheviques."
   },
   {
     "id": 3,
-    "categoria": "final 2do medio",
-    "pregunta": "Al analizar la inmigración europea del siglo XIX en el sur de Chile (Valdivia y Llanquihue), ¿qué tensión socio-territorial se produjo?\nA) El reconocimiento pacífico y la igualdad absoluta de derechos civiles para colonos y comunidades indígenas de inmediato\nB) El aislamiento comercial absoluto de las provincias del sur con respecto al centro económico nacional\nC) La soberanía territorial y agrícola alcanzada a costa de la desposesión y el desplazamiento de las comunidades huilliches locales\nD) La entrega voluntaria de los territorios por parte de los pueblos indígenas sin mediar mediación estatal alguna",
-    "respuestaCorrecta": "La soberanía territorial y agrícola alcanzada a costa de la desposesión y el desplazamiento de las comunidades huilliches locales"
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Grabado Histórico - Crisis de 1929] El colapso financiero de la Bolsa de Valores de Wall Street en octubre de 1929 dio origen a la Gran Depresión. ¿Cuál fue una de las principales consecuencias de esta crisis a escala global?\nA) La abolición inmediata de las fronteras comerciales en Europa.\nB) La expansión inmediata de la industrialización en África.\nC) El fin de la intervención del Estado en las economías occidentales.\nD) La caída del comercio internacional, desempleo masivo y el cuestionamiento del modelo liberal clásico.",
+    "respuestaCorrecta": "La caída del comercio internacional, desempleo masivo y el cuestionamiento del modelo liberal clásico."
   },
   {
     "id": 4,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Cuál secuencia temporal de hitos es correcta respecto a la transición a la democracia?\nA) Plebiscito de 1988 → elecciones de 1970 asunción de Aylwin en 1973\nB) Asunción de Aylwin → plebiscito de 1988 elecciones de 1989\nC) Elecciones de 1989 → golpe de Estado de 1973 plebiscito de 1988\nD) Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990",
-    "respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
+    "categoria": "3° Medio",
+    "pregunta": "Durante el período de entreguerras surgieron en Europa regímenes totalitarios como el Fascismo en Italia y el Nazismo en Alemania. ¿Qué característica política compartían estos sistemas?\nA) La promoción del pluralismo político y la democracia representativa.\nB) La descentralización administrativa y autonomía regional.\nC) El desarme total de las fuerzas armadas.\nD) El ultranacionalismo, el culto al líder, el unipartidismo y el control estatal absoluto de la sociedad.",
+    "respuestaCorrecta": "El ultranacionalismo, el culto al líder, el unipartidismo y el control estatal absoluto de la sociedad."
   },
   {
     "id": 5,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué relación puede establecerse entre la expansión industrial y los cambios ambientales durante el siglo XIX?\nA) La industrialización redujo automáticamente el impacto ambiental del planeta\nB) La explotación masiva de recursos y la quema de carbón generaron los primeros impactos severos de contaminación y deforestación\nC) El cuidado ecológico y la sustentabilidad fueron las prioridades de los Estados liberales\nD) No existió ninguna vinculación entre la actividad manufacturera y el entorno geográfico",
-    "respuestaCorrecta": "La explotación masiva de recursos y la quema de carbón generaron los primeros impactos severos de contaminación y deforestación"
+    "categoria": "3° Medio",
+    "pregunta": "La Segunda Guerra Mundial (1939-1945) concluyó en el escenario del Pacífico tras un evento tecnológico y militar sin precedentes en agosto de 1945. Nos referimos a:\nA) El desembarco de Normandía en las costas francesas.\nB) La batalla de Stalingrado.\nC) El lanzamiento de las bombas atómicas.\nD) El ataque sorpresivo a Pearl Harbor.",
+    "respuestaCorrecta": "El lanzamiento de las bombas atómicas."
   },
   {
     "id": 6,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Cómo repercutió la Guerra Fría en el escenario social y político de América Latina según lo estudiado?\nA) Favoreciendo el establecimiento de un mercado de libre comercio continental unificado\nB) Generando una permanente tensión entre revolución y reforma, golpes de Estado y violaciones sistemáticas a los derechos humanos\nC) Eliminando de forma pacífica toda influencia económica de Estados Unidos en el Caribe\nD) Asegurando un prolongado período de paz e inalterabilidad institucional democrática",
-    "respuestaCorrecta": "Generando una permanente tensión entre revolución y reforma, golpes de Estado y violaciones sistemáticas a los derechos humanos"
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Cartel de Propaganda de la Guerra Fría] Tras 1945, el mundo quedó dividido en un orden bipolar conocido como la Guerra Fría. ¿Qué superpotencias lideraban los dos bloques enfrentados ideológica y políticamente?\nA) Francia y la Unión Soviética.\nB) Alemania e Inglaterra.\nC) China y Japón.\nD) Estados Unidos y la URSS.",
+    "respuestaCorrecta": "Estados Unidos y la URSS."
   },
   {
     "id": 7,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué hito en las comunicaciones revolucionó la inserción comercial de Chile en el mercado mundial de fines del siglo XIX?\nA) La expansión del ferrocarril y el desarrollo de puertos y líneas de telégrafos financiados por el auge minero\nB) La invención de la imprenta de tipos móviles\nC) El establecimiento exclusivo de carretas de tracción animal\nD) La pavimentación total de la red de carreteras del país",
-    "respuestaCorrecta": "La expansión del ferrocarril y el desarrollo de puertos y líneas de telégrafos financiados por el auge minero"
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué organización internacional fue fundada en 1945 con el propósito primordial de mantener la paz y la seguridad internacionales, evitando futuros conflictos globales?\nA) La Organización de las Naciones Unidas (ONU).\nB) La Sociedad de las Naciones.\nC) La Unión Europea.\nD) La Organización de Estados Americanos (OEA).",
+    "respuestaCorrecta": "La Organización de las Naciones Unidas (ONU)."
   },
   {
     "id": 8,
-    "categoria": "final 2do medio",
-    "pregunta": "¿De qué manera la cultura de masas (radio, cine) influyó en la democratización a mediados del siglo XX?\nA) Reemplazando por completo el sistema escolar obligatorio nacional de la época\nB) Impidiendo el avance de demandas ciudadanas femeninas en el espacio de la opinión pública\nC) Permitiendo difundir información, deportes, música y cultura a un público masivo e integrado\nD) Restringiendo el acceso a la cultura exclusivamente a la elite urbana alfabetizada",
-    "respuestaCorrecta": "Permitiendo difundir información, deportes, música y cultura a un público masivo e integrado"
+    "categoria": "3° Medio",
+    "pregunta": "Durante la segunda mitad del siglo XX, numerosos países de Asia y África iniciaron procesos de Descolonización. ¿Qué conferencia internacional de 1955 reunió a naciones africanas y asiáticas recién independizadas para promover el Movimiento de Países No Alineados?\nA) La Conferencia de Yalta.\nB) La Conferencia de Potsdam.\nC) La Conferencia de Bandung.\nD) El Tratado de Versalles.",
+    "respuestaCorrecta": "La Conferencia de Bandung."
   },
   {
     "id": 9,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué posturas ideológicas contrapuestas surgieron frente a los graves problemas de la \"Cuestión Social\" en Chile?\nA) El rechazo obrero sistemático a la conformación de mutuales o sociedades de resistencia solidaria\nB) La disolución consensuada de la totalidad de las organizaciones sociales y de partidos de representación popular\nC) La aceptación unánime de que el mercado tradicional resolvería la crisis sin requerir legislación laboral alguna\nD) Respuestas divergentes desde el liberalismo clásico, el socialismo, el anarquismo, el comunismo y el socialcristianismo doctrinal",
-    "respuestaCorrecta": "Respuestas divergentes desde el liberalismo clásico, el socialismo, el anarquismo, el comunismo y el socialcristianismo doctrinal"
+    "categoria": "3° Medio",
+    "pregunta": "En la década de 1980, el líder soviético Mijail Gorbachov impulsó un paquete de reformas para modernizar y transparentar la URSS. ¿Cómo se denominó la política de apertura informativa y libertad de expresión?\nA) Perestroika.\nB) Glasnost.\nC) CEEI.\nD) Sovjos.",
+    "respuestaCorrecta": "Glasnost."
   },
   {
     "id": 10,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué transformación política se relaciona con la Constitución de 1925?\nA) Restauró la monarquía absoluta como forma de gobierno para ordenar el país\nB) Fortaleció el régimen presidencial y estableció una separación más clara entre Iglesia y Estado\nC) Concentró la totalidad de los poderes del Estado de forma indefinida en el Parlamento\nD) Estableció un régimen colonial bajo la tutela de potencias económicas extranjeras",
-    "respuestaCorrecta": "Fortaleció el régimen presidencial y estableció una separación más clara entre Iglesia y Estado"
+    "categoria": "3° Medio",
+    "pregunta": "El hito histórico que simbolizó de forma definitiva la caída del bloque socialista europeo y el fin de la Guerra Fría entre 1989 y 1991 fue:\nA) La caída del Muro de Berlín.\nB) La guerra de Corea.\nC) La crisis de los misiles en Cuba.\nD) La firma del Tratado de Roma.",
+    "respuestaCorrecta": "La caída del Muro de Berlín."
   },
   {
     "id": 11,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Por qué la riqueza del salitre a fines del siglo XIX generó una profunda transformación en el Estado chileno?\nA) Porque causó la quiebra absoluta de todas las actividades agrícolas tradicionales de la zona central\nB) Porque el salitre fue consumido exclusivamente dentro del mercado local de consumo agrícola\nC) Porque obligó al Estado a privatizar la totalidad de los ferrocarriles y aduanas\nD) Porque aumentó significativamente el ingreso fiscal, permitiendo realizar grandes inversiones públicas en infraestructura y educación",
-    "respuestaCorrecta": "Porque aumentó significativamente el ingreso fiscal, permitiendo realizar grandes inversiones públicas en infraestructura y educación"
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Fotografía Histórica - Salitreras del Norte Grande] A comienzos del siglo XX en Chile, las difíciles condiciones de vida y trabajo de los obreros mineros y urbanos dieron origen a un fenómeno social y político denominado:\nA) El Pacifismo de la Frontera.\nB) La Cuestión Social.\nC) La Reforma Agraria.\nD) La Chilenización del Cobre.",
+    "respuestaCorrecta": "La Cuestión Social."
   },
   {
     "id": 12,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Cuáles fueron los dos proyectos políticos excluyentes que tensionaron la sociedad chilena de fines de la década de 1960?\nA) El aislamiento comercial absoluto del país versus la desmovilización del Ejército de Chile\nB) La Revolución en Libertad (Democracia Cristiana) y la Vía Chilena al Socialismo (Unidad Popular)\nC) La privatización completa de la minería versus la abolición del derecho a voto para los analfabetos\nD) La restauración del parlamentarismo oligárquico versus el establecimiento de una dictadura señorial",
-    "respuestaCorrecta": "La Revolución en Libertad (Democracia Cristiana) y la Vía Chilena al Socialismo (Unidad Popular)"
+    "categoria": "3° Medio",
+    "pregunta": "En 1925, bajo la presidencia de Arturo Alessandri Palma, se promulgó una nueva Constitución Política para Chile. ¿Cuál fue una de sus principales transformaciones institucionales?\nA) La instauración del régimen parlamentario de gobierno.\nB) El término del régimen parlamentario, el restablecimiento del presidencialismo y la separación entre Iglesia y Estado.\nC) El sufragio universal para hombres y mujeres menores de 18 años.\nD) La creación de las Regiones autónomas de Chile.",
+    "respuestaCorrecta": "El término del régimen parlamentario, el restablecimiento del presidencialismo y la separación entre Iglesia y Estado."
   },
   {
     "id": 13,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Cuál fue una consecuencia política de las revoluciones liberales del siglo XIX?\nA) La desaparición de los parlamentos\nB) La expansión de ideas constitucionales y de participación política\nC) El retorno generalizado al absolutismo\nD) La eliminación de los Estados nacionales",
-    "respuestaCorrecta": "La expansión de ideas constitucionales y de participación política"
+    "categoria": "3° Medio",
+    "pregunta": "A raíz del impacto de la Gran Depresión de 1929 en la economía chilena, los gobiernos del Frente Popular impulsaron la creación de la CORFO (1939) para promover un modelo de desarrollo económico basado en:\nA) La exportación exclusiva de salitre y trigo.\nB) La Industrialización por Sustitución de Importaciones.\nC) La apertura unilateral al libre comercio internacional.\nD) La privatización de todas las empresas estatales.",
+    "respuestaCorrecta": "La Industrialización por Sustitución de Importaciones."
   },
   {
     "id": 14,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué características políticas impuso la Constitución de 1980 en su fase original de dictación?\nA) El restablecimiento definitivo e inmediato de las funciones ordinarias del Congreso disuelto\nB) Un régimen político autoritario con senadores designados, quórums altos y rol tutelar de las Fuerzas Armadas\nC) La convocatoria inmediata a elecciones presidenciales libres directas bajo padrón universal\nD) La restauración plena de la Constitución de 1925 sin enmiendas administrativas",
-    "respuestaCorrecta": "Un régimen político autoritario con senadores designados, quórums altos y rol tutelar de las Fuerzas Armadas"
+    "categoria": "3° Medio",
+    "pregunta": "El proceso de democratización e inclusión política en Chile logró un hito trascendental en 1949 cuando se aprobó legalmente:\nA) El derecho a voto femenino para las elecciones presindenciales.\nB) El voto a los 18 años para analfabetos.\nC) La inscripción automática en el registro electoral.\nD) El voto por correo para los chilenos en el extranjero.",
+    "respuestaCorrecta": "El derecho a voto femenino para las elecciones presindenciales."
   },
   {
     "id": 15,
-    "categoria": "final 2do medio",
-    "pregunta": "Si un historiador encuentra dos fuentes con interpretaciones opuestas sobre la Guerra Civil de 1891, ¿cómo debe proceder?\nA) Elegir inmediatamente la que coincida con su propia postura política de forma intuitiva\nB) Descartar ambas fuentes por carecer de una verdad única y objetiva\nC) Compararlas analizando críticamente sus evidencias, el contexto de los autores y sus sesgos antes de formular una conclusión\nD) Aceptar de forma ingenua ambos testimonios como relatos perfectamente fidedignos",
-    "respuestaCorrecta": "Compararlas analizando críticamente sus evidencias, el contexto de los autores y sus sesgos antes de formular una conclusión"
+    "categoria": "3° Medio",
+    "pregunta": "Durante la década de 1960, el gobierno de Eduardo Frei Montalva impulsó reformas estructurales de gran alcance, entre las que destacan la \"Promoción Popular\" y:\nA) La privatización de los yacimientos de carbón.\nB) La nacionalización total del sistema bancario privado.\nC) La Reforma Agraria y la \"Chilenización del Cobre\".\nD) La sustitución definitiva de la moneda nacional por el dólar.",
+    "respuestaCorrecta": "La Reforma Agraria y la \"Chilenización del Cobre\"."
   },
   {
     "id": 16,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué acontecimiento fue decisivo para iniciar el proceso de recuperación de la democracia a fines de la década de 1980 en Chile?\nA) La promulgación de la Constitución de 1833\nB) El desarrollo y término de la Guerra del Pacífico\nC) La histórica Batalla de Maipú\nD) El plebiscito de 1988",
-    "respuestaCorrecta": "El plebiscito de 1988"
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Cartel Político de la Unidad Popular] En 1970 asumió la presidencia Salvador Allende Gossens al mando de la Unidad Popular. ¿Cuál era el objetivo central de su programa de gobierno?\nA) La instauración de una dictadura militar corporativista.\nB) La \"Vía Chilena al Socialismo\" en democracia, pluralismo y libertad.\nC) La privatización del cobre y las industrias básicas.\nD) La alineación irrestricta con la política exterior de Estados Unidos.",
+    "respuestaCorrecta": "La \"Vía Chilena al Socialismo\" en democracia, pluralismo y libertad."
   },
   {
     "id": 17,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué relación existió entre el nacionalismo y la construcción de Estados nacionales en el siglo XIX?\nA) El nacionalismo disolvió todas las fronteras políticas de las repúblicas americanas\nB) El nacionalismo impidió definitivamente los procesos de unificación de Italia y Alemania\nC) El nacionalismo funcionó como una fuerza de cohesión que impulsó la unificación territorial y la soberanía compartida\nD) El nacionalismo defendió exclusivamente el poder hereditario de la nobleza feudal",
-    "respuestaCorrecta": "El nacionalismo funcionó como una fuerza de cohesión que impulsó la unificación territorial y la soberanía compartida"
+    "categoria": "3° Medio",
+    "pregunta": "El 11 de septiembre de 1973 un Golpe de Estado encabezado por las Fuerzas Armadas derrocó al gobierno de la Unidad Popular. ¿Qué estructura de gobierno se instaló a partir de esa fecha?\nA) Una Junta Militar de Gobierno\nB) Un Consejo de Regencia parlamentario.\nC) Un Gobierno Provisorio encabezado por la Corte Suprema.\nD) Una asamblea constituyente plurinacional.",
+    "respuestaCorrecta": "Una Junta Militar de Gobierno"
   },
   {
     "id": 18,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué significó el cambio hacia un modelo neoliberal instaurado en dictadura para el rol tradicional del Estado?\nA) El paso de un Estado promotor del bienestar social y la industria a un Estado subsidiario y regulador mínimo\nB) La estatización completa de la gran minería del cobre y las telecomunicaciones\nC) La prohibición legal del libre comercio exterior y del ingreso de mercancías importadas\nD) El aumento sistemático y prioritario del gasto social para asegurar viviendas y salud pública",
-    "respuestaCorrecta": "El paso de un Estado promotor del bienestar social y la industria a un Estado subsidiario y regulador mínimo"
+    "categoria": "3° Medio",
+    "pregunta": "Durante la Dictadura Militar en Chile (1973-1990) se cometieron sistemáticas violaciones a los Derechos Humanos. ¿Qué organismo dependiente de la Iglesia Católica prestó una valiosa asistencia legal y social a las víctimas y sus familias?\nA) La DINA.\nB) La Vicaría de la Solidaridad.\nC) El Servicio Nacional de Salud.\nD) La Secretaría Nacional de la Juventud.",
+    "respuestaCorrecta": "La Vicaría de la Solidaridad."
   },
   {
     "id": 19,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué principio político se relaciona directamente con el liberalismo del siglo XIX?\nA) La prohibición de la propiedad privada\nB) La eliminación de las constituciones\nC) La defensa de libertades individuales y derechos políticos\nD) La soberanía absoluta del monarca",
-    "respuestaCorrecta": "La defensa de libertades individuales y derechos políticos"
+    "categoria": "3° Medio",
+    "pregunta": "En el plano económico, la Dictadura Militar transformó el rol del Estado chileno mediante la implementación de reformas de corte neoliberal impulsadas por los llamados \"Chicago Boys\", caracterizadas por:\nA) La estatización de la industria alimentaria.\nB) La prohibición de la inversión extranjera directa.\nC) El aumento de aranceles al comercio exterior.\nD) La privatización de empresas públicas, la desregulación de mercados y la reducción del gasto social del Estado.",
+    "respuestaCorrecta": "La privatización de empresas públicas, la desregulación de mercados y la reducción del gasto social del Estado."
   },
   {
     "id": 20,
-    "categoria": "final 2do medio",
-    "pregunta": "¿Qué papel social jugaron instituciones civiles y religiosas (como la Vicaría de la Solidaridad) durante la dictadura militar?\nA) La sustitución formal y permanente del Poder Judicial ordinario del país\nB) La coordinación de la lucha militar armada clandestina de las agrupaciones populares\nC) La promoción económica exclusiva de las medidas privatizadoras del régimen\nD) La defensa de las víctimas de violaciones sistemáticas a los derechos humanos y la asistencia jurídica y social",
-    "respuestaCorrecta": "La defensa de las víctimas de violaciones sistemáticas a los derechos humanos y la asistencia jurídica y social"
+    "categoria": "3° Medio",
+    "pregunta": "El Plebiscito del 5 de octubre de 1988 fue un hito decisivo para la historia política de Chile, en el cual la ciudadanía decidió:\nA) Aprobar una nueva Constitución redactada en democracia.\nB) El triunfo de la opción \"NO\"\nC) La continuidad del régimen militar por ocho años más.\nD) La disolución inmediata del Congreso Nacional.",
+    "respuestaCorrecta": "El triunfo de la opción \"NO\""
+  },
+  {
+    "id": 21,
+    "categoria": "3° Medio",
+    "pregunta": "El concepto jurídico-político de \"Estado\" se define fundamentalmente por la presencia convergente de tres elementos constitutivos básicos. Estos son:\nA) Presidente, ministros y parlamentarios.\nB) Población, Territorio y Poder o Soberanía.\nC) Fuerzas Armadas, Policía y Tribunales.\nD) Partidos políticos, Sindicatos y Gremios.",
+    "respuestaCorrecta": "Población, Territorio y Poder o Soberanía."
+  },
+  {
+    "id": 22,
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Organigrama del Estado de Chile] En la República de Chile, la estructura de gobierno es de carácter Unitario y Presidencial. ¿En qué consiste el principio de Desconcentración Administrativa?\nA) En la creación de Estados independientes dentro del territorio nacional.\nB) En la eliminación de los municipios en regiones distantes.\nC) En la delegación de atribuciones y facultades desde un órgano central hacia autoridades locales que dependen jerárquicamente del poder central.\nD) En el traspaso de la soberanía a organismos internacionales.",
+    "respuestaCorrecta": "En la delegación de atribuciones y facultades desde un órgano central hacia autoridades locales que dependen jerárquicamente del poder central."
+  },
+  {
+    "id": 23,
+    "categoria": "3° Medio",
+    "pregunta": "El principio fundamental del \"Estado de Derecho\" establece que todas las personas, autoridades e instituciones deben someterse a las leyes. ¿Cómo se denomina el principio que exige que los órganos del Estado actúen strictly dentro del marco de sus competencias legales?\nA) Principio de Eficiencia Económica.\nB) Principio de Subsidiaridad.\nC) Principio de Legalidad o Juridicidad.\nD) Principio de Libre Competencia.",
+    "respuestaCorrecta": "Principio de Legalidad o Juridicidad."
+  },
+  {
+    "id": 24,
+    "categoria": "3° Medio",
+    "pregunta": "En Chile, la Constitución Política consagra la División de Poderes del Estado para evitar el abuso de autoridad. ¿Cuál es el órgano colegiado encargado de ejercer el Poder Legislativo?\nA) La Corte Suprema de Justicia.\nB) El Gabinete Ministerial.\nC) El Contralor General de la República.\nD) El Congreso Nacional",
+    "respuestaCorrecta": "El Congreso Nacional"
+  },
+  {
+    "id": 25,
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué organismo autónomo de rango constitucional tiene la función de velar por la constitucionalidad de las leyes, decretos y tratados internacionales en Chile?\nA) El Servicio Electoral (SERVEL).\nB) El Banco Central.\nC) La Fiscalía General de la República.\nD) El Tribunal Constitucional (TC).",
+    "respuestaCorrecta": "El Tribunal Constitucional (TC)."
+  },
+  {
+    "id": 26,
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de la Declaración Universal de los DD.HH.] La Declaración Universal de los Derechos Humanos de 1948 establece que los DD.HH. son \"Inalienables\". Esto significa que:\nA) No se pueden despojar, renunciar ni transferir a ninguna persona bajo ninguna circunstancia.\nB) Solo se otorgan a los ciudadanos que cumplen con sus deberes tributarios.\nC) Pueden ser suspendidos indefinidamente por decisión del Presidente.\nD) Aplican únicamente dentro del territorio de los países desarrollados.",
+    "respuestaCorrecta": "No se pueden despojar, renunciar ni transferir a ninguna persona bajo ninguna circunstancia."
+  },
+  {
+    "id": 27,
+    "categoria": "3° Medio",
+    "pregunta": "En el sistema democrático chileno, ¿qué acción constitucional de emergencia puede interponer cualquier persona ante la Corte de Apelaciones respectiva cuando considera que su derecho a la libertad personal o seguridad individual ha sido conculcado de forma ilegal?\nA) Recurso de Amparo.\nB) Recurso de Protección.\nC) Juicio de Cuentas.\nD) Demandas de Inconstitucionalidad.",
+    "respuestaCorrecta": "Recurso de Amparo."
+  },
+  {
+    "id": 28,
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué institución autónoma del Estado de Chile tiene por objeto la protección y promoción de los derechos humanos de todas las personas en el territorio nacional, elaborando informes anuales sobre la materia?\nA) El Instituto Nacional de Derechos Humanos.\nB) La Defensoría Penal Pública.\nC) El Ministerio de Justicia y Derechos Humanos.\nD) El Consejo para la Transparencia.",
+    "respuestaCorrecta": "El Instituto Nacional de Derechos Humanos."
+  },
+  {
+    "id": 29,
+    "categoria": "3° Medio",
+    "pregunta": "La participación ciudadana en una democracia no se limita únicamente al ejercicio del sufragio en elecciones. ¿Qué mecanismo democrático permite a los ciudadanos incidir directamente en decisiones comunales mediante votación directa sobre proyectos locales?\nA) Las elecciones primarias parlamentarias.\nB) Los Plebiscitos Comunales y Presupuestos Participativos.\nC) Las encuestas de opinión pública privada.\nD) Las peticiones ante la Contraloría.",
+    "respuestaCorrecta": "Los Plebiscitos Comunales y Presupuestos Participativos."
+  },
+  {
+    "id": 30,
+    "categoria": "3° Medio",
+    "pregunta": "En la legislación chilena actual, el sistema electoral utilizado para la elección de Diputados, Senadores y Convencionales/Concejales se basa en un método proporcional inclusivo conocido como:\nA) Sistema D'Hondt.\nB) Sistema Binominal.\nC) Sistema de Mayoría Relativa Uninominal.\nD) Sistema de Sorteo Cívico.",
+    "respuestaCorrecta": "Sistema D'Hondt."
+  },
+  {
+    "id": 31,
+    "categoria": "3° Medio",
+    "pregunta": "A lo largo del siglo XIX y principios del XX, la economía chilena se estructuró en torno a un modelo primario exportador conocido como:\nA) Modelo Neoliberal.\nB) Modelo Estatista de Planificación Central.\nC) Modelo de Economía Social de Mercado.\nD) Modelo Desarrollo Hacia Afuera.",
+    "respuestaCorrecta": "Modelo Desarrollo Hacia Afuera."
+  },
+  {
+    "id": 32,
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Gráfico - Ciclos Económicos en Chile] Durante el siglo XIX, Chile vivió un ciclo de gran prosperidad económica debido a la exportación masiva de dos recursos mineros e industriales clave. Nos referimos a:\nA) El Salitre y el Uranio.\nB) El Litio y el Petróleo.\nC) El Cobre y la Plata.\nD) El Carbón de piedra y el Gas natural.",
+    "respuestaCorrecta": "El Cobre y la Plata."
+  },
+  {
+    "id": 33,
+    "categoria": "3° Medio",
+    "pregunta": "El \"Ciclo del Salitre\" (1880-1930) transformó la economía chilena tras la Guerra del Pacífico. ¿Qué factor tecnológico internacional provocó el colapso definitivo de esta industria extractiva?\nA) La invención del motor eléctrico.\nB) La sustitución total del salitre por el plástico.\nC) El descubrimiento de yacimientos salitreros masivos en Europa.\nD) La invención del salitre sintético en Alemania durante la Primera Guerra Mundial.",
+    "respuestaCorrecta": "La invención del salitre sintético en Alemania durante la Primera Guerra Mundial."
+  },
+  {
+    "id": 34,
+    "categoria": "3° Medio",
+    "pregunta": "Tras la crisis de 1929, el Estado chileno adoptó el modelo de \"Desarrollo Hacia Adentro\" (ISI). ¿Qué rol fundamental asumió el Estado bajo este esquema?\nA) Un rol mero espectador del libre mercado.\nB) Un rol privatizador de servicios públicos.\nC) Un rol Benefactor y Empresario, impulsando la industria nacional y el bienestar social.\nD) Un rol fiscalizador exclusivo de bancos extranjeros.",
+    "respuestaCorrecta": "Un rol Benefactor y Empresario, impulsando la industria nacional y el bienestar social."
+  },
+  {
+    "id": 35,
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Diagrama - Oferta y Demanda] En el modelo de Economía Social de Mercado aplicado en Chile en la actualidad, el mecanismo básico para la asignación de recursos y fijación de precios es:\nA) La fijación impositiva unilateral de precios por parte del Ministerio de Hacienda.\nB) El libre juego de la Oferta y la Demanda en el mercado, con regulación estatal para fallas de mercado.\nC) El trueque directo de bienes entre productores y consumidores.\nD) El acuerdo obligatorio anual entre sindicatos y empresarios.",
+    "respuestaCorrecta": "El libre juego de la Oferta y la Demanda en el mercado, con regulación estatal para fallas de mercado."
+  },
+  {
+    "id": 36,
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué indicador macroeconómico mide el valor monetario total de los bienes y servicios finales producidos por un país en un período determinado (generalmente un año)?\nA) El Producto Interno Bruto (PIB).\nB) El Índice de Precios al Consumidor (IPC).\nC) La Tasa de Desempleo Nacional.\nD) El Índice de Gini.",
+    "respuestaCorrecta": "El Producto Interno Bruto (PIB)."
+  },
+  {
+    "id": 37,
+    "categoria": "3° Medio",
+    "pregunta": "La Inflación es un fenómeno económico de gran impacto en el bolsillo de las familias. ¿En qué consiste fundamentalmente?\nA) En el aumento sostenido del valor del peso chileno frente al dólar.\nB) En la acumulación excesiva de reservas de oro en el Banco Central.\nC) En la baja drástica de los precios de la canasta básica.\nD) En el aumento generalizado y sostenido del nivel de precios de bienes y servicios, provocando la pérdida del poder adquisitivo.",
+    "respuestaCorrecta": "En el aumento generalizado y sostenido del nivel de precios de bienes y servicios, provocando la pérdida del poder adquisitivo."
+  },
+  {
+    "id": 38,
+    "categoria": "3° Medio",
+    "pregunta": "¿Qué institución técnica y autónoma del Estado de Chile tiene por objetivo velar por la estabilidad de la moneda y el normal funcionamiento de los pagos internos y externos, controlando la inflación?\nA) La Comisión para el Mercado Financiero (CMF).\nB) La Tesorería General de la República.\nC) El Servicio de Impuestos Internos (SII).\nD) El Banco Central de Chile.",
+    "respuestaCorrecta": "El Banco Central de Chile."
+  },
+  {
+    "id": 39,
+    "categoria": "3° Medio",
+    "pregunta": "[Análisis de Mapa de Tratados Comerciales de Chile] A partir de la década de 1990, Chile consolidó su inserción internacional en la economía globalizada mediante la firma de:\nA) Convenios de proteccionismo arancelario cerrado.\nB) Acuerdos de exclusividad comercial con América Latina únicamente.\nC) Tratados de Libre Comercio con las principales economías del mundo.\nD) La prohibición de importar bienes de consumo masivo.",
+    "respuestaCorrecta": "Tratados de Libre Comercio con las principales economías del mundo."
+  },
+  {
+    "id": 40,
+    "categoria": "3° Medio",
+    "pregunta": "El concepto de \"Desarrollo Sostenible o Sustentable\" en la economía moderna exige equilibrar tres dimensiones fundamentales:\nA) Crecimiento económico, Inclusión e equidad social, y Protección del Medio Ambiente.\nB) Salarios, Impuestos y Deuda externa.\nC) Importaciones, Exportaciones y Aranceles.\nD) Moneda, Bancos y Bolsa de Comercio.",
+    "respuestaCorrecta": "Crecimiento económico, Inclusión e equidad social, y Protección del Medio Ambiente."
   }
 ]
