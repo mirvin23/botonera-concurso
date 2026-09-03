@@ -1,250 +1,122 @@
 [
-
-{
-"id": 1,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál es una característica fundamental de Chile como república democrática?\nA) Las leyes dependen de la decisión de una sola persona\nB) Las autoridades son elegidas periódicamente por la ciudadanía\nC) El poder se concentra permanentemente en una sola autoridad\nD) No existen instituciones que regulen el poder",
-"respuestaCorrecta": "Las autoridades son elegidas periódicamente por la ciudadanía"
-},
-{
-"id": 2,
-"categoria": "6° Básico",
-"pregunta": "¿Qué función cumple principalmente la Constitución Política de un país?\nA) Reemplazar todas las leyes del país\nB) Elegir directamente a todas las autoridades\nC) Organizar solamente las elecciones\nD) Establecer la organización del Estado y reconocer derechos y deberes",
-"respuestaCorrecta": "Establecer la organización del Estado y reconocer derechos y deberes"
-},
-{
-"id": 3,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?\nA) El Congreso Nacional\nB) El Presidente de la República\nC) La Corte Suprema\nD) Los tribunales de justicia",
-"respuestaCorrecta": "El Presidente de la República"
-},
-{
-"id": 4,
-"categoria": "6° Básico",
-"pregunta": "¿Qué institución forma parte del Poder Legislativo?\nA) El Congreso Nacional\nB) La Corte Suprema\nC) La Presidencia de la República\nD) Los ministerios",
-"respuestaCorrecta": "El Congreso Nacional"
-},
-{
-"id": 5,
-"categoria": "6° Básico",
-"pregunta": "¿Por qué es importante la división de los poderes del Estado?\nA) Porque elimina la necesidad de leyes\nB) Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder\nC) Porque permite que una autoridad concentre todas las funciones\nD) Porque impide que las instituciones se fiscalicen entre sí",
-"respuestaCorrecta": "Porque distribuye las funciones del Estado y ayuda a evitar abusos de poder"
-},
-{
-"id": 6,
-"categoria": "6° Básico",
-"pregunta": "Una comunidad se organiza para presentar una petición a la municipalidad sobre un problema de su barrio. ¿Qué tipo de participación representa principalmente?\nA) Participación civil\nB) Participación política electoral\nC) Participación judicial\nD) Participación comunitaria",
-"respuestaCorrecta": "Participación comunitaria"
-},
-{
-"id": 7,
-"categoria": "6° Básico",
-"pregunta": "¿Qué característica permite considerar democrática una elección?\nA) Que la autoridad decida quién puede votar según sus preferencias\nB) Que los resultados no puedan ser conocidos por la ciudadanía\nC) Que exista una sola candidatura\nD) Que las elecciones sean libres, competitivas y periódicas",
-"respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
-},
-{
-"id": 8,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál situación representa mejor la participación ciudadana?\nA) Una persona evita informarse sobre asuntos públicos\nB) Una persona se informa, opina fundamentadamente y participa en una organización comunitaria\nC) Una comunidad renuncia a expresar sus necesidades\nD) Una autoridad toma todas las decisiones sin consultar a nadie",
-"respuestaCorrecta": "Una persona se informa, opina fundamentadamente y participa en una organización comunitaria"
-},
-{
-"id": 9,
-"categoria": "6° Básico",
-"pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?\nA) La división de poderes del Estado\nB) La concentración del poder\nC) La eliminación de la representación\nD) La ausencia de instituciones",
-"respuestaCorrecta": "La división de poderes del Estado"
-},
-{
-"id": 10,
-"categoria": "6° Básico",
-"pregunta": "¿Qué relación existe entre la representación popular y las elecciones periódicas?\nA) Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada\nB) Las elecciones eliminan la necesidad de participación ciudadana\nC) La representación permite que las autoridades gobiernen sin límites\nD) La representación significa que todas las decisiones las toma directamente el Presidente",
-"respuestaCorrecta": "Las elecciones permiten que la ciudadanía escoja autoridades que la representen y que sus mandatos tengan una duración determinada"
-},
-{
-"id": 11,
-"categoria": "6° Básico",
-"pregunta": "Un grupo de estudiantes quiere fortalecer la convivencia democrática en su curso. ¿Cuál acción se relaciona mejor con los principios estudiados?\nA) Imponer la opinión del grupo más numeroso\nB) Dejar las decisiones únicamente en manos del profesor\nC) Evitar discutir las diferencias\nD) Dialogar, escuchar distintas opiniones y buscar acuerdos",
-"respuestaCorrecta": "Dialogar, escuchar distintas opiniones y buscar acuerdos"
-},
-{
-"id": 12,
-"categoria": "6° Básico",
-"pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?\nA) Porque evita que existan opiniones diferentes\nB) Porque reemplaza a todas las instituciones del Estado\nC) Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas\nD) Porque hace innecesarias las elecciones",
-"respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
-},
-{
-"id": 13,
-"categoria": "6° Básico",
-"pregunta": "¿Qué acontecimiento dio inicio al proceso de independencia de Chile en 1810?\nA) La proclamación de la Independencia\nB) La formación de la Primera Junta Nacional de Gobierno\nC) La Batalla de Chacabuco\nD) La Batalla de Maipú",
-"respuestaCorrecta": "La formación de la Primera Junta Nacional de Gobierno"
-},
-{
-"id": 14,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál fue una causa externa que favoreció el inicio de los procesos de independencia hispanoamericanos?\nA) La invasión napoleónica a España\nB) La Guerra del Pacífico\nC) La Constitución de 1833\nD) La Revolución Industrial en Chile",
-"respuestaCorrecta": "La invasión napoleónica a España"
-},
-{
-"id": 15,
-"categoria": "6° Básico",
-"pregunta": "¿Qué batalla de 1814 marcó el fin de la Patria Vieja?\nA) Maipú\nB) Rancagua\nC) Chacabuco\nD) Lircay",
-"respuestaCorrecta": "Rancagua"
-},
-{
-"id": 16,
-"categoria": "6° Básico",
-"pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?\nA) La Batalla de Rancagua\nB) La llegada del Ejército Libertador a Chile\nC) La Batalla de Lircay\nD) La proclamación de la Independencia de Chile",
-"respuestaCorrecta": "La proclamación de la Independencia de Chile"
-},
-{
-"id": 17,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál secuencia presenta correctamente las principales etapas del proceso de independencia de Chile?\nA) Patria Vieja → Patria Nueva → Reconquista\nB) Patria Vieja → Reconquista → Patria Nueva\nC) Reconquista → Patria Vieja → Patria Nueva\nD) Patria Nueva → Reconquista → Patria Vieja",
-"respuestaCorrecta": "Patria Vieja → Reconquista → Patria Nueva"
-},
-{
-"id": 18,
-"categoria": "6° Básico",
-"pregunta": "¿Qué característica tuvo la Patria Nueva?\nA) El retorno del dominio español\nB) El inicio de la Guerra del Pacífico\nC) El regreso de los patriotas al poder y la consolidación de la independencia\nD) La instauración inmediata de la Constitución de 1833",
-"respuestaCorrecta": "El regreso de los patriotas al poder y la consolidación de la independencia"
-},
-{
-"id": 19,
-"categoria": "6° Básico",
-"pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?\nA) Organizar políticamente la nueva república\nB) Reconstruir el Imperio español\nC) Eliminar todas las instituciones del Estado\nD) Abandonar la educación y la cultura",
-"respuestaCorrecta": "Organizar políticamente la nueva república"
-},
-{
-"id": 20,
-"categoria": "6° Básico",
-"pregunta": "¿Qué característica distinguió al período conservador iniciado en 1830?\nA) Un Estado fuerte, centralizado y con un marcado autoritarismo político\nB) La eliminación de la autoridad presidencial\nC) Un Estado débil y descentralizado\nD) La separación inmediata entre Iglesia y Estado",
-"respuestaCorrecta": "Un Estado fuerte, centralizado y con un marcado autoritarismo político"
-},
-{
-"id": 21,
-"categoria": "6° Básico",
-"pregunta": "¿Qué importancia tuvo la Constitución de 1833 durante el período conservador?\nA) Estableció el sufragio universal para toda la población\nB) Limitó fuertemente el poder presidencial\nC) Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador\nD) Eliminó el Poder Ejecutivo",
-"respuestaCorrecta": "Concentró amplias atribuciones en el Presidente y dio estabilidad al régimen conservador"
-},
-{
-"id": 22,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál fue uno de los principales objetivos de las reformas liberales de la segunda mitad del siglo XIX?\nA) Aumentar la influencia de la Iglesia sobre el Estado\nB) Eliminar las elecciones\nC) Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades\nD) Restaurar el orden colonial",
-"respuestaCorrecta": "Reducir las atribuciones del Poder Ejecutivo y ampliar ciertas libertades"
-},
-{
-"id": 23,
-"categoria": "6° Básico",
-"pregunta": "¿Qué ejemplo corresponde a una de las llamadas Leyes Laicas?\nA) La Ley de libertad de vientre\nB) La creación del Ejército Libertador\nC) La fundación de la Primera Junta de Gobierno\nD) La creación del Registro Civil",
-"respuestaCorrecta": "La creación del Registro Civil"
-},
-{
-"id": 24,
-"categoria": "6° Básico",
-"pregunta": "¿Qué relación existe entre la Guerra del Pacífico y la conformación territorial de Chile en el siglo XIX?\nA) Permitió la incorporación de la Patagonia oriental\nB) Terminó con la ocupación de la Araucanía\nC) Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta\nD) Provocó la pérdida de todo el territorio norte",
-"respuestaCorrecta": "Permitió la incorporación de territorios del norte, como Tarapacá y Antofagasta"
-},
-{
-"id": 25,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál alternativa relaciona correctamente un proceso territorial del siglo XIX con su forma principal de incorporación?\nA) Rapa Nui - guerra con Argentina\nB) Tarapacá - tratado con España\nC) Valdivia y Llanquihue - colonización\nD) Araucanía - compra a Francia",
-"respuestaCorrecta": "Valdivia y Llanquihue - colonización"
-},
-{
-"id": 26,
-"categoria": "6° Básico",
-"pregunta": "Un historiador afirma que la construcción del Estado-nación chileno fue un proceso de cambios políticos y territoriales. ¿Cuál evidencia apoya mejor esa afirmación?\nA) El territorio permaneció exactamente igual al de la época colonial\nB) Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio\nC) La independencia no produjo transformaciones políticas\nD) Chile solo cambió sus símbolos nacionales",
-"respuestaCorrecta": "Durante el siglo XIX se organizaron instituciones republicanas y se consolidó el control estatal sobre gran parte del territorio"
-},
-{
-"id": 27,
-"categoria": "6° Básico",
-"pregunta": "¿Qué proceso describe mejor la democratización de la sociedad chilena durante el siglo XX?\nA) La desaparición de las organizaciones sociales\nB) La reducción de la participación de nuevos grupos sociales\nC) La incorporación progresiva de distintos grupos a la participación política y social\nD) La concentración del poder político en una sola persona",
-"respuestaCorrecta": "La incorporación progresiva de distintos grupos a la participación política y social"
-},
-{
-"id": 28,
-"categoria": "6° Básico",
-"pregunta": "¿Qué actividad económica generó importantes ingresos para el Estado chileno a fines del siglo XIX e inicios del XX?\nA) La informática\nB) La explotación del salitre\nC) La producción de petróleo\nD) La industria automotriz",
-"respuestaCorrecta": "La explotación del salitre"
-},
-{
-"id": 29,
-"categoria": "6° Básico",
-"pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?\nA) Sectores medios\nB) Oligarquía\nC) Sectores populares\nD) Aristocracia colonial",
-"respuestaCorrecta": "Sectores medios"
-},
-{
-"id": 30,
-"categoria": "6° Básico",
-"pregunta": "¿Qué avance fue fundamental para ampliar la participación política de las mujeres durante el siglo XX?\nA) La prohibición de organizaciones femeninas\nB) El reconocimiento del derecho a sufragio femenino\nC) La reducción del acceso de las mujeres a la educación\nD) La eliminación de las elecciones",
-"respuestaCorrecta": "El reconocimiento del derecho a sufragio femenino"
-},
-{
-"id": 31,
-"categoria": "6° Básico",
-"pregunta": "¿Qué característica tuvo el rol del Estado chileno entre las décadas de 1920 y 1970?\nA) Dejó de participar en educación\nB) Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación\nC) Abandonó completamente las políticas sociales\nD) Se limitó exclusivamente a organizar elecciones",
-"respuestaCorrecta": "Adoptó un rol benefactor, ampliando acciones en áreas como salud, vivienda y educación"
-},
-{
-"id": 32,
-"categoria": "6° Básico",
-"pregunta": "¿Por qué la expansión de la radio fue importante para la sociedad chilena?\nA) Porque permitió difundir información y cultura a un público amplio\nB) Porque solo podía ser escuchada por personas alfabetizadas\nC) Porque eliminó los demás medios de comunicación\nD) Porque reemplazó completamente a la educación escolar",
-"respuestaCorrecta": "Porque permitió difundir información y cultura a un público amplio"
-},
-{
-"id": 33,
-"categoria": "6° Básico",
-"pregunta": "¿Qué situación caracterizó la política chilena entre 1958 y 1973?\nA) La ausencia de conflictos sociales\nB) Una creciente polarización entre distintos sectores políticos y sociales\nC) La desaparición de las diferencias políticas\nD) La suspensión de todas las elecciones",
-"respuestaCorrecta": "Una creciente polarización entre distintos sectores políticos y sociales"
-},
-{
-"id": 34,
-"categoria": "6° Básico",
-"pregunta": "¿Qué medida relacionada con la minería del cobre ocurrió durante el gobierno de Salvador Allende?\nA) La privatización completa del cobre\nB) La nacionalización y estatización del cobre\nC) La entrega del cobre a empresas extranjeras sin participación estatal\nD) El cierre de todas las minas de cobre",
-"respuestaCorrecta": "La nacionalización y estatización del cobre"
-},
-{
-"id": 35,
-"categoria": "6° Básico",
-"pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?\nA) Se realizó el plebiscito nacional\nB) Se realizaron elecciones presidenciales\nC) Se promuló la Constitución de 1925\nD) Se produjo un golpe de Estado que interrumpió el régimen democrático",
-"respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
-},
-{
-"id": 36,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?\nA) Eliminación de las Fuerzas Armadas de la vida política\nB) Elecciones presidenciales anuales\nC) Ampliación inmediata de las libertades políticas\nD) Restricción de derechos y libertades y concentración del poder",
-"respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
-},
-{
-"id": 37,
-"categoria": "6° Básico",
-"pregunta": "¿Por qué el respeto de los derechos humanos es especialmente importante al estudiar el período de dictadura militar?\nA) Porque demuestra que los derechos solo existen durante las dictaduras\nB) Porque elimina la necesidad de conocer otras fuentes históricas\nC) Porque permite justificar cualquier acción del Estado\nD) Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan",
-"respuestaCorrecta": "Porque permite comprender y reconocer las violaciones de derechos cometidas y la necesidad de evitar que se repitan"
-},
-{
-"id": 38,
-"categoria": "6° Básico",
-"pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?\nA) La eliminación de toda actividad privada\nB) El retorno al sistema económico colonial\nC) El establecimiento de un sistema económico basado en el libre mercado\nD) La prohibición del comercio internacional",
-"respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
-},
-{
-"id": 39,
-"categoria": "6° Básico",
-"pregunta": "¿Qué acontecimiento fue decisivo para iniciar el proceso de recuperación de la democracia a fines del siglo XX?\nA) El plebiscito de 1988\nB) La Guerra del Pacífico\nC) La Constitución de 1833\nD) La Batalla de Maipú",
-"respuestaCorrecta": "El plebiscito de 1988"
-},
-{
-"id": 40,
-"categoria": "6° Básico",
-"pregunta": "¿Cuál secuencia representa correctamente tres hitos de la recuperación de la democracia?\nA) Constitución de 1925 → elecciones de 1989 → golpe de Estado de 1973\nB) Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990\nC) Elecciones de 1989 → golpe de Estado de 1973 → plebiscito de 1988\nD) Golpe de Estado de 1973 → plebiscito de 1988 → elecciones de 1970",
-"respuestaCorrecta": "Plebiscito de 1988 → elecciones de 1989 → asunción de Patricio Aylwin en 1990"
-},
-{
-"id":1,
-"categoria": "espera",
-"pregunta": "",
-"respuestaCorrecta": ""
-}
-
+  {
+    "id": 1,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Quién encabezó la expedición que llegó al valle del río Mapocho y fundó Santiago de la Nueva Extremadura?\nA) Francisco Pizarro\nB) Hernán Cortés\nC) Pedro de Valdivia\nD) Diego de Almagro",
+    "respuestaCorrecta": "Pedro de Valdivia"
+  },
+  {
+    "id": 2,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué ocurrió el 11 de septiembre de 1973?\nA) Se realizó el plebiscito nacional\nB) Se promuló la Constitución de 1925\nC) Se produjo un golpe de Estado que interrumpió el régimen democrático\nD) Se realizaron elecciones presidenciales",
+    "respuestaCorrecta": "Se produjo un golpe de Estado que interrumpió el régimen democrático"
+  },
+  {
+    "id": 3,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué relación existe entre mestizaje y sincretismo cultural durante la Colonia?\nA) Ambos significan exclusivamente la desaparición de las culturas indígenas\nB) No tuvieron ninguna relación con el encuentro entre europeos, indígenas y africanos\nC) El mestizaje se refiere solo al comercio y el sincretismo solo a la agricultura\nD) Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial",
+    "respuestaCorrecta": "Ambos procesos muestran la interacción entre distintas poblaciones y culturas que convivieron durante el período colonial"
+  },
+  {
+    "id": 4,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Cuál de los siguientes corresponde al Poder Ejecutivo en Chile?\nA) El Presidente de la República\nB) Los tribunales de justicia\nC) El Congreso Nacional\nD) La Corte Suprema",
+    "respuestaCorrecta": "El Presidente de la República"
+  },
+  {
+    "id": 5,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué característica distingue al Norte Chico del Norte Grande?\nA) El Norte Chico carece de cordillera de los Andes\nB) El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal\nC) En el Norte Chico predominan los glaciares y fiordos\nD) En el Norte Chico todos los ríos son temporales y no desembocan en el mar",
+    "respuestaCorrecta": "El Norte Chico presenta paisajes semiáridos y valles transversales con ríos de mayor caudal"
+  },
+  {
+    "id": 6,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué transformación económica fue impulsada durante la dictadura militar?\nA) El retorno al sistema económico colonial\nB) La prohibición del comercio internacional\nC) La eliminación de toda actividad privada\nD) El establecimiento de un sistema económico basado en el libre mercado",
+    "respuestaCorrecta": "El establecimiento de un sistema económico basado en el libre mercado"
+  },
+  {
+    "id": 7,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Cuál era uno de los principales objetivos de los viajes europeos de exploración?\nA) Evitar todo contacto con otros territorios\nB) Encontrar nuevas rutas comerciales\nC) Abandonar el comercio marítimo\nD) Explorar únicamente el interior de Europa",
+    "respuestaCorrecta": "Encontrar nuevas rutas comerciales"
+  },
+  {
+    "id": 8,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Cuál fue una característica del régimen militar establecido después del golpe de Estado de 1973?\nA) Eliminación de las Fuerzas Armadas de la vida política\nB) Elecciones presidenciales anuales\nC) Ampliación inmediata de las libertades políticas\nD) Restricción de derechos y libertades y concentración del poder",
+    "respuestaCorrecta": "Restricción de derechos y libertades y concentración del poder"
+  },
+  {
+    "id": 9,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Cuál afirmación explica mejor por qué Chile presenta una gran diversidad de paisajes?\nA) Porque todo el territorio posee el mismo clima\nB) Porque todos sus ríos nacen en la costa\nC) Porque la población está distribuida de manera uniforme\nD) Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad",
+    "respuestaCorrecta": "Porque sus zonas naturales presentan diferencias de relieve, clima, aguas superficiales y biodiversidad"
+  },
+  {
+    "id": 10,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué hecho ocurrió el 12 de febrero de 1818?\nA) La Batalla de Rancagua\nB) La proclamación de la Independencia de Chile\nC) La Batalla de Lircay\nD) La llegada del Ejército Libertador a Chile",
+    "respuestaCorrecta": "La proclamación de la Independencia de Chile"
+  },
+  {
+    "id": 11,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Quiénes eran los criollos?\nA) Indígenas que vivían en pueblos de indios\nB) Europeos nacidos exclusivamente en España\nC) Personas de origen africano nacidas únicamente en Europa\nD) Descendientes de europeos nacidos en América",
+    "respuestaCorrecta": "Descendientes de europeos nacidos en América"
+  },
+  {
+    "id": 12,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "Si el Congreso crea una ley, el Poder Judicial revisa un caso relacionado con ella y el Poder Ejecutivo administra su aplicación, ¿qué principio se observa?\nA) La concentración del poder\nB) La ausencia de instituciones\nC) La división de poderes del Estado\nD) La eliminación de la representación",
+    "respuestaCorrecta": "La división de poderes del Estado"
+  },
+  {
+    "id": 13,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Cuál de los siguientes es un recurso natural no renovable?\nA) El agua\nB) Los recursos pesqueros\nC) El cobre\nD) Los bosques",
+    "respuestaCorrecta": "El cobre"
+  },
+  {
+    "id": 14,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué desafío enfrentó Chile después de alcanzar la independencia?\nA) Reconstruir el Imperio español\nB) Eliminar todas las instituciones del Estado\nC) Abandonar la educación y la cultura\nD) Organizar políticamente la nueva república",
+    "respuestaCorrecta": "Organizar políticamente la nueva república"
+  },
+  {
+    "id": 15,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "Un estudiante compara a peninsulares, criollos, mestizos, indígenas y personas de origen africano. ¿Qué conclusión es más adecuada?\nA) Los criollos ocupaban siempre los cargos públicos más importantes por encima de los peninsulares\nB) Todos tenían el mismo acceso al poder político\nC) La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo\nD) Los mestizos no existían en la sociedad colonial",
+    "respuestaCorrecta": "La sociedad colonial estaba organizada de forma jerárquica y el origen influía en los derechos, privilegios y posibilidades de cada grupo"
+  },
+  {
+    "id": 16,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué grupo social estuvo compuesto principalmente por funcionarios, empleados y personas que ejercían profesiones u oficios?\nA) Sectores medios\nB) Sectores populares\nC) Oligarquía\nD) Aristocracia colonial",
+    "respuestaCorrecta": "Sectores medios"
+  },
+  {
+    "id": 17,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué diferencia importante existió entre las rutas iniciales de Almagro y Valdivia?\nA) Valdivia ingresó por la cordillera de los Andes y Almagro por el océano Pacífico\nB) Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama\nC) Almagro llegó directamente al valle del Mapocho y Valdivia al Cusco\nD) Ambos ingresaron por la misma ruta marítima",
+    "respuestaCorrecta": "Almagro ingresó inicialmente por la cordillera de los Andes, mientras Valdivia escogió la ruta por el desierto de Atacama"
+  },
+  {
+    "id": 18,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Por qué puede afirmarse que la participación ciudadana fortalece la democracia?\nA) Porque hace innecesarias las elecciones\nB) Porque reemplaza a todas las instituciones del Estado\nC) Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas\nD) Porque evita que existan opiniones diferentes",
+    "respuestaCorrecta": "Porque permite que las personas se involucren en asuntos públicos y expresen necesidades o propuestas"
+  },
+  {
+    "id": 19,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿En qué año fue fundada Santiago de la Nueva Extremadura?\nA) 1536\nB) 1608\nC) 1541\nD) 1492",
+    "respuestaCorrecta": "1541"
+  },
+  {
+    "id": 20,
+    "categoria": "Final 5° y 6°",
+    "pregunta": "¿Qué característica permite considerar democrática una elección?\nA) Que exista una sola candidatura\nB) Que los resultados no puedan ser conocidos por la ciudadanía\nC) Que la autoridad decida quién puede votar según sus preferencias\nD) Que las elecciones sean libres, competitivas y periódicas",
+    "respuestaCorrecta": "Que las elecciones sean libres, competitivas y periódicas"
+  }
 ]
